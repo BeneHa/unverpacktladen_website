@@ -1,0 +1,141 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Willkommen in unserem Laden!
+    text: Schön dass du hier bist
+    button: Erzählt mir mehr
+    buttonlink: "#services"
+
+  services:
+    title: "Der Laden"
+    text: "im Münchner Norden"
+    section: services
+    list:
+      - title: "Keine Verpackungen"
+        desc: "Wir verkaufen nur Produkte, die komplett ohne Verpackungen auskommen. So vermeiden wir Müll und schonen die Umwelt."
+        icon: fas fa-box-open
+      - title: "Regionale Produzenten"
+        desc: "Wir beziehen unsere Produkte soweit möglich von Produzenten aus der Region. Das reduziert Transportwege und schont so die Umwelt."
+        icon: fas fa-truck-moving
+      - title: "Super Atmosphäre"
+        desc: "Bei uns kannst du nicht nur einkaufen sondern dich auch einfach wohlfühlen. Komm doch einfach mal auf einen Kaffee vorbei!"
+        icon: fas fa-mug-hot
+
+  portfolio:
+    title: "Produkte"
+    text: "Was du bei uns kaufen kannst"
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Zeitleiste"
+    text: "Was bisher geschah"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Die Idee"
+        year: "Sommer 2021"
+        desc: "Vier Freunde aus dem Münchner Norden tun sich zusammen mit dem Ziel, eine Genossenschaft zu gründen. Diese soll später einen unverpackt Laden eröffnen. Mitstreiter werden über nebenan.de gesucht."
+        image: assets/img/timeline/nebenan.jpg
+        alt:
+      - title: "Das erste Treffen"
+        year: "17.11.2021"
+        desc: "Bei der ersten Infoveranstaltung in Moosach wird die Idee vorgestellt und Unterstützer gesucht."
+        image: assets/img/timeline/boomerang_round.png
+        alt:
+      - title: "Arbeitsgruppen"
+        year: "Dezember 2021"
+        desc: "In verschiedenen Arbeitsgruppen haben wir uns auf die verschiedenen Themen aufgeteilt, um uns z.B. um den Business Plan, Ladensuche oder die IT zu kümmern."
+        image: assets/img/timeline/3.jpg
+        alt: 
+      - title: "Gründung der Genossenschaft"
+        year: "Januar 2022"
+        desc: "Um offiziell geschäftsfähig zu sein, gründen wir im Januar eine Genossenschaft. Damit können wir die suche nach einen passenden Ladenfläche sowie Lieferanten beginnen."
+        image: assets/img/timeline/4.jpg
+        alt:
+        align: right
+    end: "Werde ein <br> Teil unserer <br> Geschichte!"
+
+  about:
+    title: "Über uns"
+    text: "Unsere Geschichte"
+    body: "Wir betreiben diesen Laden als eingetragene Genossenschaft ohne Gewinnerzielungsabsicht.
+
+     Einfach, weil wir etwas Gutes für die Umwelt tun wollen.
+
+
+     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!"
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "tz"
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-nord-unverpackt-laden-einkaeufe-geschaeft-plastiktuete-muell-lerchenau-moosach-boomerang-pelkovenstrasse-feldmoching-fasanerie-91091397.html
+        logo: assets/img/clients/tz.png
+      - title: "Lokalanzeiger"
+        url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
+        logo: assets/img/clients/lokalanzeiger.png
+
+
+  team:
+    title: "Das Team"
+    text: "Hier sind ein paar der Leute, die hinter dem Projekt stecken:"
+    subtext: "Als Genossenschaft treffen wir alle wichtigen Entscheidungen gemeinschaftlich. Egal ob du mit einem oder mit zehn Anteilen beteiligt bist - jeder hat nur eine Stimme.
+
+
+    Die operativen Entscheidungen im Tagesgeschäft (z.B. Lieferantenauswahl) trifft der Vorstand, der von der Vollversammlung gewählt wird."
+    section: team
+    people:
+      - name: "Benedikt Häuser"
+        role: "Technik"
+        image: assets/img/team/beha_round.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
+            icon: fab fa-linkedin
+          - url: https://www.xing.com/profile/Benedikt_Haeuser/cv
+            icon: fab fa-xing
+
+  contact:
+    title: "Kontaktiere uns"
+    text: "Fragen zum Laden oder der Genossenschaft? Schreib uns eine Nachricht!"
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUMFU1RVU0V1dESkVKWVI5UU81S1dRMEw0Ri4u&embed=true
+    section: contact
+
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
