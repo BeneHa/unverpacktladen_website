@@ -9,12 +9,23 @@
 
 # English (default)
 # -----------------
-en: &DEFAULT_DE
+de-DE: &DEFAULT_DE
   header:
     title: Willkommen bei der Genossenschaft xxx!
     text: Schön dass du hier bist
     button: Erzählt mir mehr
     buttonlink: "#services"
+
+  about:
+    title: "Über uns"
+    text: "Unsere Geschichte"
+    body: "Wir betreiben diesen Laden als eingetragene Genossenschaft ohne Gewinnerzielungsabsicht.
+
+     Einfach, weil wir etwas Gutes für die Umwelt tun wollen.
+
+
+     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!"
+    section: about
 
   services:
     title: "Der Laden"
@@ -67,16 +78,7 @@ en: &DEFAULT_DE
         align: right
     end: "Werde ein <br> Teil unserer <br> Geschichte!"
 
-  about:
-    title: "Über uns"
-    text: "Unsere Geschichte"
-    body: "Wir betreiben diesen Laden als eingetragene Genossenschaft ohne Gewinnerzielungsabsicht.
 
-     Einfach, weil wir etwas Gutes für die Umwelt tun wollen.
-
-
-     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!"
-    section: about
 
   clients:
     section: clients

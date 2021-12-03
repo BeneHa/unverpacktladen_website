@@ -9,14 +9,15 @@
 
 # English (default)
 # -----------------
-en: &DEFAULT_EN
+de-DE: &DEFAULT_DE
   nav:
+    - title: "Über uns"
+      section: about
     - title: "Der Laden"
       section: services
     - title: "Produkte"
       section: portfolio
-    - title: "Über uns"
-      section: about
+
     - title: "Zeitleiste"
       section: timeline
     - title: "Team"
@@ -24,10 +25,10 @@ en: &DEFAULT_EN
     - title: "Kontakt"
       section: contact
 en-US:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_DE
 en-CA:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_DE
 en-GB:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_DE
 en-AU:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_DE
