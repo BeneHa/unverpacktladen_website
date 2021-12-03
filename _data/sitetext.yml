@@ -9,9 +9,9 @@
 
 # English (default)
 # -----------------
-en: &DEFAULT_EN
+en: &DEFAULT_DE
   header:
-    title: Willkommen in unserem Laden!
+    title: Willkommen bei der Genossenschaft xxx!
     text: Schön dass du hier bist
     button: Erzählt mir mehr
     buttonlink: "#services"
@@ -104,38 +104,33 @@ en: &DEFAULT_EN
         role: "Technik"
         image: assets/img/team/beha_round.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-github
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
           - url: https://www.xing.com/profile/Benedikt_Haeuser/cv
             icon: fab fa-xing
+          - url: https://github.com/BeneHa
+            icon: fab fa-github
+
 
   contact:
     title: "Kontaktiere uns"
-    text: "Fragen zum Laden oder der Genossenschaft? Schreib uns eine Nachricht!"
+    text: "Fragen zum Laden oder der Genossenschaft?"
     formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUMFU1RVU0V1dESkVKWVI5UU81S1dRMEw0Ri4u&embed=true
+    emailaddress: "info@unverpackt-mucnord.de"
+    mailaufforderung: "Dann schreib uns eine Mail!"
     section: contact
 
 
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
       - url: https://github.com/BeneHa/unverpacktladen_website
         icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 en-US:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_DE
 en-CA:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_DE
 en-GB:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_DE
 en-AU:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_DE
