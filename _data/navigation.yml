@@ -15,10 +15,10 @@ de: &DEFAULT_DE
       section: about
     - title: "Der Laden"
       section: services
-    - title: "Produkte"
-      section: portfolio
     - title: "Zeitleiste"
       section: timeline
+    - title: "Produkte"
+      section: portfolio
     - title: "Team"
       section: team
     - title: "Kontakt"
@@ -30,10 +30,10 @@ en: &DEFAULT_EN
       section: about
     - title: "The store"
       section: services
-    - title: "Products"
-      section: products
     - title: "Timeline"
       section: timeline
+    - title: "Products"
+      section: portfolio
     - title: "Team"
       section: team
     - title: "Contact"
