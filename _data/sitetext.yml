@@ -124,12 +124,30 @@ de-DE: &DEFAULT_DE
 
 
   footer:
-    legal: "Privacy Policy"
+    legal: "Impressum"
     social:
       - url: https://github.com/BeneHa/unverpacktladen_website
         icon: "fab fa-github"
+
+
+
+
+
+
+
+en: &DEFAULT_EN
+  header:
+    title: Welcome!
+    text: Schön dass du hier bist
+    button: Erzählt mir mehr
+    buttonlink: "#services"
+
+en-GB:
+  <<: *DEFAULT_EN
+
+
 en-US:
-  <<: *DEFAULT_DE
+  <<: *DEFAULT_EN
 en-CA:
   <<: *DEFAULT_DE
 en-GB:
