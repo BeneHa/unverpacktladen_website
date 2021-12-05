@@ -14,7 +14,7 @@
 theme: jekyll-agency
 
 url    : "https://unverpackt-mucnord.de"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/en" # the subpath of your site, e.g. /blog
 
 title      : Unverpackt München Nord
 email      : info@unverpackt-mucnord.de 
@@ -24,7 +24,7 @@ author     : Benedikt Häuser
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
-locale: "de" # See available languages in _data/sitetext.yml
+locale: "en-GB" # See available languages in _data/sitetext.yml
 
 
 collections:
@@ -32,8 +32,3 @@ collections:
 
 markdown: kramdown
 
-
-
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"

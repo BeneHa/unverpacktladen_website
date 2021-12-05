@@ -9,7 +9,7 @@
 
 # English (default)
 # -----------------
-de-DE: &DEFAULT_DE
+de: &DEFAULT_DE
   header:
     title: Willkommen bei der Genossenschaft xxx!
     text: Schön dass du hier bist
@@ -58,22 +58,22 @@ de-DE: &DEFAULT_DE
       - title: "Die Idee"
         year: "Sommer 2021"
         desc: "Vier Freunde aus dem Münchner Norden tun sich zusammen mit dem Ziel, eine Genossenschaft zu gründen. Diese soll später einen unverpackt Laden eröffnen. Mitstreiter werden über nebenan.de gesucht."
-        image: assets/img/timeline/nebenan.jpg
+        image: /assets/img/timeline/nebenan.jpg
         alt:
       - title: "Das erste Treffen"
         year: "17.11.2021"
         desc: "Bei der ersten Infoveranstaltung in Moosach wird die Idee vorgestellt und Unterstützer gesucht."
-        image: assets/img/timeline/boomerang_round.png
+        image: /assets/img/timeline/boomerang_round.png
         alt:
       - title: "Arbeitsgruppen"
         year: "Dezember 2021"
         desc: "In verschiedenen Arbeitsgruppen haben wir uns auf die verschiedenen Themen aufgeteilt, um uns z.B. um den Business Plan, Ladensuche oder die IT zu kümmern."
-        image: assets/img/timeline/3.jpg
+        image: /assets/img/timeline/3.jpg
         alt: 
       - title: "Gründung der Genossenschaft"
         year: "Januar 2022"
         desc: "Um offiziell geschäftsfähig zu sein, gründen wir im Januar eine Genossenschaft. Damit können wir die suche nach einen passenden Ladenfläche sowie Lieferanten beginnen."
-        image: assets/img/timeline/4.jpg
+        image: /assets/img/timeline/4.jpg
         alt:
         align: right
     end: "Werde ein <br> Teil unserer <br> Geschichte!"
@@ -87,10 +87,10 @@ de-DE: &DEFAULT_DE
     list:
       - title: "tz"
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-nord-unverpackt-laden-einkaeufe-geschaeft-plastiktuete-muell-lerchenau-moosach-boomerang-pelkovenstrasse-feldmoching-fasanerie-91091397.html
-        logo: assets/img/clients/tz.png
+        logo: /assets/img/clients/tz.png
       - title: "Lokalanzeiger"
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
-        logo: assets/img/clients/lokalanzeiger.png
+        logo: /assets/img/clients/lokalanzeiger.png
 
 
   team:
@@ -104,7 +104,7 @@ de-DE: &DEFAULT_DE
     people:
       - name: "Benedikt Häuser"
         role: "Technik"
-        image: assets/img/team/beha_round.png
+        image: /assets/img/team/beha_round.png
         social:
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
@@ -142,15 +142,23 @@ en: &DEFAULT_EN
     button: Erzählt mir mehr
     buttonlink: "#services"
 
+  about:
+    title: "test"
+    text: "test"
+    body: "Wir betreiben diesen Laden als eingetragene Genossenschaft ohne Gewinnerzielungsabsicht.
+
+     Einfach, weil wir etwas Gutes für die Umwelt tun wollen.
+
+
+     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!"
+    section: about
+
+
 en-GB:
   <<: *DEFAULT_EN
-
-
 en-US:
   <<: *DEFAULT_EN
 en-CA:
-  <<: *DEFAULT_DE
-en-GB:
-  <<: *DEFAULT_DE
+  <<: *DEFAULT_EN
 en-AU:
-  <<: *DEFAULT_DE
+  <<: *DEFAULT_EN

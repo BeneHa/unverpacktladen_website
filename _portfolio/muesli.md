@@ -2,12 +2,12 @@
 caption: #what displays in the portfolio grid:
   title: Müsli
   subtitle: 
-  thumbnail: assets/img/portfolio/muesli.jpg
+  thumbnail: /assets/img/portfolio/muesli.jpg
   
 #what displays when the item is clicked:
 title: Title
 subtitle: 
-image: assets/img/portfolio/muesli.jpg
+image: /assets/img/portfolio/muesli.jpg
 alt: 
 
 ---

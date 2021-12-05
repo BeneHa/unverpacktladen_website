@@ -1,0 +1,47 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+
+
+
+
+
+en-GB: &DEFAULT_EN
+  header:
+    title: Welcome!
+    text: Schön dass du hier bist
+    button: Erzählt mir mehr
+    buttonlink: "#services"
+
+
+  about:
+    title: "About us"
+    text: "Unsere Geschichte"
+    body: "Wir betreiben diesen Laden als eingetragene Genossenschaft ohne Gewinnerzielungsabsicht.
+
+     Einfach, weil wir etwas Gutes für die Umwelt tun wollen.
+
+
+     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!"
+    section: about
+
+en-GB:
+  <<: *DEFAULT_EN
+
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_DE
+en-GB:
+  <<: *DEFAULT_DE
+en-AU:
+  <<: *DEFAULT_DE
