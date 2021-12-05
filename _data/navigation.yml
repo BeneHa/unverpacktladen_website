@@ -5,11 +5,11 @@
 # locale: "en-US"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
-# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+# {{ site.data.navigation[page.locale].nav.<var_name> | default: 'text' }}
 
 # English (default)
 # -----------------
-de-DE: &DEFAULT_DE
+de: &DEFAULT_DE
   nav:
     - title: "Über uns"
       section: about
@@ -17,18 +17,34 @@ de-DE: &DEFAULT_DE
       section: services
     - title: "Produkte"
       section: portfolio
-
     - title: "Zeitleiste"
       section: timeline
     - title: "Team"
       section: team
     - title: "Kontakt"
       section: contact
+
+en: &DEFAULT_EN
+  nav:
+    - title: "About us"
+      section: about
+    - title: "The store"
+      section: services
+    - title: "Products"
+      section: products
+    - title: "Timeline"
+      section: timeline
+    - title: "Team"
+      section: team
+    - title: "Contact"
+      section: contact
+
+
 en-US:
-  <<: *DEFAULT_DE
+  <<: *DEFAULT_EN
 en-CA:
-  <<: *DEFAULT_DE
+  <<: *DEFAULT_EN
 en-GB:
-  <<: *DEFAULT_DE
+  <<: *DEFAULT_EN
 en-AU:
-  <<: *DEFAULT_DE
+  <<: *DEFAULT_EN

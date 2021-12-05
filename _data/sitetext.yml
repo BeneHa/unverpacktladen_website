@@ -5,7 +5,7 @@
 # locale: "en-US"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+# {{ site.data.ui-text[page.locale].<var_name> | default: 'text' }}
 
 # English (default)
 # -----------------
@@ -138,20 +138,122 @@ de: &DEFAULT_DE
 en: &DEFAULT_EN
   header:
     title: Welcome!
-    text: Schön dass du hier bist
-    button: Erzählt mir mehr
+    text: Good to have you
+    button: Tell me more
     buttonlink: "#services"
 
   about:
-    title: "test"
-    text: "test"
-    body: "Wir betreiben diesen Laden als eingetragene Genossenschaft ohne Gewinnerzielungsabsicht.
+    title: "About us"
+    text: "Our Story"
+    body: "We run this store as a registered cooperative.
 
-     Einfach, weil wir etwas Gutes für die Umwelt tun wollen.
+    Simply because we want to dome good for the environment.
 
 
-     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!"
+    Currently we are preparing everything in order to open up a store in 2022. Let us know if you want to help!"
     section: about
+
+  services:
+    title: "The store"
+    text: "in the north of Munich"
+    section: services
+    list:
+      - title: "No packaging"
+        desc: "We only sell products without packaging. That way we avoid waste and reduce our environmental footprint."
+        icon: fas fa-box-open
+      - title: "Regional manufacturers"
+        desc: "We buy our products from regional manufacturers wherever possible. This reduces the transporting distances and reduces CO2 produced by long distance driving."
+        icon: fas fa-truck-moving
+      - title: "Good vibes"
+        desc: "Our store is not only good for buying stuff but also a great place to be. Come by and grab a coffee with us!"
+        icon: fas fa-mug-hot
+
+  portfolio:
+    title: "Products"
+    text: "What you can buy in our store"
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Timeline"
+    text: "What happened so far"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "The idea"
+        year: "Summer 2021"
+        desc: "Four friends from the north of Munich decide to create a registered cooperative. The goal is to open up a store selling products without packaging. They search for collaborators via nebenan.de"
+        image: /assets/img/timeline/nebenan.jpg
+        alt:
+      - title: "The first meeting"
+        year: "17th November 2021"
+        desc: "In a first information meeting in Moosach the idea is presented in order to gain supporters."
+        image: /assets/img/timeline/boomerang_round.png
+        alt:
+      - title: "Arbeitsgruppen"
+        year: "December 2021"
+        desc: "In different working groups we started working on topics like Business Plan, search for a location or IT topics."
+        image: /assets/img/timeline/3.jpg
+        alt: 
+      - title: "Founding of the registered cooperative"
+        year: "January 2022"
+        desc: "In order to be legally able to conduct businesses, we will found a registered cooperative. Then we can start searching for a store location and suppliers."
+        image: /assets/img/timeline/4.jpg
+        alt:
+        align: right
+    end: "Become a <br> part of <br> our story!"
+
+
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "tz"
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-nord-unverpackt-laden-einkaeufe-geschaeft-plastiktuete-muell-lerchenau-moosach-boomerang-pelkovenstrasse-feldmoching-fasanerie-91091397.html
+        logo: /assets/img/clients/tz.png
+      - title: "Lokalanzeiger"
+        url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
+        logo: /assets/img/clients/lokalanzeiger.png
+
+
+  team:
+    title: "The team"
+    text: "These are some of the people behind the project:"
+    subtext: "All decisions are done by the whole cooperative. No matter if you have one or ten shares - everybody has one vote.
+
+    The operative decision (e.g. choosing suppliers) are left to the directorate which is elected by all members."
+    section: team
+    people:
+      - name: "Benedikt Häuser"
+        role: "Technical stuff"
+        image: /assets/img/team/beha_round.png
+        social:
+          - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
+            icon: fab fa-linkedin
+          - url: https://www.xing.com/profile/Benedikt_Haeuser/cv
+            icon: fab fa-xing
+          - url: https://github.com/BeneHa
+            icon: fab fa-github
+
+
+  contact:
+    title: "Contact us"
+    text: "Questions about the store or the cooperative?"
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUMFU1RVU0V1dESkVKWVI5UU81S1dRMEw0Ri4u&embed=true
+    emailaddress: "info@unverpackt-mucnord.de"
+    mailaufforderung: "Send us a mail!"
+    section: contact
+
+
+  footer:
+    legal: "Legal"
+    social:
+      - url: https://github.com/BeneHa/unverpacktladen_website
+        icon: "fab fa-github"
+
 
 
 en-GB:
