@@ -8,7 +8,7 @@
         >
       </div>
       <!-- Social Media -->
-      <div class="col-md-4">
+      <div class="col-md-3">
         <ul class="list-inline social-buttons">
           {% for link in site.data.sitetext[page.locale].footer.social %}
           <li class="list-inline-item">
@@ -22,7 +22,7 @@
         </ul>
       </div>
       <!-- Legal -->
-      <div class="col-md-4">
+      <div class="col-md-3">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
             <a href="legal" style="color: black;"
@@ -32,6 +32,17 @@
           </li>
         </ul>
       </div>
+            <!-- Languages -->
+            <div class="col-md-1">
+              <ul class="list-inline quicklinks">
+                <li class="list-inline-item">
+                  <a href="/lang/de/{{ page.name | replace: ".md", "" }}" style="color: black;">Deutsch
+                </li>
+                <li class="list-inline-item">
+                  <a href="/lang/en/{{ page.name | replace: ".md", "" }}" style="color: black;">English
+                </li>
+              </ul>
+            </div>
     </div>
   </div>
 </footer>

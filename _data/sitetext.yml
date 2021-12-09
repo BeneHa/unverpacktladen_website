@@ -11,19 +11,17 @@
 # -----------------
 de: &DEFAULT_DE
   header:
-    title: Willkommen bei der Genossenschaft xxx!
-    text: Schön dass du hier bist
+    title: Unverpackt einkaufen -
+    text: Bald auch im Münchner Norden!
     button: Erzählt mir mehr
     buttonlink: "#services"
 
   about:
     title: "Über uns"
-    text: "Unsere Geschichte"
-    body: "Wir betreiben diesen Laden als eingetragene Genossenschaft ohne Gewinnerzielungsabsicht.
+    text: ""
+    body: "Wir planen, einen Genossenschaft zu gründen, die einen unverpackt Laden im Münchner Norden betreiben soll.
 
-     Einfach, weil wir etwas Gutes für die Umwelt tun wollen.
-
-
+    
      Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!"
     section: about
 
@@ -33,13 +31,13 @@ de: &DEFAULT_DE
     section: services
     list:
       - title: "Keine Verpackungen"
-        desc: "Wir verkaufen nur Produkte, die komplett ohne Verpackungen auskommen. So vermeiden wir Müll und schonen die Umwelt."
+        desc: "Wir wollen nur Produkte verkaufen, die komplett ohne Verpackungen auskommen. So vermeiden wir Müll und schonen die Umwelt."
         icon: fas fa-box-open
       - title: "Regionale Produzenten"
-        desc: "Wir beziehen unsere Produkte soweit möglich von Produzenten aus der Region. Das reduziert Transportwege und schont so die Umwelt."
+        desc: "Wir werden unsere Produkte soweit möglich von Produzenten aus der Region beziehen. Das reduziert Transportwege und schont so die Umwelt."
         icon: fas fa-truck-moving
       - title: "Super Atmosphäre"
-        desc: "Bei uns kannst du nicht nur einkaufen sondern dich auch einfach wohlfühlen. Komm doch einfach mal auf einen Kaffee vorbei!"
+        desc: "Bei uns sollst du nicht nur einkaufen können sondern dich auch einfach wohlfühlen. Komm doch einfach mal auf einen Kaffee vorbei!"
         icon: fas fa-mug-hot
 
   portfolio:
