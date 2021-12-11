@@ -2,7 +2,7 @@
 layout: page
 title: Privacy Policy
 background: grey
-locale: de
+locale: en
 ---
 
 <div class="col-lg-12 text-center">

@@ -76,7 +76,27 @@ de: &DEFAULT_DE
         align: right
     end: "Werde ein <br> Teil unserer <br> Geschichte!"
 
+  appointments:
+    title: "Nächste Termine"
+    text: "Wo ihr mitmachen könnt"
+    section: appointments
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Treffen ganze Runde"
+        year: "14.12.21"
+        desc: "Vier Freunde aus dem Münchner Norden tun sich zusammen mit dem Ziel, eine Genossenschaft zu gründen. Diese soll später einen unverpackt Laden eröffnen. Mitstreiter werden über nebenan.de gesucht."
+        image: /assets/img/timeline/nebenan.jpg
+        align: right
+        alt:
+      - title: "Das erste Treffen"
+        year: "17.11.2021"
+        desc: "Bei der ersten Infoveranstaltung in Moosach wird die Idee vorgestellt und Unterstützer gesucht."
+        image: /assets/img/timeline/boomerang_round.png
+        align: right
+        alt:
 
+    end: "Komm vorbei <br> und <br> mach mit!"
 
   clients:
     section: clients

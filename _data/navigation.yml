@@ -17,12 +17,12 @@ de: &DEFAULT_DE
       section: services
     - title: "Zeitleiste"
       section: timeline
-    - title: "Produkte"
-      section: portfolio
+
     - title: "Team"
       section: team
     - title: "Kontakt"
       section: contact
+  
 
 en: &DEFAULT_EN
   nav:
@@ -32,8 +32,7 @@ en: &DEFAULT_EN
       section: services
     - title: "Timeline"
       section: timeline
-    - title: "Products"
-      section: portfolio
+
     - title: "Team"
       section: team
     - title: "Contact"
