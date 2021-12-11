@@ -12,6 +12,9 @@
 # in the templates via {{ site.myvariable }}.
 
 theme: jekyll-agency
+theme: minimal-mistakes-jekyll
+
+minimal_mistakes_skin: "default"
 
 url    : "https://unverpackt-mucnord.de"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -33,7 +36,3 @@ collections:
 markdown: kramdown
 
 
-
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"

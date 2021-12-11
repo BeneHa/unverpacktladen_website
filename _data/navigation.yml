@@ -17,11 +17,10 @@ de: &DEFAULT_DE
       section: services
     - title: "Zeitleiste"
       section: timeline
-
-    - title: "Team"
-      section: team
     - title: "Kontakt"
       section: contact
+    - title: "Termine"
+      url: upcoming
   
 
 en: &DEFAULT_EN
@@ -32,11 +31,10 @@ en: &DEFAULT_EN
       section: services
     - title: "Timeline"
       section: timeline
-
-    - title: "Team"
-      section: team
     - title: "Contact"
       section: contact
+    - title: "Appointments"
+      url: upcoming
 
 
 en-US:
