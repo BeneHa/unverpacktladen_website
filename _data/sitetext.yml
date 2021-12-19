@@ -90,7 +90,7 @@ de: &DEFAULT_DE
         align: right
         alt:
       - title: "Gründungstreffen"
-        year: "Januar 2022"
+        year: "Februar 2022"
         desc: "Wir veranstalten ein Treffen bei dem wir offiziell die Genossenschaft gründen."
         image: /assets/img/timeline/boomerang_round.png
         align: right
@@ -133,7 +133,7 @@ de: &DEFAULT_DE
   contact:
     title: "Kontaktiere uns"
     text: "Fragen zum Laden oder der Genossenschaft?"
-    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUMFU1RVU0V1dESkVKWVI5UU81S1dRMEw0Ri4u&embed=true
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=-rLNDgdgf0i6Ex6xdNuhVeYADBW7Q3xLt6sWAG6VgKRUQjZDUDYxRUxGWTM1UE84VlA5RUpRN1AwNiQlQCN0PWcu
     emailaddress: "info@unverpackt-mucnord.de"
     mailaufforderung: "Dann schreib uns eine Mail an info@unverpackt-mucnord.de!"
     section: contact
@@ -153,8 +153,8 @@ de: &DEFAULT_DE
 
 en: &DEFAULT_EN
   header:
-    title: Welcome!
-    text: Good to have you
+    title: Shopping without packaging
+    text: Coming soon to the north of Munich!
     button: Tell me more
     buttonlink: "#services"
 
@@ -268,7 +268,7 @@ en: &DEFAULT_EN
         align: right
         alt:
       - title: "Founding meeting"
-        year: "January 2022"
+        year: "February 2022"
         desc: "We organize a meeting where we officially found the cooperative association."
         image: /assets/img/timeline/boomerang_round.png
         align: right
@@ -277,9 +277,9 @@ en: &DEFAULT_EN
   contact:
     title: "Contact us"
     text: "Questions about the store or the cooperative?"
-    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUMFU1RVU0V1dESkVKWVI5UU81S1dRMEw0Ri4u&embed=true
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=-rLNDgdgf0i6Ex6xdNuhVeYADBW7Q3xLt6sWAG6VgKRUQjZDUDYxRUxGWTM1UE84VlA5RUpRN1AwNiQlQCN0PWcu
     emailaddress: "info@unverpackt-mucnord.de"
-    mailaufforderung: "Send us a mail!"
+    mailaufforderung: "Send us a mail to info@unverpackt-mucnord.de!"
     section: contact
 
 
