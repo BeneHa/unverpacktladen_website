@@ -7,6 +7,7 @@
           {{ site.data.sitetext[page.locale].contact.title | markdownify | default: Contact Us }}</h2>
         <h3 class="section-subheading text-muted" style="margin-bottom: 10px;">{{ site.data.sitetext[page.locale].contact.text | default: "" }}</h3>
         <h3 class="section-subheading text-muted"><a href="mailto:{{ site.data.sitetext[page.locale].contact.emailaddress }}">{{ site.data.sitetext[page.locale].contact.mailaufforderung }}</a></h3>
+        <h3 class="section-subheading text-muted"><a href="{{ site.data.sitetext[page.locale].contact.formurl }}">Oder melde dich hier zum Newsletter an.</a></h3>
       </div>
     </div>
     <div class="row">
@@ -17,11 +18,11 @@
           <!--name="sentMessage"-->
           <div class="row justify-content-center">
 
-            <iframe width="640px" height="750px"
+            <iframe width="640px" height="10px"
               src="{{ site.data.sitetext[page.locale].contact.formurl }}"
               frameborder="0" marginwidth="0" marginheight="0"
-              style=" max-width:100%; max-height:100vh; border-radius: 15px" allowfullscreen webkitallowfullscreen
-              mozallowfullscreen msallowfullscreen> </iframe>
+              style=" max-width:100%; max-height:100vh; border-radius: 15px"> 
+            </iframe>
             <input type="text" name="_gotcha" style="display:none">
             <input type="hidden" name="_next" value="#" />
           </div>

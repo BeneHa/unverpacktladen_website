@@ -277,7 +277,7 @@ en: &DEFAULT_EN
   contact:
     title: "Contact us"
     text: "Questions about the store or the cooperative?"
-    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=-rLNDgdgf0i6Ex6xdNuhVeYADBW7Q3xLt6sWAG6VgKRUQjZDUDYxRUxGWTM1UE84VlA5RUpRN1AwNiQlQCN0PWcu
+    formurl: http://umfrage.unverpackt-mucnord.de/index.php/915349?lang=de
     emailaddress: "info@unverpackt-mucnord.de"
     mailaufforderung: "Send us a mail to info@unverpackt-mucnord.de!"
     section: contact
