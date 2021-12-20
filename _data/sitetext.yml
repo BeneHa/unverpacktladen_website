@@ -133,7 +133,7 @@ de: &DEFAULT_DE
   contact:
     title: "Kontaktiere uns"
     text: "Fragen zum Laden oder der Genossenschaft?"
-    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=-rLNDgdgf0i6Ex6xdNuhVeYADBW7Q3xLt6sWAG6VgKRUQjZDUDYxRUxGWTM1UE84VlA5RUpRN1AwNiQlQCN0PWcu
+    formurl: http://umfrage.unverpackt-mucnord.de/index.php/915349?lang=de
     emailaddress: "info@unverpackt-mucnord.de"
     mailaufforderung: "Dann schreib uns eine Mail an info@unverpackt-mucnord.de!"
     section: contact
