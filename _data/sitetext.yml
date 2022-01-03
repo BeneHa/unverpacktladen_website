@@ -84,14 +84,14 @@ de: &DEFAULT_DE
     #start_align: "left"
     events:
       - title: "Treffen ganze Runde"
-        year: "14.12.21"
-        desc: "Wir treffen uns in der großen Runde und besprechen die Ergebnisse der Arbeitsgruppen."
+        year: "13.01.22, 19.30 Uhr"
+        desc: "Wir treffen uns in der großen Runde und besprechen den Start ins neue Jahr."
         image: /assets/img/timeline/3.jpg
         align: right
         alt:
       - title: "Gründungstreffen"
         year: "Februar 2022"
-        desc: "Wir veranstalten ein Treffen bei dem wir offiziell die Genossenschaft gründen."
+        desc: "Wir veranstalten ein Treffen bei dem wir offiziell die Genossenschaft gründen. Details folgen."
         image: /assets/img/timeline/boomerang_round.png
         align: right
         alt:
@@ -262,14 +262,14 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Meeting full group"
-        year: "14.12.21"
+        year: "13th January 22, 19:30"
         desc: "We meet in the full group and discuss the results of the working groups."
         image: /assets/img/timeline/3.jpg
         align: right
         alt:
       - title: "Founding meeting"
         year: "February 2022"
-        desc: "We organize a meeting where we officially found the cooperative association."
+        desc: "We organize a meeting where we officially found the cooperative association. Details coming soon."
         image: /assets/img/timeline/boomerang_round.png
         align: right
         alt:
