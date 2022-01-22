@@ -22,7 +22,12 @@ de: &DEFAULT_DE
     body: "Wir planen, einen Genossenschaft zu gründen, die einen unverpackt Laden im Münchner Norden betreiben soll.
 
     
-     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!"
+     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!
+     
+     
+     Du willst uns helfen und uns mitteilen was du von dem Laden erwartest? Super, dann füll direkt hier unsere Umfrage aus:"
+    umfragelink: "https://umfrage.unverpackt-mucnord.de/index.php/774938?lang=de-informal"
+    umfragename: "Umfrage"
     section: about
 
   services:
@@ -44,7 +49,13 @@ de: &DEFAULT_DE
     title: "Produkte"
     text: "Was du bei uns kaufen kannst"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Schließen"
+
+  organisation:
+    title: "Organisation"
+    text: "Als Genossenschaft ist es jedem Mitglied möglich mitzuarbeiten wo und wie viel er oder sie möchte. Dafür haben wir verschiedene Arbeitsgruppen, die nach Themen getrennt sind."
+    section: portfolio
+    closebutton: "Schließen"
 
   timeline:
     title: "Zeitleiste"
@@ -166,7 +177,12 @@ en: &DEFAULT_EN
     Simply because we want to dome good for the environment.
 
 
-    Currently we are preparing everything in order to open up a store in 2022. Let us know if you want to help!"
+    Currently we are preparing everything in order to open up a store in 2022. Let us know if you want to help!
+    
+    
+    If you want to give us some information regarding your expectation towards the store, we would be happy if you answer our survey:"
+    umfragelink: "https://umfrage.unverpackt-mucnord.de/index.php/774938?lang=de-informal"
+    umfragename: "Questionnaire"
     section: about
 
   services:
@@ -188,7 +204,13 @@ en: &DEFAULT_EN
     title: "Products"
     text: "What you can buy in our store"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
+
+  organisation:
+    title: "Organization"
+    text: "Als Genossenschaft ist es jedem Mitglied möglich mitzuarbeiten wo und wie viel er oder sie möchte. Dafür haben wir verschiedene Arbeitsgruppen, die nach Themen getrennt sind."
+    section: portfolio
+    closebutton: "Close"
 
   timeline:
     title: "Timeline"

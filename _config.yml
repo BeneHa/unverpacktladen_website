@@ -30,6 +30,8 @@ locale: "de" # See available languages in _data/sitetext.yml
 
 collections:
   portfolio:
+  organisation_de:
+  organisation_en:
 
 markdown: kramdown
 

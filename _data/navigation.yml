@@ -15,12 +15,12 @@ de: &DEFAULT_DE
       section: about
     - title: "Der Laden"
       section: services
-    - title: "Zeitleiste"
-      section: timeline
     - title: "Kontakt"
       section: contact
     - title: "Termine"
       url: upcoming
+    - title: "Organisation"
+      url: organisation
   
 
 en: &DEFAULT_EN
@@ -29,12 +29,12 @@ en: &DEFAULT_EN
       section: about
     - title: "The store"
       section: services
-    - title: "Timeline"
-      section: timeline
     - title: "Contact"
       section: contact
     - title: "Appointments"
       url: upcoming
+    - title: "Organization"
+      url: organisation
 
 
 en-US:
