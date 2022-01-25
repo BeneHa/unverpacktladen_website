@@ -89,15 +89,22 @@ de: &DEFAULT_DE
 
   appointments:
     title: "Nächste Termine"
-    text: "Wo ihr mitmachen könnt"
+    text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail an , dann laden wir euch ein."
+    kontaktaufforderung: "Kontakt"
     section: appointments
     # left is the default
     #start_align: "left"
     events:
-      - title: "Treffen ganze Runde"
-        year: "13.01.22, 19.30 Uhr"
-        desc: "Wir treffen uns in der großen Runde und besprechen den Start ins neue Jahr."
+      - title: "Wahl der Vorstände und Aufsichtsräte"
+        year: "31.01.22, 19.30 Uhr"
+        desc: "Wir besprchen die Aufgaben der Vorstände und Aufsichtsräte und wählen diese Ämter."
         image: /assets/img/timeline/3.jpg
+        align: right
+        alt:
+      - title: "Treffen in der großen Runde"
+        year: "7.2.22, 19.30 Uhr"
+        desc: "Mit den neu gewählten Vorständen und Aufsichtsräten besprechen wir in der großen Runde die nächsten Schritte."
+        image: /assets/img/timeline/conference.jpg
         align: right
         alt:
       - title: "Gründungstreffen"
@@ -106,6 +113,10 @@ de: &DEFAULT_DE
         image: /assets/img/timeline/boomerang_round.png
         align: right
         alt:
+      - title: "Ladenöffnung"
+        year: "Irgendwann 2022"
+        desc: "Unser Ziel ist es, im Laufe des Jahres 2022 den Laden zu eröffnen. "
+        image: /assets/img/timeline/shop_open.jpg
 
   clients:
     section: clients
@@ -279,22 +290,33 @@ en: &DEFAULT_EN
   appointments:
     title: "Upcoming appointments"
     text: "Where to participate"
+    kontaktaufforderung: "Contact"
     section: appointments
     # left is the default
     #start_align: "left"
     events:
-      - title: "Meeting full group"
-        year: "13th January 22, 19:30"
-        desc: "We meet in the full group and discuss the results of the working groups."
+      - title: "Election of board and supervisory committee"
+        year: "31st Jan 22, 19:30"
+        desc: "We discuss the tasks of the board and the supervisory committee and elect those positions."
         image: /assets/img/timeline/3.jpg
+        align: right
+        alt:
+      - title: "Meeting full group"
+        year: "7th Feb 22, 19:30"
+        desc: "We discuss the next steps with our newly elected board and supervisory committee."
+        image: /assets/img/timeline/conference.jpg
         align: right
         alt:
       - title: "Founding meeting"
         year: "February 2022"
-        desc: "We organize a meeting where we officially found the cooperative association. Details coming soon."
+        desc: "We organize a meeting where we formally found our cooperative association."
         image: /assets/img/timeline/boomerang_round.png
         align: right
         alt:
+      - title: "Store opening"
+        year: "Sometime 2022"
+        desc: "Our goal is to open the store at some point in 2022. Stay tuned!"
+        image: /assets/img/timeline/shop_open.jpg
 
   contact:
     title: "Contact us"
