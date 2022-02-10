@@ -75,13 +75,13 @@ de: &DEFAULT_DE
         image: /assets/img/timeline/boomerang_round.png
         alt:
       - title: "Arbeitsgruppen"
-        year: "Dezember 2021"
+        year: "ab Dezember 2021"
         desc: "In verschiedenen Arbeitsgruppen haben wir uns auf die verschiedenen Themen aufgeteilt, um uns z.B. um den Business Plan, Ladensuche oder die IT zu kümmern."
         image: /assets/img/timeline/3.jpg
         alt: 
       - title: "Gründung der Genossenschaft"
-        year: "Januar 2022"
-        desc: "Um offiziell geschäftsfähig zu sein, gründen wir im Januar eine Genossenschaft. Damit können wir die suche nach einen passenden Ladenfläche sowie Lieferanten beginnen."
+        year: "März 2022"
+        desc: "Um offiziell geschäftsfähig zu sein, gründen wir im Februar eine Genossenschaft. Damit können wir die Suche nach einen passenden Ladenfläche sowie Lieferanten beginnen. Dafür haben wir uns mit Max Riedl vom Genossenschaftsverband Bayern e.V. getroffen zum Informationsaustausch und die nötigen Ämter (Vorstand und Aufsichtsrat) besetzt."
         image: /assets/img/timeline/4.jpg
         alt:
         align: right
@@ -89,26 +89,20 @@ de: &DEFAULT_DE
 
   appointments:
     title: "Nächste Termine"
-    text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail an , dann laden wir euch ein."
+    text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail, dann laden wir euch ein."
     kontaktaufforderung: "Kontakt"
     section: appointments
     # left is the default
     #start_align: "left"
     events:
-      - title: "Wahl der Vorstände und Aufsichtsräte"
-        year: "31.01.22, 19.30 Uhr"
-        desc: "Wir besprchen die Aufgaben der Vorstände und Aufsichtsräte und wählen diese Ämter."
-        image: /assets/img/timeline/3.jpg
-        align: right
-        alt:
       - title: "Treffen in der großen Runde"
         year: "7.2.22, 19.30 Uhr"
-        desc: "Mit den neu gewählten Vorständen und Aufsichtsräten besprechen wir in der großen Runde die nächsten Schritte."
+        desc: "Wir wählen die Aufsichtsräte und Vorstände und besprchen die nächsten Schritte."
         image: /assets/img/timeline/conference.jpg
-        align: right
+        align: left
         alt:
       - title: "Gründungstreffen"
-        year: "Februar 2022"
+        year: "März 2022"
         desc: "Wir veranstalten ein Treffen bei dem wir offiziell die Genossenschaft gründen. Details folgen."
         image: /assets/img/timeline/boomerang_round.png
         align: right
@@ -308,7 +302,7 @@ en: &DEFAULT_EN
         align: right
         alt:
       - title: "Founding meeting"
-        year: "February 2022"
+        year: "March 2022"
         desc: "We organize a meeting where we formally found our cooperative association."
         image: /assets/img/timeline/boomerang_round.png
         align: right
