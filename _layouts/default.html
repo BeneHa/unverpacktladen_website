@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="{{ locale | slice: 0,2 | default: "en" }}">
+<html lang="{{ locale | slice: 0,2 | default: "de" }}">
 
   {% include head.html %}
  
-	<body id="page-top" class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+	<body id="page-top" class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" style="padding:0">
 
-      {{ content }}
+		<div>
+			{{ content }}
+		</div>
 
-	  {% include footer.html %}
+	<div>
+		{% include footer.html %}
+	</div>
+
 
 	  <!-- Bootstrap core JavaScript -->
 	  <script src="/assets/js/jquery.min.js"></script>

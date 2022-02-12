@@ -13,15 +13,15 @@ de: &DEFAULT_DE
   nav:
     - title: "Über uns"
       section: about
-    - title: "Der Laden"
-      section: services
     - title: "Kontakt"
       section: contact
     - title: "Termine"
       url: upcoming
     - title: "Organisation"
       url: organisation
-  
+    - title: "Fragen?"
+      url: faq
+
 
 en: &DEFAULT_EN
   nav:
@@ -35,6 +35,8 @@ en: &DEFAULT_EN
       url: upcoming
     - title: "Organization"
       url: organisation
+    - title: "Questions?"
+      url: faq
 
 
 en-US:

@@ -1,0 +1,4 @@
+---
+layout: faq
+locale: en
+---

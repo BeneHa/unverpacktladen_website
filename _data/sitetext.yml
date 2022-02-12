@@ -154,10 +154,37 @@ de: &DEFAULT_DE
     mailaufforderung: "Dann schreib uns eine Mail an info@unverpackt-mucnord.de!"
     section: contact
 
+  faq:
+    title: "Häufig gestellte Fragen"
+    items:
+    - question: "Warum eine Genossenschaft?"
+      answer: "Wir alle möchten helfen einen Laden zu eröffnen, aber wir haben hauptberufliche Jobs denen wir auch weiterhin nachgehen wollen. Indem wir das Projekt als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit so viel Geld wie er einzahlen will."
+    - question: "Ist die Genossenschaft eingetragen?"
+      answer: "Noch nicht, daran arbeiten wir gerade. Wir hoffen, dass dies bis Ende März abgeschlossen ist."
+    - question: "Wie ist eine Genossenschaft aufgebaut?"
+      answer: "Die Mitglieder wählen bei der Generalversammlung den Aufsichtsrat, der dann wiederum den Vorstand einsetzt. Der Vorstand führt dann die Geschäfte der Genossenschaft."
+    - question: "Wie kann man Mitglied werden?"
+      answer: "Sobald wir gegründet sind, kannst du dicht mit einem Beitrittsformular anmelden. Sobald dann deine Einlage überwiesen ist, bist du offiziell Mitglied."
+    - question: "Was ist der Mindest- und Höchstbeitrag?"
+      answer: "Es ist möglich zwischen 1 und 30 Anteile pro Person zu kaufen, ein Anteil kostet 150€ (gesetzlich festgelegt)."
+    - question: "Wie kann ich mich einbringen?"
+      answer: "Wir haben verschiedene Arbeitsgruppen, die sich um Themen wie den Laden, Finanzen oder Technik kümmern. Schreib uns eine Mail, dann besprechen wir wo es für dich Sinn machen würde mitzumachen."
+    - question: "Wie läuft die Arbeit in der Genossenschaft?"
+      answer: "Jede Arbeitsgruppe tauscht sich individuell aus, wir nutzen für die Kommunikation meist Microsoft Teams oder treffen uns persönlich. Zu wichtigen Anlässen stimmen sich die Aufsichtsräte und Vorstände dann ab um ein Treffen mit allen Mitgliedern zu organisieren (bisher immer als Videokonferenz)."
+    - question: "Welche Leistungen müssen Mitglieder leisten?"
+      answer: "Du musst bei uns gar keine Leistungen erbringen, die Mitarbeit in den Arbeitsgruppen ist komplett freiwillig."
+    - question: "Gibt es eine Nachschusspflicht?"
+      answer: "Nein, das ist laut Satzung nicht vorgesehen. Das bedeutet dass es nicht passieren kann dass du zusätzlich zu dem Geld für deine Anteile noch etwas nachzahlen musst."
+    - question: "Was ist wenn ich aussteigen will?"
+      answer: "Die gekauften Anteile können jederzeit wieder ausbezahlt werden."
+
+
 
   footer:
     legal: "Impressum"
     social:
+      - url: mailto:info@unverpackt-mucnord.de
+        icon: "far fa-envelope-open"
       - url: https://github.com/BeneHa/unverpacktladen_website
         icon: "fab fa-github"
 
@@ -320,13 +347,62 @@ en: &DEFAULT_EN
     mailaufforderung: "Send us a mail to info@unverpackt-mucnord.de!"
     section: contact
 
+  faq:
+    title: "Häufig gestellte Fragen"
+    items:
+    - question: "Warum eine Genossenschaft?"
+      answer: "Wir alle möchten helfen einen Laden zu eröffnen, aber wir haben hauptberufliche Jobs denen wir auch weiterhin nachgehen wollen. Indem wir das Projekt als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit so viel Geld wie er einzahlen will."
+    - question: "Ist die Genossenschaft eingetragen?"
+      answer: "Noch nicht, daran arbeiten wir gerade. Wir hoffen, dass dies bis Ende März abgeschlossen ist."
+    - question: "Wie ist eine Genossenschaft aufgebaut?"
+      answer: "Die Mitglieder wählen bei der Generalversammlung den Aufsichtsrat, der dann wiederum den Vorstand einsetzt. Der Vorstand führt dann die Geschäfte der Genossenschaft."
+    - question: "Wie kann man Mitglied werden?"
+      answer: "Sobald wir gegründet sind, kannst du dicht mit einem Beitrittsformular anmelden. Sobald dann deine Einlage überwiesen ist, bist du offiziell Mitglied."
+    - question: "Was ist der Mindest- und Höchstbeitrag?"
+      answer: "Es ist möglich zwischen 1 und 30 Anteile pro Person zu kaufen, ein Anteil kostet 150€ (gesetzlich festgelegt)."
+    - question: "Wie kann ich mich einbringen?"
+      answer: "Wir haben verschiedene Arbeitsgruppen, die sich um Themen wie den Laden, Finanzen oder Technik kümmern. Schreib uns eine Mail, dann besprechen wir wo es für dich Sinn machen würde mitzumachen."
+    - question: "Wie läuft die Arbeit in der Genossenschaft?"
+      answer: "Jede Arbeitsgruppe tauscht sich individuell aus, wir nutzen für die Kommunikation meist Microsoft Teams oder treffen uns persönlich. Zu wichtigen Anlässen stimmen sich die Aufsichtsräte und Vorstände dann ab um ein Treffen mit allen Mitgliedern zu organisieren (bisher immer als Videokonferenz)."
+    - question: "Welche Leistungen müssen Mitglieder leisten?"
+      answer: "Du musst bei uns gar keine Leistungen erbringen, die Mitarbeit in den Arbeitsgruppen ist komplett freiwillig."
+    - question: "Gibt es eine Nachschusspflicht?"
+      answer: "Nein, das ist laut Satzung nicht vorgesehen. Das bedeutet dass es nicht passieren kann dass du zusätzlich zu dem Geld für deine Anteile noch etwas nachzahlen musst."
+    - question: "Was ist wenn ich aussteigen will?"
+      answer: "Die gekauften Anteile können jederzeit wieder ausbezahlt werden."
+
+  faq:
+    title: "Frequently asked question"
+    items:
+    - question: "Why create a cooperative?"
+      answer: "We want to open this store but all of us have a main job which we want to keep. By doing this project as a cooperative the workload stays smaller for everyone involved. Also, everyone is liable only with the money which he or she invested initially."
+    - question: "Is the cooperative registered?"
+      answer: "Not yet, we are working on this. It will hopefully be done by the end of March."
+    - question: "How is the cooperative structured?"
+      answer: "All members elect the supervisory committee in a general assembly. The committee then appoints the board which runs the daily business."
+    - question: "How can I become a member?"
+      answer: "As soon as we are officially founded you can fill out an entry form an join us. After you have sent us the money for your shares you are officially part of the cooperative."
+    - question: "How many shares can I buy?"
+      answer: "Every person can buy between 1 and 30 shares."
+    - question: "How can I participate?"
+      answer: "We have different working groups for topics like the store, finances and technical stuff. Message us and we we will find out the best area for you to help us."
+    - question: "How is the work managed?"
+      answer: "Every working group exchanges on its topic, we usually use Microsoft Teams for the exchange or we meet in person. For important decisions the board and the supervisory committee organize a meeting with all members (so far only as video conferences)."
+    - question: "How much work does a member have to do?"
+      answer: "All work in the working groups is voluntary, there is no obligation to work for any number of hours."
+    - question: "Is there a reserve liability?"
+      answer: "No. That means it cannot happen that you have to pay anything additionally to the shares you buy."
+    - question: "What happens if I want to quit?"
+      answer: "It is possible any time to quit and get the money back for which you bought your shares."
+
 
   footer:
     legal: "Legal"
     social:
+      - url: mailto:info@unverpackt-mucnord.de
+        icon: "far fa-envelope-open"
       - url: https://github.com/BeneHa/unverpacktladen_website
         icon: "fab fa-github"
-
 
 
 en-GB:

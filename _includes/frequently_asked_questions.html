@@ -1,0 +1,20 @@
+<section class="page-section" id="{{ site.data.sitetext[page.locale].faq.section | default: "faq" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 style="padding: 5%">{{site.data.sitetext[page.locale].faq.title}}</h1>
+        <div class="tabs">
+          {% for item in site.data.sitetext[page.locale].faq.items %}
+          <div class="tab">
+            <input type="checkbox" id="{{item.question}}">
+            <label class="tab-label" style="margin-bottom:0" for="{{item.question}}">{{item.question}}</label>
+            <div class="tab-content" style="text-align: left">
+              {{item.answer}}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

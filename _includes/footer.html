@@ -1,11 +1,10 @@
 <!-- Footer -->
-<footer class="footer" id="footer" style="background-color: white">
+<footer class="footer" id="footer" style="background-color: white; width:100%">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-4">
-        <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
-        >
+        <span class="copyright" style="font-family: Ubuntu Condensed;line-height: normal">Copyright &copy; {{ site.title
+          }} {{ 'now' | date: "%Y" }}</span>
       </div>
       <!-- Social Media -->
       <div class="col-md-3">
@@ -25,39 +24,40 @@
       <div class="col-md-3">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="/lang/{{ page.locale | default : "de" }}/legal.html" style="color: black;"
-              >{{ site.data.sitetext[page.locale].footer.legal | default:
-              "Privacy Policy" }}</a
-            >
+            <a href="/lang/{{ page.locale | default : " de" }}/legal.html"
+              style="color: black; font-family: Ubuntu Condensed">{{ site.data.sitetext[page.locale].footer.legal |
+              default:
+              "Privacy Policy" }}</a>
           </li>
         </ul>
       </div>
-            <!-- Languages -->
-            <div class="col-md-1">
-              <ul class="list-inline quicklinks">
-                <li class="list-inline-item">
-                  <a href="/lang/de/{{ page.name | replace: ".md", ".html" }}" style="color: black;">Deutsch
-                </li>
-                <li class="list-inline-item">
-                  <a href="/lang/en/{{ page.name | replace: ".md", ".html" }}" style="color: black;">English
-                </li>
-              </ul>
-            </div>
+      <!-- Languages -->
+      <div class="col-md-1">
+        <ul class="list-inline quicklinks" style="line-height: normal">
+          <li class="list-inline-item">
+            <a href="/lang/de/{{ page.name | replace: ".md", ".html" }}"
+              style="color: black; font-family: Ubuntu Condensed">Deutsch
+          </li>
+          <li class="list-inline-item">
+            <a href="/lang/en/{{ page.name | replace: ".md", ".html" }}"
+              style="color: black; font-family: Ubuntu Condensed">English
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </footer>
-{% if page.layout == "page" %}
 <script>
-  fixPageShort();
+  document.onload = fixPageShort();
   function fixPageShort() {
-    if (window.innerHeight > document.body.offsetHeight) {
+    if (window.innerHeight > document.body.scrollHeight) {
       document.getElementById("footer").style.position = "fixed";
       document.getElementById("footer").style.bottom = 0;
       document.getElementById("footer").style.right = 0;
       document.getElementById("footer").style.left = 0;
       document.getElementById("footer").style.width = "100%";
+
     }
   }
 </script>
-{% endif %}
 <!-- End Footer -->
