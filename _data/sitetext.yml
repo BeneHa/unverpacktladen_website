@@ -19,13 +19,13 @@ de: &DEFAULT_DE
   about:
     title: "Über uns"
     text: ""
-    body: "Wir planen, einen Genossenschaft zu gründen, die einen unverpackt Laden im Münchner Norden betreiben soll.
+    body: "Wir planen, eine Genossenschaft zu gründen, die einen Unverpackt-Laden im Münchner Norden betreiben soll.
 
     
-     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Meld dich bei uns wenn du dabei sein willst!
+     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Melde Dich bei uns wenn Du dabei sein willst!
      
      
-     Du willst uns helfen und uns mitteilen was du von dem Laden erwartest? Super, dann füll direkt hier unsere Umfrage aus:"
+     Du willst uns helfen und uns mitteilen was Du von dem Laden erwartest? Super, dann füll' direkt hier unsere Umfrage aus:"
     umfragelink: "https://umfrage.unverpackt-mucnord.de/index.php/774938?lang=de-informal"
     umfragename: "Umfrage"
     section: about
@@ -95,22 +95,53 @@ de: &DEFAULT_DE
     # left is the default
     #start_align: "left"
     events:
-      - title: "Treffen in der großen Runde"
-        year: "7.2.22, 19.30 Uhr"
-        desc: "Wir wählen die Aufsichtsräte und Vorstände und besprchen die nächsten Schritte."
-        image: /assets/img/timeline/conference.jpg
-        align: left
-        alt:
-      - title: "Gründungstreffen"
-        year: "März 2022"
-        desc: "Wir veranstalten ein Treffen bei dem wir offiziell die Genossenschaft gründen. Details folgen."
-        image: /assets/img/timeline/boomerang_round.png
+      - title: "Gründungstreffen geplant"
+        year: "07.03.22, 19.30 Uhr"
+        desc: "Wir veranstalten ein Treffen, bei dem wir offiziell die Genossenschaft gründen. Aufgrund der derzeitigen Situation erfolgt die Gründung der Genossenschaft in Abstimmung mit dem Genossenschaftsverband im kleinen Kreis."
         align: right
+        image: /assets/img/timeline/Gruendung.jpg
         alt:
-      - title: "Ladenöffnung"
-        year: "Irgendwann 2022"
-        desc: "Unser Ziel ist es, im Laufe des Jahres 2022 den Laden zu eröffnen. "
-        image: /assets/img/timeline/shop_open.jpg
+      - title: "Wahl des Aufsichtsrats, Ernennung der Vorstände"
+        year: "07.02.2022, 19.30 Uhr"
+        desc: "Bewerberinnen und Bewerber für die Posten als Aufsichtsrat oder Vorstand stellen sich vor. Anschließend erfolgt die Wahl des Aufsichtsrat, der wiederum den Vorstand namentlich benennt.<br>Mit den neu gewählten Aufsichtsräten und neu ernannten Vorständen besprechen wir die nächsten Schritte. "
+        align: left
+        image: /assets/img/timeline/Wahl.jpg
+        alt:
+      - title: "140 Personen haben sich an der Umfrage beteiligt"
+        year: "01.02.22"
+        desc: "Wir freuen uns über die rege Teilnahme! "
+        align: left
+        image: /assets/img/timeline/Data.jpg
+        alt:
+      - title: "Informationsveranstaltung zu den Aufgaben der Vorstände und Aufsichtsräte"
+        year: "31.01.22, 19.30 Uhr"
+        desc: "Die Aufgaben der Vorstände und Aufsichtsräte wurden vorgestellt."
+        align: right
+        image: /assets/img/timeline/InfoAbend.jpg
+        alt:
+      - title: "Mitte Januar Start der Umfrage"
+        year: "Mitte 01.22"
+        desc: "Informationen zum Standort, zu den Öffnungszeiten und zum Warensortiment würden wir gerne über eine Umfrage erhalten. Diese erreichen Sie über unsere Homepage oder über den untenstehenden QR-Code. "
+        align: left
+        image: /assets/img/timeline/Umfrage.jpg
+        alt:
+      - title: "Zoom Meeting mit Herrn Max Riedl vom Genossenschaftsverband Bayern e.V."
+        year: "13.01.22"
+        desc: "• Informationsaustausch zur Gründung einer Genossenschaft <br>
+              • Einblick seine Arbeit und seine Unterstützung für eine Genossenschaft <br>
+              • Notwendigkeit von aktiven Mitgliedern in den Fokus gestellt <br>
+              • Die Gründung der Genossenschaft wird in Kürze stattfinden"
+        align: right
+        image: /assets/img/timeline/Meeting.jpg
+        alt:
+      - title: "Stand Gründung der Genossenschaft :"
+        year: "2022"   
+        desc: "• Die Gründung, die Besetzung der Ämter sowie die Suche nach einer geeigneten Immobilie wird parallel durchgeführt.<br>
+           • Weiterhin sind wir auf jede Art von Unterstützung angewiesen!<br>
+           Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen der eine Immobilie anbieten kann, dann melden Sie sich gerne per Mail unter info@unverpackt-mucnord.de"
+        align: left
+        image: /assets/img/timeline/Faust.jpg
+        alt:
 
   clients:
     section: clients
@@ -316,28 +347,54 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - title: "Planned incorporation meeting."
+        year: "07.03.22, 19.30 Uhr"
+        desc: "We plan a meeting to officially incorporate the cooperative association. Due to the current situation the cooperative association incorporation occurs only in small committee."
+        align: right
+        image: /assets/img/timeline/Gruendung.jpg
+        alt:
       - title: "Election of board and supervisory committee"
-        year: "31st Jan 22, 19:30"
-        desc: "We discuss the tasks of the board and the supervisory committee and elect those positions."
-        image: /assets/img/timeline/3.jpg
-        align: right
+        year: "07.02.2022, 19:30"
+        desc: "Candidates to supervisory and board committees introduce themselves. The supervisory board is then elected and can nominate the board members.<br>The new comittees members and core voluntary team start discussing the next steps."
+        align: left
+        image: /assets/img/timeline/Wahl.jpg
         alt:
-      - title: "Meeting full group"
-        year: "7th Feb 22, 19:30"
-        desc: "We discuss the next steps with our newly elected board and supervisory committee."
-        image: /assets/img/timeline/conference.jpg
-        align: right
+      - title: "140 took part to the poll!"
+        year: "01.02.22"
+        desc: "We are thrilled by the high participation quota!"
+        align: left
+        image: /assets/img/timeline/Data.jpg
         alt:
-      - title: "Founding meeting"
-        year: "March 2022"
-        desc: "We organize a meeting where we formally found our cooperative association."
-        image: /assets/img/timeline/boomerang_round.png
+      - title: "Information meeting about the committees duties."
+        year: "31.01.22, 19.30 Uhr"
+        desc: "The board and supervisory committees duties were presented."
         align: right
+        image: /assets/img/timeline/InfoAbend.jpg
         alt:
-      - title: "Store opening"
-        year: "Sometime 2022"
-        desc: "Our goal is to open the store at some point in 2022. Stay tuned!"
-        image: /assets/img/timeline/shop_open.jpg
+      - title: "Mid-January - Poll start."
+        year: "Mid 01.22"
+        desc: "We hope to refine our understanding of expectations about location, opening hours and product offerings thanks to a poll. You can find this one on our homepage or by using the dedicated QR code. "
+        align: left
+        image: /assets/img/timeline/Umfrage.jpg
+        alt:
+      - title: "Zoom Meeting with Mr. Max Riedl of the Genossenschaftsverband Bayern e.V."
+        year: "13.01.22"
+        desc: "• Information exchange about the incorporation of a coorperative association <br>
+              • Insight about his work and the support he provides to a cooperative association <br>
+              • The focus is put on the necessity for active members <br>
+              • The incorporation of the cooperative assoctiation should happen shortly"
+        align: right
+        image: /assets/img/timeline/Meeting.jpg
+        alt:
+      - title: "Status of the founding of our coorperative association:"
+        year: "2022"   
+        desc: "• The foundation, authorities allocation and the search for a location will be performed all in parallel.<br>
+           • We are still looking for help and support!<br>
+           Would you have interest in joining us in this team work or if you know someone offering an adequate locaiton, then feel free to reach us per email: info@unverpackt-mucnord.de"
+        align: left
+        image: /assets/img/timeline/Faust.jpg
+        alt:
+
 
   contact:
     title: "Contact us"
