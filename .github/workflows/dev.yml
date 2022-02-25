@@ -3,7 +3,7 @@ name: Build and deploy Jekyll site to Azure Blob static page
 on:
   push:
     branches:
-      - develop
+      - AG-marketing
 
 jobs:
   jekyll:
