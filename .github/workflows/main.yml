@@ -23,7 +23,7 @@ jobs:
     - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
       with:
         source_dir: '_site'
-        container_name: '$web/${GITHUB_REF#refs/*/}'
+        container_name: '$web/${{ github.ref_name }}'
         sas_token: ${{ secrets.sas_token }}
         account_name: ${{ secrets.storage_account_name }} 
         sync: true
