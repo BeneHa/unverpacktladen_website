@@ -9,7 +9,6 @@ jobs:
   jekyll:
     runs-on: ubuntu-20.04
     steps:
-    - uses: FranzDiebold/github-env-vars-action@v1.2.0
     - uses: actions/checkout@v2
 
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
@@ -24,7 +23,7 @@ jobs:
     - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
       with:
         source_dir: '_site'
-        container_name: '$web/$GITHUB_REF_NAME'
+        container_name: '$web/${GITHUB_REF##*/}'
         sas_token: ${{ secrets.sas_token }}
         account_name: ${{ secrets.storage_account_name }} 
         sync: true
