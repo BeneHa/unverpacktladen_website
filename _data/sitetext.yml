@@ -67,22 +67,22 @@ de: &DEFAULT_DE
       - title: "Die Idee"
         year: "Sommer 2021"
         desc: "Vier Freunde aus dem Münchner Norden tun sich zusammen mit dem Ziel, eine Genossenschaft zu gründen. Diese soll später einen unverpackt Laden eröffnen. Mitstreiter werden über nebenan.de gesucht."
-        image: /assets/img/timeline/nebenan.jpg
+        image: ../../assets/img/timeline/nebenan.jpg
         alt:
       - title: "Das erste Treffen"
         year: "17.11.2021"
         desc: "Bei der ersten Infoveranstaltung in Moosach wird die Idee vorgestellt und Unterstützer gesucht."
-        image: /assets/img/timeline/boomerang_round.png
+        image: ../../assets/img/timeline/boomerang_round.png
         alt:
       - title: "Arbeitsgruppen"
         year: "ab Dezember 2021"
         desc: "In verschiedenen Arbeitsgruppen haben wir uns auf die verschiedenen Themen aufgeteilt, um uns z.B. um den Business Plan, Ladensuche oder die IT zu kümmern."
-        image: /assets/img/timeline/3.jpg
+        image: ../../assets/img/timeline/3.jpg
         alt: 
       - title: "Gründung der Genossenschaft"
         year: "März 2022"
         desc: "Um offiziell geschäftsfähig zu sein, gründen wir im Februar eine Genossenschaft. Damit können wir die Suche nach einen passenden Ladenfläche sowie Lieferanten beginnen. Dafür haben wir uns mit Max Riedl vom Genossenschaftsverband Bayern e.V. getroffen zum Informationsaustausch und die nötigen Ämter (Vorstand und Aufsichtsrat) besetzt."
-        image: /assets/img/timeline/4.jpg
+        image: ../../assets/img/timeline/4.jpg
         alt:
         align: right
     end: "Werde ein <br> Teil unserer <br> Geschichte!"
@@ -99,31 +99,31 @@ de: &DEFAULT_DE
         year: "07.03.22, 19.30 Uhr"
         desc: "Wir veranstalten ein Treffen, bei dem wir offiziell die Genossenschaft gründen. Aufgrund der derzeitigen Situation erfolgt die Gründung der Genossenschaft in Abstimmung mit dem Genossenschaftsverband im kleinen Kreis."
         align: right
-        image: /assets/img/timeline/Gruendung.jpg
+        image: ../../assets/img/timeline/Gruendung.jpg
         alt:
       - title: "Wahl des Aufsichtsrats, Ernennung der Vorstände"
         year: "07.02.2022, 19.30 Uhr"
         desc: "Bewerberinnen und Bewerber für die Posten als Aufsichtsrat oder Vorstand stellen sich vor. Anschließend erfolgt die Wahl des Aufsichtsrat, der wiederum den Vorstand namentlich benennt.<br>Mit den neu gewählten Aufsichtsräten und neu ernannten Vorständen besprechen wir die nächsten Schritte. "
         align: left
-        image: /assets/img/timeline/Wahl.jpg
+        image: ../../assets/img/timeline/Wahl.jpg
         alt:
       - title: "140 Personen haben sich an der Umfrage beteiligt"
         year: "01.02.22"
         desc: "Wir freuen uns über die rege Teilnahme! "
         align: left
-        image: /assets/img/timeline/Data.jpg
+        image: ../../assets/img/timeline/Data.jpg
         alt:
       - title: "Informationsveranstaltung zu den Aufgaben der Vorstände und Aufsichtsräte"
         year: "31.01.22, 19.30 Uhr"
         desc: "Die Aufgaben der Vorstände und Aufsichtsräte wurden vorgestellt."
         align: right
-        image: /assets/img/timeline/InfoAbend.jpg
+        image: ../../assets/img/timeline/InfoAbend.jpg
         alt:
       - title: "Mitte Januar Start der Umfrage"
         year: "Mitte 01.22"
         desc: "Informationen zum Standort, zu den Öffnungszeiten und zum Warensortiment würden wir gerne über eine Umfrage erhalten. Diese erreichen Sie über unsere Homepage oder über den untenstehenden QR-Code. "
         align: left
-        image: /assets/img/timeline/Umfrage.jpg
+        image: ../../assets/img/timeline/Umfrage.jpg
         alt:
       - title: "Zoom Meeting mit Herrn Max Riedl vom Genossenschaftsverband Bayern e.V."
         year: "13.01.22"
@@ -132,7 +132,7 @@ de: &DEFAULT_DE
               • Notwendigkeit von aktiven Mitgliedern in den Fokus gestellt <br>
               • Die Gründung der Genossenschaft wird in Kürze stattfinden"
         align: right
-        image: /assets/img/timeline/Meeting.jpg
+        image: ../../assets/img/timeline/Meeting.jpg
         alt:
       - title: "Stand Gründung der Genossenschaft :"
         year: "2022"   
@@ -140,7 +140,7 @@ de: &DEFAULT_DE
            • Weiterhin sind wir auf jede Art von Unterstützung angewiesen!<br>
            Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen der eine Immobilie anbieten kann, dann melden Sie sich gerne per Mail unter info@unverpackt-mucnord.de"
         align: left
-        image: /assets/img/timeline/Faust.jpg
+        image: ../../assets/img/timeline/Faust.jpg
         alt:
 
   clients:
@@ -150,10 +150,10 @@ de: &DEFAULT_DE
     list:
       - title: "tz"
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-nord-unverpackt-laden-einkaeufe-geschaeft-plastiktuete-muell-lerchenau-moosach-boomerang-pelkovenstrasse-feldmoching-fasanerie-91091397.html
-        logo: /assets/img/clients/tz.png
+        logo: ../../assets/img/clients/tz.png
       - title: "Lokalanzeiger"
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
-        logo: /assets/img/clients/lokalanzeiger.png
+        logo: ../../assets/img/clients/lokalanzeiger.png
 
 
   team:
@@ -167,7 +167,7 @@ de: &DEFAULT_DE
     people:
       - name: "Benedikt Häuser"
         role: "Technik"
-        image: /assets/img/team/beha_round.png
+        image: ../../assets/img/team/beha_round.png
         social:
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
@@ -285,22 +285,22 @@ en: &DEFAULT_EN
       - title: "The idea"
         year: "Summer 2021"
         desc: "Four friends from the north of Munich decide to create a registered cooperative. The goal is to open up a store selling products without packaging. They search for collaborators via nebenan.de"
-        image: /assets/img/timeline/nebenan.jpg
+        image: ../../assets/img/timeline/nebenan.jpg
         alt:
       - title: "The first meeting"
         year: "17th November 2021"
         desc: "In a first information meeting in Moosach the idea is presented in order to gain supporters."
-        image: /assets/img/timeline/boomerang_round.png
+        image: ../../assets/img/timeline/boomerang_round.png
         alt:
       - title: "Arbeitsgruppen"
         year: "December 2021"
         desc: "In different working groups we started working on topics like Business Plan, search for a location or IT topics."
-        image: /assets/img/timeline/3.jpg
+        image: ../../assets/img/timeline/3.jpg
         alt: 
       - title: "Founding of the registered cooperative"
         year: "January 2022"
         desc: "In order to be legally able to conduct businesses, we will found a registered cooperative. Then we can start searching for a store location and suppliers."
-        image: /assets/img/timeline/4.jpg
+        image: ../../assets/img/timeline/4.jpg
         alt:
         align: right
     end: "Become a <br> part of <br> our story!"
@@ -314,10 +314,10 @@ en: &DEFAULT_EN
     list:
       - title: "tz"
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-nord-unverpackt-laden-einkaeufe-geschaeft-plastiktuete-muell-lerchenau-moosach-boomerang-pelkovenstrasse-feldmoching-fasanerie-91091397.html
-        logo: /assets/img/clients/tz.png
+        logo: ../../assets/img/clients/tz.png
       - title: "Lokalanzeiger"
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
-        logo: /assets/img/clients/lokalanzeiger.png
+        logo: ../../assets/img/clients/lokalanzeiger.png
 
 
   team:
@@ -330,7 +330,7 @@ en: &DEFAULT_EN
     people:
       - name: "Benedikt Häuser"
         role: "Technical stuff"
-        image: /assets/img/team/beha_round.png
+        image: ../../assets/img/team/beha_round.png
         social:
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
@@ -351,31 +351,31 @@ en: &DEFAULT_EN
         year: "07.03.22, 19.30 Uhr"
         desc: "We plan a meeting to officially incorporate the cooperative association. Due to the current situation the cooperative association incorporation occurs only in small committee."
         align: right
-        image: /assets/img/timeline/Gruendung.jpg
+        image: ../../assets/img/timeline/Gruendung.jpg
         alt:
       - title: "Election of board and supervisory committee"
         year: "07.02.2022, 19:30"
         desc: "Candidates to supervisory and board committees introduce themselves. The supervisory board is then elected and can nominate the board members.<br>The new comittees members and core voluntary team start discussing the next steps."
         align: left
-        image: /assets/img/timeline/Wahl.jpg
+        image: ../../assets/img/timeline/Wahl.jpg
         alt:
       - title: "140 took part to the poll!"
         year: "01.02.22"
         desc: "We are thrilled by the high participation quota!"
         align: left
-        image: /assets/img/timeline/Data.jpg
+        image: ../../assets/img/timeline/Data.jpg
         alt:
       - title: "Information meeting about the committees duties."
         year: "31.01.22, 19.30 Uhr"
         desc: "The board and supervisory committees duties were presented."
         align: right
-        image: /assets/img/timeline/InfoAbend.jpg
+        image: ../../assets/img/timeline/InfoAbend.jpg
         alt:
       - title: "Mid-January - Poll start."
         year: "Mid 01.22"
         desc: "We hope to refine our understanding of expectations about location, opening hours and product offerings thanks to a poll. You can find this one on our homepage or by using the dedicated QR code. "
         align: left
-        image: /assets/img/timeline/Umfrage.jpg
+        image: ../../assets/img/timeline/Umfrage.jpg
         alt:
       - title: "Zoom Meeting with Mr. Max Riedl of the Genossenschaftsverband Bayern e.V."
         year: "13.01.22"
@@ -384,7 +384,7 @@ en: &DEFAULT_EN
               • The focus is put on the necessity for active members <br>
               • The incorporation of the cooperative assoctiation should happen shortly"
         align: right
-        image: /assets/img/timeline/Meeting.jpg
+        image: ../../assets/img/timeline/Meeting.jpg
         alt:
       - title: "Status of the founding of our coorperative association:"
         year: "2022"   
@@ -392,7 +392,7 @@ en: &DEFAULT_EN
            • We are still looking for help and support!<br>
            Would you have interest in joining us in this team work or if you know someone offering an adequate locaiton, then feel free to reach us per email: info@unverpackt-mucnord.de"
         align: left
-        image: /assets/img/timeline/Faust.jpg
+        image: ../../assets/img/timeline/Faust.jpg
         alt:
 
 
