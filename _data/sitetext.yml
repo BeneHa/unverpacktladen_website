@@ -126,18 +126,39 @@ de: &DEFAULT_DE
 
 
   team:
-    title: "Das Team"
-    text: "Hier sind ein paar der Leute, die hinter dem Projekt stecken:"
-    subtext: "Als Genossenschaft treffen wir alle wichtigen Entscheidungen gemeinschaftlich. Egal ob du mit einem oder mit zehn Anteilen beteiligt bist - jeder hat nur eine Stimme.
-
-
-    Die operativen Entscheidungen im Tagesgeschäft (z.B. Lieferantenauswahl) trifft der Vorstand, der von der Vollversammlung gewählt wird."
-    section: team
-    people:
-      - name: "Benedikt Häuser"
-        role: "Technik"
+    title_vs: "Vorstand"
+    text_vs: "Hier sind unsere Vorstände, die das Tagesgeschäft führen:"
+    subtext_vs: "Die Vorstände werden immer für ein Jahr bestimmt."
+    people_vs:
+      - name: "Isa Broxvall"
+        role: ""
         image: /assets/img/team/beha_round.png
         social:
+          - url: "mailto:isa@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+      - name: "Susanne Hofstetter"
+        role: ""
+        image: /assets/img/team/beha_round.png
+        social:
+          - url: "mailto:susanne@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+      - name: "Marcus Spreti"
+        role: ""
+        image: /assets/img/team/beha_round.png
+        social:
+          - url: "mailto:marcus@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+
+    title_ar: "Aufsichtsrat"
+    text_ar: "Die Aufsichtsräte bestimmen den Vorstand und kontrollieren seine Arbeit."
+    subtext_ar: "Der Aufsichtsrat wird in der Generalversammlung von allen Genossenschaftsmitgliedern gewählt. Die Generalversammlung findet einmal pro Jahr statt."
+    people_ar:
+      - name: "Benedikt Häuser"
+        role: "Cloud Data Engineer aus dem Ostallgäu. Kümmert sich um die Website und die sonstige Technik."
+        image: /assets/img/team/beha_round.png
+        social:
+          - url: "mailto:admin@unverpack-mucnord.de"
+            icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
           - url: https://www.xing.com/profile/Benedikt_Haeuser/cv
