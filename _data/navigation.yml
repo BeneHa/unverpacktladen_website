@@ -14,7 +14,7 @@ de: &DEFAULT_DE
     - title: "Über uns"
       url: ./index.html#about
     - title: "Kontakt"
-      url: ./index.html/#contact
+      url: ./index.html#contact
     - title: "Termine"
       url: ./upcoming.html
     - title: "Organisation"
