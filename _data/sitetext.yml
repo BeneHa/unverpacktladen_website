@@ -95,6 +95,14 @@ de: &DEFAULT_DE
     # left is the default
     #start_align: "left"
     events:
+      - title: "Stand Gründung der Genossenschaft :"
+        year: "2022"   
+        desc: "• Die Gründung, die Besetzung der Ämter sowie die Suche nach einer geeigneten Immobilie wird parallel durchgeführt.<br>
+           • Weiterhin sind wir auf jede Art von Unterstützung angewiesen!<br>
+           Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen der eine Immobilie anbieten kann, dann melden Sie sich gerne per Mail unter info@unverpackt-mucnord.de"
+        align: left
+        image: ../../assets/img/timeline/Faust.jpg
+        alt:
       - title: "Gründungstreffen geplant"
         year: "07.03.22, 19.30 Uhr"
         desc: "Wir veranstalten ein Treffen, bei dem wir offiziell die Genossenschaft gründen. Aufgrund der derzeitigen Situation erfolgt die Gründung der Genossenschaft in Abstimmung mit dem Genossenschaftsverband im kleinen Kreis."
@@ -133,14 +141,6 @@ de: &DEFAULT_DE
               • Die Gründung der Genossenschaft wird in Kürze stattfinden"
         align: right
         image: ../../assets/img/timeline/Meeting.jpg
-        alt:
-      - title: "Stand Gründung der Genossenschaft :"
-        year: "2022"   
-        desc: "• Die Gründung, die Besetzung der Ämter sowie die Suche nach einer geeigneten Immobilie wird parallel durchgeführt.<br>
-           • Weiterhin sind wir auf jede Art von Unterstützung angewiesen!<br>
-           Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen der eine Immobilie anbieten kann, dann melden Sie sich gerne per Mail unter info@unverpackt-mucnord.de"
-        align: left
-        image: ../../assets/img/timeline/Faust.jpg
         alt:
 
   clients:
@@ -347,6 +347,14 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - title: "Status of the founding of our coorperative association:"
+        year: "2022"   
+        desc: "• The foundation, authorities allocation and the search for a location will be performed all in parallel.<br>
+           • We are still looking for help and support!<br>
+           Would you have interest in joining us in this team work or if you know someone offering an adequate locaiton, then feel free to reach us per email: info@unverpackt-mucnord.de"
+        align: left
+        image: ../../assets/img/timeline/Faust.jpg
+        alt:
       - title: "Planned incorporation meeting."
         year: "07.03.22, 19.30 Uhr"
         desc: "We plan a meeting to officially incorporate the cooperative association. Due to the current situation the cooperative association incorporation occurs only in small committee."
@@ -385,14 +393,6 @@ en: &DEFAULT_EN
               • The incorporation of the cooperative assoctiation should happen shortly"
         align: right
         image: ../../assets/img/timeline/Meeting.jpg
-        alt:
-      - title: "Status of the founding of our coorperative association:"
-        year: "2022"   
-        desc: "• The foundation, authorities allocation and the search for a location will be performed all in parallel.<br>
-           • We are still looking for help and support!<br>
-           Would you have interest in joining us in this team work or if you know someone offering an adequate locaiton, then feel free to reach us per email: info@unverpackt-mucnord.de"
-        align: left
-        image: ../../assets/img/timeline/Faust.jpg
         alt:
 
 
