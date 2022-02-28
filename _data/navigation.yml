@@ -27,8 +27,6 @@ en: &DEFAULT_EN
   nav:
     - title: "About us"
       section: about
-    - title: "The store"
-      section: services
     - title: "Contact"
       section: contact
     - title: "Appointments"

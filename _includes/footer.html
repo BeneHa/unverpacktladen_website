@@ -24,7 +24,7 @@
       <div class="col-md-3">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="/lang/{{ page.locale | default : " de" }}/legal.html"
+            <a href="./legal.html"
               style="color: black; font-family: Ubuntu Condensed">{{ site.data.sitetext[page.locale].footer.legal |
               default:
               "Privacy Policy" }}</a>
@@ -35,11 +35,11 @@
       <div class="col-md-1">
         <ul class="list-inline quicklinks" style="line-height: normal">
           <li class="list-inline-item">
-            <a href="/lang/de/{{ page.name | replace: ".md", ".html" }}"
+            <a href="../../lang/de/{{ page.name | replace: ".md", ".html" }}"
               style="color: black; font-family: Ubuntu Condensed">Deutsch
           </li>
           <li class="list-inline-item">
-            <a href="/lang/en/{{ page.name | replace: ".md", ".html" }}"
+            <a href="../../{{ page.name | replace: ".md", ".html" }}"
               style="color: black; font-family: Ubuntu Condensed">English
           </li>
         </ul>
