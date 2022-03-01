@@ -32,4 +32,4 @@ jobs:
       with:
         creds: ${{ secrets.azure_credentials }}
     - run: |
-        az cdn endpoint purge -g domain_unverpacktladen -n cdnEndpointUnverpacktWebsite --profile-name cdnProfileUnverpacktWebsite --content-paths '*'
+        az cdn endpoint purge -g domain_unverpacktladen -n cdnEndpointUnverpacktWebsite --profile-name cdnProfileUnverpacktWebsite --content-paths '/*'
