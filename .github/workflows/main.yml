@@ -29,11 +29,6 @@ jobs:
     - name: Azure Login
       uses: Azure/login@v1.4.3
       with:
-        creds: ${{ secrets.sp_secret }}
-        client-id: ${{ secrets.client_id }}
-        tenant-id: ${{ secrets.tenant_id }}
-        subscription-id: ${{ secrets.subscription_id }}
-    - name: Azure CLI Purge Endpoint
-      uses: Azure/cli@v1
-      with:
-        inlineScript: az cdn endpoint purge -g domain_unverpacktladen -n cdnEndpointUnverpacktWebsite --profile-name cdnProfileUnverpacktWebsite --content-paths '*'
+        creds: ${{ secrets.azure_credentials }}
+    - run: |
+        az cdn endpoint purge -g domain_unverpacktladen -n cdnEndpointUnverpacktWebsite --profile-name cdnProfileUnverpacktWebsite --content-paths '*'
