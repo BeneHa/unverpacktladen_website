@@ -11,7 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    # Use GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v1
       with:
         path: vendor/bundle
@@ -27,3 +26,14 @@ jobs:
         sas_token: ${{ secrets.sas_token }}
         account_name: ${{ secrets.storage_account_name }} 
         sync: true
+    - name: Azure Login
+      uses: Azure/login@v1.4.3
+      with:
+        creds: ${{ secrets.sp_secret }}
+        client-id: ${{ secrets.client_id }}
+        tenant-id: ${{ secrets.tenant_id }}
+        subscription-id: ${{ secrets.subscription_id }}
+    - name: Azure CLI Purge Endpoint
+      uses: Azure/cli@v1
+      with:
+        inlineScript: az cdn endpoint purge -g domain_unverpacktladen -n cdnEndpointUnverpacktWebsite --profile-name cdnProfileUnverpacktWebsite --content-paths '*'
