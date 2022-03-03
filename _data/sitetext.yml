@@ -131,20 +131,24 @@ de: &DEFAULT_DE
     subtext_vs: "Die Vorstände werden immer für ein Jahr bestimmt."
     people_vs:
       - name: "Isa Broxvall"
-        role: ""
-        image: /assets/img/team/beha_round.png
+        role: "Nachhaltigkeitsfetischistin und -bloggerin. Kümmert sich um alles was mit Kommunikation und IT zu tun hat."
+        image: /assets/img/team/isa.jpg
         social:
           - url: "mailto:isa@unverpack-mucnord.de"
             icon: far fa-envelope-open
+          - url: https://www.instagram.com/lgv.muc/
+            icon: fab fa-instagram
+          - url: https://www.facebook.com/lgvmuc
+            icon: fab fa-facebook
       - name: "Susanne Hofstetter"
         role: ""
-        image: /assets/img/team/beha_round.png
+        image: /assets/img/team/susanne.png
         social:
           - url: "mailto:susanne@unverpack-mucnord.de"
             icon: far fa-envelope-open
       - name: "Marcus Spreti"
-        role: ""
-        image: /assets/img/team/beha_round.png
+        role: "Maschinenbautechniker und Aussteiger in der Autoindustrie, Opa und Pilot"
+        image: /assets/img/team/marcus.jpg
         social:
           - url: "mailto:marcus@unverpack-mucnord.de"
             icon: far fa-envelope-open
