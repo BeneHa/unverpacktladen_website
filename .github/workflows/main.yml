@@ -19,10 +19,16 @@ jobs:
           ${{ runner.os }}-gems-
     # Standard usage
     - uses: lemonarc/jekyll-action@1.0.0
+    - uses: haya14busa/action-cond@v1
+      id: targetFolder
+      with:
+        cond: ${{ eq(github.ref_name, main) }}
+        if_true: '$web'
+        if_false: '$web/${{ github.ref_name }}'
     - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
       with:
         source_dir: '_site'
-        container_name: '$web/${{ github.ref_name }}'
+        container_name: ${{ steps.targetFolder.outputs.value }}
         sas_token: ${{ secrets.sas_token }}
         account_name: ${{ secrets.storage_account_name }} 
         extra_args: --overwrite True
