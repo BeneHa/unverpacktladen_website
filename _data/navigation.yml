@@ -28,7 +28,7 @@ en: &DEFAULT_EN
     - title: "About us"
       url: ./index.html#about
     - title: "Contact"
-      url: ./index.html/#contact
+      url: ./index.html#contact
     - title: "Appointments"
       url: ./upcoming.html
     - title: "Organization"
