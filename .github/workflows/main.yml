@@ -3,7 +3,7 @@ name: Build and deploy Jekyll site to Azure Blob static page
 on:
   push:
     branches:
-      - main
+      - '**'
 
 jobs:
   jekyll:
@@ -11,7 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    # Use GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v1
       with:
         path: vendor/bundle
@@ -20,10 +19,23 @@ jobs:
           ${{ runner.os }}-gems-
     # Standard usage
     - uses: lemonarc/jekyll-action@1.0.0
+    - uses: haya14busa/action-cond@v1
+      id: targetFolder
+      with:
+        cond: ${{ github.ref_name ==  'main' }}
+        if_true: '$web'
+        if_false: '$web/${{ github.ref_name }}'
     - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
       with:
         source_dir: '_site'
-        container_name: '$web'
+        container_name: ${{ steps.targetFolder.outputs.value }}
         sas_token: ${{ secrets.sas_token }}
         account_name: ${{ secrets.storage_account_name }} 
+        extra_args: --overwrite True
         sync: true
+    - name: Azure Login
+      uses: Azure/login@v1.4.3
+      with:
+        creds: ${{ secrets.azure_credentials }}
+    - run: |
+        az cdn endpoint purge -g domain_unverpacktladen -n cdnEndpointUnverpacktWebsite --profile-name cdnProfileUnverpacktWebsite --content-paths '/*'

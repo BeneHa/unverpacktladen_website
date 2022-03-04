@@ -12,31 +12,29 @@
 de: &DEFAULT_DE
   nav:
     - title: "Über uns"
-      section: about
+      url: ./index.html#about
     - title: "Kontakt"
-      section: contact
+      url: ./index.html#contact
     - title: "Termine"
-      url: upcoming
+      url: ./upcoming.html
     - title: "Organisation"
-      url: organisation
+      url: ./organisation.html
     - title: "Fragen?"
-      url: faq
+      url: ./faq.html
 
 
 en: &DEFAULT_EN
   nav:
     - title: "About us"
-      section: about
-    - title: "The store"
-      section: services
+      url: ./index.html#about
     - title: "Contact"
-      section: contact
+      url: ./index.html/#contact
     - title: "Appointments"
-      url: upcoming
+      url: ./upcoming.html
     - title: "Organization"
-      url: organisation
+      url: ./organisation.html
     - title: "Questions?"
-      url: faq
+      url: ./faq.html
 
 
 en-US:
