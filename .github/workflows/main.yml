@@ -22,7 +22,7 @@ jobs:
     - uses: haya14busa/action-cond@v1
       id: targetFolder
       with:
-        cond: ${{ eq(github.ref_name, main) }}
+        cond: ${{ github.ref_name ==  'main' }}
         if_true: '$web'
         if_false: '$web/${{ github.ref_name }}'
     - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
