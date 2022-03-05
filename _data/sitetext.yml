@@ -57,6 +57,12 @@ de: &DEFAULT_DE
     section: portfolio
     closebutton: "Schließen"
 
+  membership:
+    title: "Mitgliedschaft"
+    receiveMembership: "Aktuell befinden wir uns in der Gründungsphase einer Genossenschaft. Sobald die Gründung abgeschlossen ist, kannst du Mitglied werden. Dazu wird zeitnah ein Beitrittsformular bereitgestellt. Sobald dieses von uns bearbeitet wurde und deine Genossenschaftseinlage überwiesen ist, bist du offiziell Mitglied."
+    cooperative: 
+      title: "Genossenschaft"
+      description: "Wir alle möchten helfen einen Laden zu eröffnen, aber wir haben hauptberufliche Jobs denen wir auch weiterhin nachgehen wollen. Indem wir das Projekt als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit so viel Geld wie er einzahlen will. Die aktuelle Satzung ist hier zu finden: "
   timeline:
     title: "Zeitleiste"
     text: "Was bisher geschah"
