@@ -63,6 +63,7 @@ de: &DEFAULT_DE
     cooperative: 
       title: "Genossenschaft"
       description: "Wir alle möchten helfen einen Laden zu eröffnen, aber wir haben hauptberufliche Jobs denen wir auch weiterhin nachgehen wollen. Indem wir das Projekt als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit so viel Geld wie er einzahlen will. Die aktuelle Satzung ist hier zu finden: "
+      consitution: "Satzung"
   timeline:
     title: "Zeitleiste"
     text: "Was bisher geschah"
@@ -280,6 +281,14 @@ en: &DEFAULT_EN
     text: "Als Genossenschaft ist es jedem Mitglied möglich mitzuarbeiten wo und wie viel er oder sie möchte. Dafür haben wir verschiedene Arbeitsgruppen, die nach Themen getrennt sind."
     section: portfolio
     closebutton: "Close"
+
+  membership:
+    title: "Membership"
+    receiveMembership: "We are currently in the founding phase of a cooperative. As soon as the phase is completed, you can become a member. A membership form will be made available shortly. As soon as this has been processed by us and your contribution to the cooperative has been transferred, you are officially a member. "
+    cooperative: 
+      title: "Cooperative"
+      description: "We all want to help open a store, but we have full-time jobs that we want to keep doing. By spreading the project over many shoulders as a cooperative, the amount of work remains manageable and everyone is only liable with as much money as they want to pay in. The current constitution can be found here:  "
+      consitution: "consitution"
 
   timeline:
     title: "Timeline"
