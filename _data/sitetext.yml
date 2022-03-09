@@ -59,10 +59,16 @@ de: &DEFAULT_DE
 
   membership:
     title: "Mitgliedschaft"
-    receiveMembership: "Aktuell befinden wir uns in der Gründungsphase einer Genossenschaft. Sobald die Gründung abgeschlossen ist, kannst du Mitglied werden. Dazu wird zeitnah ein Beitrittsformular bereitgestellt. Sobald dieses von uns bearbeitet wurde und deine Genossenschaftseinlage überwiesen ist, bist du offiziell Mitglied."
+    getMember: "Willst du Teil der Unverpackt-Gemeinschaft im Münchner Norden werden? <br> Dann werde Mitglied in nur 3 Schritten:"
+    steps:
+     - title: "Satzung lesen"
+       link: "cooperative/2021-05-11_Satzung Unverpackt Laden Fasanerie eG.pdf"
+     - title: "Beitrittserklärung ausfüllen und an uns versenden"
+       link: "cooperative/Beitrittserklärung.pdf"
+     - title: "Überweisung des Betrags der Anteile"
     cooperative: 
       title: "Genossenschaft"
-      description: "Wir alle möchten helfen einen Laden zu eröffnen, aber wir haben hauptberufliche Jobs denen wir auch weiterhin nachgehen wollen. Indem wir das Projekt als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit so viel Geld wie er einzahlen will. Die aktuelle Satzung ist hier zu finden: "
+      description: "Indem wir das Projekt der Eröffnung und Betreibung eines Unverpacktladens als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit seinen Genossenschaftsanteilen. "
       consitution: "Satzung"
   timeline:
     title: "Zeitleiste"
@@ -285,6 +291,13 @@ en: &DEFAULT_EN
   membership:
     title: "Membership"
     receiveMembership: "We are currently in the founding phase of a cooperative. As soon as the phase is completed, you can become a member. A membership form will be made available shortly. As soon as this has been processed by us and your contribution to the cooperative has been transferred, you are officially a member. "
+    getMember: "Want to be part of the community? <br> Only three steps:"
+    steps:
+     - title: "Read the constitution"
+       link: "cooperative/2021-05-11_Satzung Unverpackt Laden Fasanerie eG.pdf"
+     - title: "Fill Declaration of Accession and send it to us"
+       link: "cooperative/Beitrittserklärung.pdf"
+     - title: "Transfer the amount"
     cooperative: 
       title: "Cooperative"
       description: "We all want to help open a store, but we have full-time jobs that we want to keep doing. By spreading the project over many shoulders as a cooperative, the amount of work remains manageable and everyone is only liable with as much money as they want to pay in. The current constitution can be found here:  "
