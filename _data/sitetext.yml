@@ -62,9 +62,9 @@ de: &DEFAULT_DE
     getMember: "Willst du Teil der Unverpackt-Gemeinschaft im Münchner Norden werden? <br> Dann werde Mitglied in nur 3 Schritten:"
     steps:
      - title: "Satzung lesen"
-       link: "cooperative/2021-05-11_Satzung Unverpackt Laden Fasanerie eG.pdf"
+       link: "cooperative/2022-03-07_Satzung Unverpackt Muc Nord [Final].pdf"
      - title: "Beitrittserklärung ausfüllen und an uns versenden"
-       link: "cooperative/Beitrittserklärung.pdf"
+       link: "cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf"
      - title: "Überweisung des Betrags der Anteile"
     cooperative: 
       title: "Genossenschaft"
