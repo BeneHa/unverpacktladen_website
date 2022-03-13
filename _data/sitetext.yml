@@ -64,9 +64,9 @@ de: &DEFAULT_DE
     # left is the default
     #start_align: "left"
     events:
-      - title: "Gründung der Genossenschaft !"
+      - title: "Gründung der Genossenschaft!"
         year: "7 März 2022"
-        desc: "Offiziele Gründung der Unverpackt Laden München Nord eG! Jetzt wird ein Lokal aktiv gesucht. Wir freuen uns auf jeden Tipp!"
+        desc: "Offizielle Gründung der *Unverpackt Laden München Nord eG*! Jetzt wird ein Lokal aktiv gesucht. Wir freuen uns auf jeden Tipp!"
         align: right
         image: ../../assets/img/timeline/4.jpg
         alt:
@@ -82,7 +82,7 @@ de: &DEFAULT_DE
         alt:
       - title: "Die Idee"
         year: "Sommer 2021"
-        desc: "Vier Freunde aus dem Münchner Norden tun sich zusammen mit dem Ziel, eine Genossenschaft zu gründen. Diese soll später einen unverpackt Laden eröffnen. Mitstreiter werden über nebenan.de gesucht."
+        desc: "Vier Freunde aus dem Münchner Norden tun sich zusammen mit dem Ziel, eine Genossenschaft zu gründen. Diese soll später einen unverpackt Laden eröffnen. Mitstreiter werden über [nebenan.de](https://nebenan.de){:target='_blank'} gesucht."
         image: ../../assets/img/timeline/nebenan.jpg
         alt:
 
@@ -99,10 +99,10 @@ de: &DEFAULT_DE
       - title: "Wir haben offiziell die Genossenschaft gegründet!"
         year: "07.03.2022"
         desc: "Im Stadtteilladen Moosach haben wir mit Hilfe von Frau Bahar und Herrn Max Riedl der Genossenschaftsverband Bayern 
-          die Firma Unverpackt Laden München Nord eG gegründet. Jetzt sind wir bereit für die nächste Schritte!<br>
+          die Genossenschaft *Unverpackt Laden München Nord eG* gegründet. Jetzt sind wir bereit für die nächste Schritte!<br>
            Weiterhin sind wir auf jede Art von Unterstützung angewiesen!<br>
-           Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen der eine Immobilie anbieten kann, dann 
-           melden Sie sich gerne per Mail unter info@unverpackt-mucnord.de"
+           Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen, der eine Immobilie anbieten kann, dann 
+           melden Sie sich gerne per Mail unter [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
         image: ../../assets/img/timeline/Faust.jpg
         align: left
         alt:
@@ -126,7 +126,7 @@ de: &DEFAULT_DE
         alt:
       - title: "Informationsveranstaltung zu den Aufgaben der Vorstände und Aufsichtsräte"
         year: "31.01.22, 19.30 Uhr"
-        desc: "Die Aufgaben der Vorstände und Aufsichtgitsräte wurden vorgestellt."
+        desc: "Die Aufgaben der Vorstände und Aufsichtsräte wurden vorgestellt."
         align: right
         image: ../../assets/img/timeline/InfoAbend.jpg
         alt:
@@ -287,7 +287,7 @@ en: &DEFAULT_EN
     events:
       - title: "Cooperative registered!"
         year: "March, 7 2022"
-        desc: "Our Business entity named Unverpackt Laden München Nord eG was officially registered.<br>
+        desc: "Our Business entity named *Unverpackt Laden München Nord eG* was officially registered.<br>
         We are now activaly looking for an adequate shop. Any hint is warmly welcome!"
         image: ../../assets/img/timeline/4.jpg
         alt:
@@ -354,7 +354,7 @@ en: &DEFAULT_EN
     events:
       - title: "Official incorporation"
         year: "07.03.2022"
-        desc: "With the help of Mrs. Bahar und Mr. Max Riedl of Genossenschaftsverband Bayern, the Unverpackt Laden München Nord eG was 
+        desc: "With the help of Mrs. Bahar und Mr. Max Riedl of Genossenschaftsverband Bayern, the *Unverpackt Laden München Nord eG* was 
         officially incorporated.<br>
            We are still looking for help and support!<br>
            Would you have interest in joining us in this team work or if you know someone offering an adequate location, 
