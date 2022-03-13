@@ -12,28 +12,26 @@
         <h3 class="large text-muted">
           {{ site.data.sitetext[page.locale].membership.getMember }}
         </h3>
-        <div class="large text-muted container-left-align">
-          <ol class="width-left-align">
-          {% for step in site.data.sitetext[page.locale].membership.steps %}
-            <li>
-              {% if step.link %}
-                <a href="/assets/other/{{page.locale}}/{{step.link}}">{{ step.title }}</a>
-              {% else %}
-                {{ step.title }}
-              {% endif %}
-            </li>
+        <div class="row text-center" style="margin-top: 30px;">
+          {% for service in site.data.sitetext[page.locale].membership.steps %}
+              <div class="col-md-4">
+                {% if service.link %}
+                  <a href="/assets/other/{{page.locale}}/{{service.link}}">
+                    <span class="fa-stack fa-4x">
+                      <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                      <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                {% else %}
+                  <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+                  </span>
+                {% endif %}
+                <h4 class="service-heading">{{ service.title | markdownify }}</h4>
+                {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+              </div>
           {% endfor %}
-          </ol>
-        </div>
-
-        <h2 class="section-heading text-uppercase" style="margin-top: 5%">
-          {{ site.data.sitetext[page.locale].membership.cooperative.title |
-          markdownify }}
-        </h2>
-
-        <div class="large text-muted">
-          {{ site.data.sitetext[page.locale].membership.cooperative.description
-          }}
         </div>
       </div>
     </div>

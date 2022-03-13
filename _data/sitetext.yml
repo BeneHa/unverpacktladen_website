@@ -62,14 +62,17 @@ de: &DEFAULT_DE
     getMember: "Willst du Teil der Unverpackt-Gemeinschaft im Münchner Norden werden? <br> Dann werde Mitglied in nur 3 Schritten:"
     steps:
      - title: "Satzung lesen"
-       link: "cooperative/2022-03-07_Satzung Unverpackt Muc Nord [Final].pdf"
+       link: "cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf"
+       icon: fas fa-file-alt
+       desc: Lies unsere [Satzung](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf), um unsere Werte kennenzulernen!
      - title: "Beitrittserklärung ausfüllen und an uns versenden"
        link: "cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf"
+       icon: fas fa-envelope-open-text
+       desc: "Fülle die [Beitrittserklärung](../../assets/other/de/cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf) zu unserer Genossenschaft aus und schicke sie an: [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
      - title: "Überweisung des Betrags der Anteile"
-    cooperative: 
-      title: "Genossenschaft"
-      description: "Indem wir das Projekt der Eröffnung und Betreibung eines Unverpacktladens als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit seinen Genossenschaftsanteilen. "
-      consitution: "Satzung"
+       icon: fas fa-credit-card
+       desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile.
+
   timeline:
     title: "Zeitleiste"
     text: "Was bisher geschah"
@@ -294,14 +297,16 @@ en: &DEFAULT_EN
     getMember: "Want to be part of the community? <br> Only three steps:"
     steps:
      - title: "Read the constitution"
-       link: "cooperative/2021-05-11_Satzung Unverpackt Laden Fasanerie eG.pdf"
+       link: "cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf"
+       icon: fas fa-file-alt
+       desc: Read our [constitution](../../assets/other/en/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf), to get to know our values!
      - title: "Fill Declaration of Accession and send it to us"
-       link: "cooperative/Beitrittserklärung.pdf"
+       link: "cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf"
+       icon: fas fa-envelope-open-text
+       desc: "Fill the [Declaration of Accession](../../assets/other/de/cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf) for our cooperative and send it to: [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
      - title: "Transfer the amount"
-    cooperative: 
-      title: "Cooperative"
-      description: "We all want to help open a store, but we have full-time jobs that we want to keep doing. By spreading the project over many shoulders as a cooperative, the amount of work remains manageable and everyone is only liable with as much money as they want to pay in. The current constitution can be found here:  "
-      consitution: "consitution"
+       icon: fas fa-credit-card
+       desc: Transfer your signed share.
 
   timeline:
     title: "Timeline"
