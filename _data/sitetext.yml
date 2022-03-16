@@ -57,6 +57,22 @@ de: &DEFAULT_DE
     section: portfolio
     closebutton: "Schließen"
 
+  membership:
+    title: "Mitgliedschaft"
+    getMember: "Willst du Teil der Unverpackt-Gemeinschaft im Münchner Norden werden? <br> Dann werde Mitglied in nur 3 Schritten:"
+    steps:
+     - title: "Satzung lesen"
+       link: "cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf"
+       icon: fas fa-file-alt
+       desc: Lies unsere [Satzung](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf), um unsere Werte kennenzulernen!
+     - title: "Beitrittserklärung ausfüllen und an uns versenden"
+       link: "cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf"
+       icon: fas fa-envelope-open-text
+       desc: "Fülle die [Beitrittserklärung](../../assets/other/de/cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf) zu unserer Genossenschaft aus und schicke sie an: [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
+     - title: "Überweisung des Betrags der Anteile"
+       icon: fas fa-credit-card
+       desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile. <br> <sup>(Da aktuell noch kein Bankkonto für die Genossenschaft vorhanden ist, werden wir nochmal auf Euch zukommen, sobald der Betrag überwiesen werden kann.)</sup>
+
   timeline:
     title: "Zeitleiste"
     text: "Was bisher geschah"
@@ -274,6 +290,23 @@ en: &DEFAULT_EN
     text: "Als Genossenschaft ist es jedem Mitglied möglich mitzuarbeiten wo und wie viel er oder sie möchte. Dafür haben wir verschiedene Arbeitsgruppen, die nach Themen getrennt sind."
     section: portfolio
     closebutton: "Close"
+
+  membership:
+    title: "Membership"
+    receiveMembership: "We are currently in the founding phase of a cooperative. As soon as the phase is completed, you can become a member. A membership form will be made available shortly. As soon as this has been processed by us and your contribution to the cooperative has been transferred, you are officially a member. "
+    getMember: "Want to be part of the community? <br> Only three steps:"
+    steps:
+     - title: "Read the constitution"
+       link: "cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf"
+       icon: fas fa-file-alt
+       desc: Read our [constitution](../../assets/other/en/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf), to get to know our values!
+     - title: "Fill Declaration of Accession and send it to us"
+       link: "cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf"
+       icon: fas fa-envelope-open-text
+       desc: "Fill the [Declaration of Accession](../../assets/other/de/cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf) for our cooperative and send it to: [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
+     - title: "Transfer the amount"
+       icon: fas fa-credit-card
+       desc: Transfer your signed share.
 
   timeline:
     title: "Timeline"
