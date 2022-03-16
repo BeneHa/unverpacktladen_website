@@ -71,7 +71,7 @@ de: &DEFAULT_DE
        desc: "Fülle die [Beitrittserklärung](../../assets/other/de/cooperative/2022-03-13_UnverpacktMucNord_Beitrittserklärung_Genossenschaft.pdf) zu unserer Genossenschaft aus und schicke sie an: [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
      - title: "Überweisung des Betrags der Anteile"
        icon: fas fa-credit-card
-       desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile.
+       desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile. <br> <sup>(Da aktuell noch kein Bankkonto für die Genossenschaft vorhanden ist, werden wir nochmal auf Euch zukommen, sobald der Betrag überwiesen werden kann.)</sup>
 
   timeline:
     title: "Zeitleiste"
