@@ -179,7 +179,7 @@ de: &DEFAULT_DE
     people_vs:
       - name: "Isa Broxvall"
         role: "Nachhaltigkeitsfetischistin und -bloggerin. Kümmert sich um alles was mit Kommunikation und IT zu tun hat."
-        image: /assets/img/team/isa.jpg
+        image: ../../assets/img/team/isa.jpg
         social:
           - url: "mailto:isa@unverpack-mucnord.de"
             icon: far fa-envelope-open
@@ -190,13 +190,13 @@ de: &DEFAULT_DE
       - name: "Susanne Hofstetter"
         role: "Ich möchte meinen 3 Kindern 11,14 & 16 ein gutes Vorbild sein in Sachen Umweltschutz. 
 Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Projekt nach Moosach zu bringen."
-        image: /assets/img/team/susanne.jpeg
+        image: ../../assets/img/team/susanne.jpeg
         social:
           - url: "mailto:susanne@unverpack-mucnord.de"
             icon: far fa-envelope-open
       - name: "Marcus Spreti"
         role: "Maschinenbautechniker und Aussteiger in der Autoindustrie, Opa und Pilot"
-        image: /assets/img/team/marcus.jpg
+        image: ../../assets/img/team/marcus.jpg
         social:
           - url: "mailto:marcus@unverpack-mucnord.de"
             icon: far fa-envelope-open
@@ -207,7 +207,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     people_ar:
       - name: "Benedikt Häuser"
         role: "Cloud Data Engineer aus dem Ostallgäu. Kümmert sich um die Website und die sonstige Technik."
-        image: /assets/img/team/beha_round.png
+        image: ../../assets/img/team/beha_round.png
 
         social:
           - url: "mailto:admin@unverpack-mucnord.de"
@@ -220,13 +220,13 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
             icon: fab fa-github
       - name: "Rafael Muselmann"
         role: "Passion for a better world: Gerne bereit mit Engagement die Welt ein kleines Stückchen zu verbessern."
-        image: /assets/img/team/rafael.png
+        image: ../../assets/img/team/rafael.png
         social:
           - url: https://github.com/moffer
             icon: fab fa-github
       - name: "Guillaume Potdevin"
         role: "Tagsüber engagiert in Krebsforschung, nachts Vater, auch gerne in Bergen unterwegs!"
-        image: /assets/img/team/guillaume.png
+        image: ../../assets/img/team/guillaume.png
         social:
           - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
             icon: fab fa-linkedin
@@ -484,7 +484,7 @@ en: &DEFAULT_EN
     people_vs:
       - name: "Isa Broxvall"
         role: "Sustainability freak and blogger. Takes care of communications and IT."
-        image: /assets/img/team/isa.jpg
+        image: ../../assets/img/team/isa.jpg
         social:
           - url: "mailto:isa@unverpack-mucnord.de"
             icon: far fa-envelope-open
@@ -494,13 +494,13 @@ en: &DEFAULT_EN
             icon: fab fa-facebook
       - name: "Susanne Hofstetter"
         role: "I want to be a role model for my children of 11, 14 and 16 years when it comes to environmental protection. Besides, it is fun to bring this project to Moosach with a great team!"
-        image: /assets/img/team/susanne.jpeg
+        image: ../../assets/img/team/susanne.jpeg
         social:
           - url: "mailto:susanne@unverpack-mucnord.de"
             icon: far fa-envelope-open
       - name: "Marcus Spreti"
         role: "Mechanical engineer who quit the automotive industry, pilot and grandfather."
-        image: /assets/img/team/marcus.jpg
+        image: ../../assets/img/team/marcus.jpg
         social:
           - url: "mailto:marcus@unverpack-mucnord.de"
             icon: far fa-envelope-open
@@ -511,7 +511,7 @@ en: &DEFAULT_EN
     people_ar:
       - name: "Benedikt Häuser"
         role: "Cloud Data Engineer from the Allgäu. Takes care of the website and other technical stuff."
-        image: /assets/img/team/beha_round.png
+        image: ../../assets/img/team/beha_round.png
         social:
           - url: "mailto:admin@unverpack-mucnord.de"
             icon: far fa-envelope-open
@@ -523,13 +523,13 @@ en: &DEFAULT_EN
             icon: fab fa-github
       - name: "Rafael Muselmann"
         role: "Passion for a better world: Always happy to make the world a little bit better through personal engagement."
-        image: /assets/img/team/rafael.png
+        image: ../../assets/img/team/rafael.png
         social:
           - url: https://github.com/moffer
             icon: fab fa-github
       - name: "Guillaume Potdevin"
         role: "Engaged in cancer research by day, Happily playing with my kids at night while climbing mountains as much as possible!"
-        image: /assets/img/team/guillaume.png
+        image: ../../assets/img/team/guillaume.png
         social:
           - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
             icon: fab fa-linkedin
