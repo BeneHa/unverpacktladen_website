@@ -84,7 +84,7 @@ de: &DEFAULT_DE
         year: "7 März 2022"
         desc: "Offizielle Gründung der *Unverpackt Laden München Nord eG*! Jetzt wird ein Lokal aktiv gesucht. Wir freuen uns auf jeden Tipp!"
         align: right
-        image: ../../assets/img/timeline/4.jpg
+        image: ../../assets/img/timeline/gruendung_all.jpg
         alt:
       - title: "Arbeitsgruppen"
         year: "ab Dezember 2021"
@@ -119,7 +119,7 @@ de: &DEFAULT_DE
            Weiterhin sind wir auf jede Art von Unterstützung angewiesen!<br>
            Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen, der eine Immobilie anbieten kann, dann 
            melden Sie sich gerne per Mail unter [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
-        image: ../../assets/img/timeline/Faust.jpg
+        image: ../../assets/img/timeline/gruendung_all.jpg
         align: left
         alt:
       - title: "Gründungstreffen geplant"
@@ -362,7 +362,7 @@ en: &DEFAULT_EN
         year: "March, 7 2022"
         desc: "Our Business entity named *Unverpackt Laden München Nord eG* was officially registered.<br>
         We are now activaly looking for an adequate shop. Any hint is warmly welcome!"
-        image: ../../assets/img/timeline/4.jpg
+        image: ../../assets/img/timeline/gruendung_all.jpg
         alt:
         align: right
       - title: "Arbeitsgruppen"
@@ -433,7 +433,7 @@ en: &DEFAULT_EN
            Would you have interest in joining us in this team work or if you know someone offering an adequate location, 
            then feel free to reach us per email: info@unverpackt-mucnord.de"
         align: left
-        image: ../../assets/img/timeline/Faust.jpg
+        image: ../../assets/img/timeline/gruendung_all.jpg
         alt:
       - title: "Planned incorporation meeting."
         year: "03.2022, 19.30 Uhr"
