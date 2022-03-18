@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Unverpackt München Nord
 email      : info@unverpackt-mucnord.de 
-description: "Die Website des unverpackt Ladens in München Nord"
+description: "Die Website des unverpackt-Ladens in München Nord"
 author     : Benedikt Häuser
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg

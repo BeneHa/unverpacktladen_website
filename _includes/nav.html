@@ -5,7 +5,7 @@
   style="background-color: #212529"
 >
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="/lang/{{ page.locale | default : "de" }}/index.html">
+    <a class="navbar-brand js-scroll-trigger" href="./index.html">
       {%- if site.logo -%}
       <img
         height="{{ site.logo.height | default: 52 }}"
@@ -29,7 +29,7 @@
         {%- for link in site.data.navigation[page.locale].nav -%}
         <li class="nav-item">
           {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}.html"
+          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
             >{{ link.title }}</a
           >
           {%- else if link.section -%}

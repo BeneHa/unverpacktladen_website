@@ -8,3 +8,5 @@ unused
 bootstrap-reference.html
 *.DS_STORE
 archive
+vendor
+.jekyll-metadata
