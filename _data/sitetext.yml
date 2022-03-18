@@ -173,25 +173,65 @@ de: &DEFAULT_DE
 
 
   team:
-    title: "Das Team"
-    text: "Hier sind ein paar der Leute, die hinter dem Projekt stecken:"
-    subtext: "Als Genossenschaft treffen wir alle wichtigen Entscheidungen gemeinschaftlich. Egal ob du mit einem oder mit zehn Anteilen beteiligt bist - jeder hat nur eine Stimme.
-
-
-    Die operativen Entscheidungen im Tagesgeschäft (z.B. Lieferantenauswahl) trifft der Vorstand, der von der Vollversammlung gewählt wird."
-    section: team
-    people:
-      - name: "Benedikt Häuser"
-        role: "Technik"
-        image: ../../assets/img/team/beha_round.png
+    title_vs: "Vorstand"
+    text_vs: "Hier sind unsere Vorstände, die das Tagesgeschäft führen:"
+    subtext_vs: "Die Vorstände werden immer für ein Jahr bestimmt."
+    people_vs:
+      - name: "Isa Broxvall"
+        role: "Nachhaltigkeitsfetischistin und -bloggerin. Kümmert sich um alles was mit Kommunikation und IT zu tun hat."
+        image: ../../assets/img/team/isa.jpg
         social:
+          - url: "mailto:isa@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+          - url: https://www.instagram.com/lgv.muc/
+            icon: fab fa-instagram
+          - url: https://www.facebook.com/lgvmuc
+            icon: fab fa-facebook
+      - name: "Susanne Hofstetter"
+        role: "Ich möchte meinen 3 Kindern 11,14 & 16 ein gutes Vorbild sein in Sachen Umweltschutz. 
+Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Projekt nach Moosach zu bringen."
+        image: ../../assets/img/team/susanne.jpeg
+        social:
+          - url: "mailto:susanne@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+      - name: "Marcus Spreti"
+        role: "Maschinenbautechniker und Aussteiger in der Autoindustrie, Opa und Pilot"
+        image: ../../assets/img/team/marcus.jpg
+        social:
+          - url: "mailto:marcus@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+
+    title_ar: "Aufsichtsrat"
+    text_ar: "Die Aufsichtsräte bestimmen den Vorstand und kontrollieren seine Arbeit."
+    subtext_ar: "Der Aufsichtsrat wird in der Generalversammlung von allen Genossenschaftsmitgliedern gewählt. Die Generalversammlung findet einmal pro Jahr statt."
+    people_ar:
+      - name: "Benedikt Häuser"
+        role: "Cloud Data Engineer aus dem Ostallgäu. Kümmert sich um die Website und die sonstige Technik."
+        image: ../../assets/img/team/beha_round.png
+
+        social:
+          - url: "mailto:admin@unverpack-mucnord.de"
+            icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
           - url: https://www.xing.com/profile/Benedikt_Haeuser/cv
             icon: fab fa-xing
           - url: https://github.com/BeneHa
             icon: fab fa-github
-
+      - name: "Rafael Muselmann"
+        role: "Passion for a better world: Gerne bereit mit Engagement die Welt ein kleines Stückchen zu verbessern."
+        image: ../../assets/img/team/rafael.png
+        social:
+          - url: https://github.com/moffer
+            icon: fab fa-github
+      - name: "Guillaume Potdevin"
+        role: "Tagsüber engagiert in Krebsforschung, nachts Vater, auch gerne in Bergen unterwegs!"
+        image: ../../assets/img/team/guillaume.png
+        social:
+          - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
+            icon: fab fa-linkedin
+          - url: https://github.com/gpotdevin
+            icon: fab fa-github
 
   contact:
     title: "Kontaktiere uns"
@@ -437,29 +477,64 @@ en: &DEFAULT_EN
     mailaufforderung: "Send us a mail to info@unverpackt-mucnord.de!"
     section: contact
 
-  faq:
-    title: "Häufig gestellte Fragen"
-    items:
-    - question: "Warum eine Genossenschaft?"
-      answer: "Wir alle möchten helfen einen Laden zu eröffnen, aber wir haben hauptberufliche Jobs denen wir auch weiterhin nachgehen wollen. Indem wir das Projekt als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit so viel Geld wie er einzahlen will."
-    - question: "Ist die Genossenschaft eingetragen?"
-      answer: "Noch nicht, daran arbeiten wir gerade. Wir hoffen, dass dies bis Ende März abgeschlossen ist."
-    - question: "Wie ist eine Genossenschaft aufgebaut?"
-      answer: "Die Mitglieder wählen bei der Generalversammlung den Aufsichtsrat, der dann wiederum den Vorstand einsetzt. Der Vorstand führt dann die Geschäfte der Genossenschaft."
-    - question: "Wie kann man Mitglied werden?"
-      answer: "Sobald wir gegründet sind, kannst du dicht mit einem Beitrittsformular anmelden. Sobald dann deine Einlage überwiesen ist, bist du offiziell Mitglied."
-    - question: "Was ist der Mindest- und Höchstbeitrag?"
-      answer: "Es ist möglich zwischen 1 und 30 Anteile pro Person zu kaufen, ein Anteil kostet 150€ (gesetzlich festgelegt)."
-    - question: "Wie kann ich mich einbringen?"
-      answer: "Wir haben verschiedene Arbeitsgruppen, die sich um Themen wie den Laden, Finanzen oder Technik kümmern. Schreib uns eine Mail, dann besprechen wir wo es für dich Sinn machen würde mitzumachen."
-    - question: "Wie läuft die Arbeit in der Genossenschaft?"
-      answer: "Jede Arbeitsgruppe tauscht sich individuell aus, wir nutzen für die Kommunikation meist Microsoft Teams oder treffen uns persönlich. Zu wichtigen Anlässen stimmen sich die Aufsichtsräte und Vorstände dann ab um ein Treffen mit allen Mitgliedern zu organisieren (bisher immer als Videokonferenz)."
-    - question: "Welche Leistungen müssen Mitglieder leisten?"
-      answer: "Du musst bei uns gar keine Leistungen erbringen, die Mitarbeit in den Arbeitsgruppen ist komplett freiwillig."
-    - question: "Gibt es eine Nachschusspflicht?"
-      answer: "Nein, das ist laut Satzung nicht vorgesehen. Das bedeutet dass es nicht passieren kann dass du zusätzlich zu dem Geld für deine Anteile noch etwas nachzahlen musst."
-    - question: "Was ist wenn ich aussteigen will?"
-      answer: "Die gekauften Anteile können jederzeit wieder ausbezahlt werden."
+  team:
+    title_vs: "Executive committee"
+    text_vs: "These are our executives in charge of the daily operations:"
+    subtext_vs: "The executives are chosen for one year."
+    people_vs:
+      - name: "Isa Broxvall"
+        role: "Sustainability freak and blogger. Takes care of communications and IT."
+        image: ../../assets/img/team/isa.jpg
+        social:
+          - url: "mailto:isa@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+          - url: https://www.instagram.com/lgv.muc/
+            icon: fab fa-instagram
+          - url: https://www.facebook.com/lgvmuc
+            icon: fab fa-facebook
+      - name: "Susanne Hofstetter"
+        role: "I want to be a role model for my children of 11, 14 and 16 years when it comes to environmental protection. Besides, it is fun to bring this project to Moosach with a great team!"
+        image: ../../assets/img/team/susanne.jpeg
+        social:
+          - url: "mailto:susanne@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+      - name: "Marcus Spreti"
+        role: "Mechanical engineer who quit the automotive industry, pilot and grandfather."
+        image: ../../assets/img/team/marcus.jpg
+        social:
+          - url: "mailto:marcus@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+
+    title_ar: "Board"
+    text_ar: "The board members choose the executive committee and control its work."
+    subtext_ar: "The board is elected by the general meeting by all cooperative members. The general meeting takes place once per year."
+    people_ar:
+      - name: "Benedikt Häuser"
+        role: "Cloud Data Engineer from the Allgäu. Takes care of the website and other technical stuff."
+        image: ../../assets/img/team/beha_round.png
+        social:
+          - url: "mailto:admin@unverpack-mucnord.de"
+            icon: far fa-envelope-open
+          - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
+            icon: fab fa-linkedin
+          - url: https://www.xing.com/profile/Benedikt_Haeuser/cv
+            icon: fab fa-xing
+          - url: https://github.com/BeneHa
+            icon: fab fa-github
+      - name: "Rafael Muselmann"
+        role: "Passion for a better world: Always happy to make the world a little bit better through personal engagement."
+        image: ../../assets/img/team/rafael.png
+        social:
+          - url: https://github.com/moffer
+            icon: fab fa-github
+      - name: "Guillaume Potdevin"
+        role: "Engaged in cancer research by day, Happily playing with my kids at night while climbing mountains as much as possible!"
+        image: ../../assets/img/team/guillaume.png
+        social:
+          - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
+            icon: fab fa-linkedin
+          - url: https://github.com/gpotdevin
+            icon: fab fa-github
 
   faq:
     title: "Frequently asked question"
