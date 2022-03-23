@@ -1,2 +1,6 @@
 https://www.unverpackt-mucnord.de/lang/de/index.html
-https://www.unverpackt-mucnord.de/lang/en/index.html
+https://www.unverpackt-mucnord.de/lang/de/faq.html
+https://www.unverpackt-mucnord.de/lang/de/legal.html
+https://www.unverpackt-mucnord.de/lang/de/membership.html
+https://www.unverpackt-mucnord.de/lang/de/organisation.html
+https://www.unverpackt-mucnord.de/lang/de/upcoming.html

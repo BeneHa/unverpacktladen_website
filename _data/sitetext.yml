@@ -227,6 +227,8 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
         social:
           - url: https://github.com/moffer
             icon: fab fa-github
+          - url:  https://www.linkedin.com/in/rmuselmann/
+            icon: fab fa-linkedin
       - name: "Guillaume Potdevin"
         role: "Tagsüber engagiert in Krebsforschung, nachts Vater, auch gerne in Bergen unterwegs!"
         image: ../../assets/img/team/guillaume.png
@@ -534,6 +536,8 @@ en: &DEFAULT_EN
         social:
           - url: https://github.com/moffer
             icon: fab fa-github
+          - url:  https://www.linkedin.com/in/rmuselmann/
+            icon: fab fa-linkedin
       - name: "Guillaume Potdevin"
         role: "Engaged in cancer research by day, Happily playing with my kids at night while climbing mountains as much as possible!"
         image: ../../assets/img/team/guillaume.png

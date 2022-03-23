@@ -13,20 +13,18 @@
 
 theme: jekyll-agency
 
-
 url    : "https://unverpackt-mucnord.de"
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Unverpackt München Nord
 email      : info@unverpackt-mucnord.de 
-description: "Die Website des unverpackt-Ladens in München Nord"
+description: "Unverpackt einkaufen in München Nord"
 author     : Benedikt Häuser
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
-locale: "de" # See available languages in _data/sitetext.yml
-
+locale: "de" 
 
 collections:
   portfolio:
@@ -34,5 +32,3 @@ collections:
   organisation_en:
 
 markdown: kramdown
-
-
