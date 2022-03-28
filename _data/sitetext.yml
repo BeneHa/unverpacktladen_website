@@ -12,14 +12,14 @@
 de: &DEFAULT_DE
   header:
     title: Unverpackt einkaufen -
-    text: Bald auch im Münchner Norden!
+    text: bald in der Rieselbar im Münchner Norden!
     button: Erzählt mir mehr
     buttonlink: "#services"
 
   about:
     title: "Über uns"
     text: ""
-    body: "Wir planen, eine Genossenschaft zu gründen, die einen Unverpackt-Laden im Münchner Norden betreiben soll.
+    body: "Wir planen, eine Genossenschaft zu gründen, die einen Unverpackt-Laden namens 'Rieselbar' im Münchner Norden betreiben soll.
 
     
      Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Melde Dich bei uns wenn Du dabei sein willst!
@@ -209,7 +209,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     subtext_ar: "Der Aufsichtsrat wird in der Generalversammlung von allen Genossenschaftsmitgliedern gewählt. Die Generalversammlung findet einmal pro Jahr statt."
     people_ar:
       - name: "Benedikt Häuser"
-        role: "Cloud Data Engineer aus dem Ostallgäu. Kümmert sich um die Website und die sonstige Technik."
+        role: "Cloud Data Engineer, in der Freizeit Sportler. Kümmert sich um die Website und die sonstige Technik."
         image: ../../assets/img/team/beha_round.png
 
         social:
@@ -519,7 +519,7 @@ en: &DEFAULT_EN
     subtext_ar: "The board is elected by the general meeting by all cooperative members. The general meeting takes place once per year."
     people_ar:
       - name: "Benedikt Häuser"
-        role: "Cloud Data Engineer from the Allgäu. Takes care of the website and other technical stuff."
+        role: "Cloud Data Engineer, sportsman in his free time. Takes care of the website and other technical stuff."
         image: ../../assets/img/team/beha_round.png
         social:
           - url: "mailto:admin@unverpack-mucnord.de"
