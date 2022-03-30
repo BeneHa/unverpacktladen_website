@@ -134,7 +134,7 @@ de: &DEFAULT_DE
         align: left
         image: ../../assets/img/timeline/Wahl.jpg
         alt:
-      - title: "140 Personen haben sich an der Umfrage beteiligt"
+      - title: "350 Personen haben sich an der Umfrage beteiligt"
         year: "01.02.22"
         desc: "Wir freuen uns über die rege Teilnahme! "
         align: left
@@ -184,7 +184,7 @@ de: &DEFAULT_DE
         role: "Nachhaltigkeitsfetischistin und -bloggerin. Kümmert sich um alles was mit Kommunikation und IT zu tun hat."
         image: ../../assets/img/team/isa.jpg
         social:
-          - url: "mailto:isa@unverpack-mucnord.de"
+          - url: "mailto:isa@unverpackt-mucnord.de"
             icon: far fa-envelope-open
           - url: https://www.instagram.com/lgv.muc/
             icon: fab fa-instagram
@@ -195,13 +195,13 @@ de: &DEFAULT_DE
 Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Projekt nach Moosach zu bringen."
         image: ../../assets/img/team/susanne.jpeg
         social:
-          - url: "mailto:susanne@unverpack-mucnord.de"
+          - url: "mailto:susanne@unverpackt-mucnord.de"
             icon: far fa-envelope-open
       - name: "Marcus Spreti"
         role: "Maschinenbautechniker und Aussteiger in der Autoindustrie, Opa und Pilot"
         image: ../../assets/img/team/marcus.jpg
         social:
-          - url: "mailto:marcus@unverpack-mucnord.de"
+          - url: "mailto:marcus@unverpackt-mucnord.de"
             icon: far fa-envelope-open
 
     title_ar: "Aufsichtsrat"
@@ -213,7 +213,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
         image: ../../assets/img/team/beha_round.png
 
         social:
-          - url: "mailto:admin@unverpack-mucnord.de"
+          - url: "mailto:admin@unverpackt-mucnord.de"
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
@@ -225,18 +225,26 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
         role: "Passion for a better world: Gerne bereit mit Engagement die Welt ein kleines Stückchen zu verbessern."
         image: ../../assets/img/team/rafael.png
         social:
-          - url: https://github.com/moffer
-            icon: fab fa-github
           - url:  https://www.linkedin.com/in/rmuselmann/
             icon: fab fa-linkedin
+          - url: https://github.com/moffer
+            icon: fab fa-github
       - name: "Guillaume Potdevin"
         role: "Tagsüber engagiert in Krebsforschung, nachts Vater, auch gerne in Bergen unterwegs!"
         image: ../../assets/img/team/guillaume.png
         social:
+          - url: "mailto:guillaume@unverpackt-mucnord.de"
+            icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
             icon: fab fa-linkedin
           - url: https://github.com/gpotdevin
             icon: fab fa-github
+      - name: "Stephan Schwerd"
+        role: "Papa, Outdoormensch und Ingenieur aus München hat Lust etwas zu verändern"
+        image: ../../assets/img/team/stephan.jpg
+        social:
+          - url: "mailto:stephan@unverpackt-mucnord.de"
+            icon: far fa-envelope-open
 
   contact:
     title: "Kontaktiere uns"
@@ -449,7 +457,7 @@ en: &DEFAULT_EN
         align: left
         image: ../../assets/img/timeline/Wahl.jpg
         alt:
-      - title: "140 took part to the poll!"
+      - title: "350 took part to the poll!"
         year: "01.02.22"
         desc: "We are thrilled by the high participation quota!"
         align: right
@@ -495,7 +503,7 @@ en: &DEFAULT_EN
         role: "Sustainability freak and blogger. Takes care of communications and IT."
         image: ../../assets/img/team/isa.jpg
         social:
-          - url: "mailto:isa@unverpack-mucnord.de"
+          - url: "mailto:isa@unverpackt-mucnord.de"
             icon: far fa-envelope-open
           - url: https://www.instagram.com/lgv.muc/
             icon: fab fa-instagram
@@ -505,13 +513,13 @@ en: &DEFAULT_EN
         role: "I want to be a role model for my children of 11, 14 and 16 years when it comes to environmental protection. Besides, it is fun to bring this project to Moosach with a great team!"
         image: ../../assets/img/team/susanne.jpeg
         social:
-          - url: "mailto:susanne@unverpack-mucnord.de"
+          - url: "mailto:susanne@unverpackt-mucnord.de"
             icon: far fa-envelope-open
       - name: "Marcus Spreti"
         role: "Mechanical engineer who quit the automotive industry, pilot and grandfather."
         image: ../../assets/img/team/marcus.jpg
         social:
-          - url: "mailto:marcus@unverpack-mucnord.de"
+          - url: "mailto:marcus@unverpackt-mucnord.de"
             icon: far fa-envelope-open
 
     title_ar: "Board"
@@ -522,7 +530,7 @@ en: &DEFAULT_EN
         role: "Cloud Data Engineer, sportsman in his free time. Takes care of the website and other technical stuff."
         image: ../../assets/img/team/beha_round.png
         social:
-          - url: "mailto:admin@unverpack-mucnord.de"
+          - url: "mailto:admin@unverpackt-mucnord.de"
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
@@ -546,6 +554,12 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin
           - url: https://github.com/gpotdevin
             icon: fab fa-github
+      - name: "Stephan Schwerd"
+        role: "Father, outdoory guy and engineer from Munich who wants to make change happen"
+        image: ../../assets/img/team/stephan.jpg
+        social:
+          - url: "mailto:stephan@unverpackt-mucnord.de"
+            icon: far fa-envelope-open
 
   faq:
     title: "Frequently asked question"

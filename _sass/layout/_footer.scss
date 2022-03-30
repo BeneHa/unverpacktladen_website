@@ -1,5 +1,9 @@
 // Styling for the footer
+section#footer {
+  background-color: $gray-400;
+}
 .footer {
+  background-color: $gray-400;
   padding: 25px 0;
   text-align: center;
   span.copyright {
