@@ -31,4 +31,7 @@ collections:
   organisation_de:
   organisation_en:
 
+plugins:
+  - jekyll-seo-tag
+
 markdown: kramdown
