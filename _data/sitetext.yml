@@ -14,7 +14,7 @@ de: &DEFAULT_DE
     title: Unverpackt einkaufen -
     text: bald in der Rieselbar im Münchner Norden!
     button: Erzählt mir mehr
-    buttonlink: "#services"
+    buttonlink: "#about"
 
   about:
     title: "Über uns"
@@ -22,12 +22,10 @@ de: &DEFAULT_DE
     body: "Wir planen, eine Genossenschaft zu gründen, die einen Unverpackt-Laden namens 'Rieselbar' im Münchner Norden betreiben soll.
 
     
-     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Melde Dich bei uns wenn Du dabei sein willst!
+     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Melde Dich bei uns wenn Du dabei sein willst!"
      
-     
-     Du willst uns helfen und uns mitteilen was Du von dem Laden erwartest? Super, dann füll' direkt hier unsere Umfrage aus:"
-    umfragelink: "https://umfrage.unverpackt-mucnord.de/index.php/774938?lang=de-informal"
-    umfragename: "Umfrage"
+    umfragelink: 
+    umfragename: 
     section: about
 
   services:
@@ -249,7 +247,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
   contact:
     title: "Kontaktiere uns"
     text: "Fragen zum Laden oder der Genossenschaft?"
-    formurl: https://umfrage.unverpackt-mucnord.de/index.php/722449?lang=de
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=-rLNDgdgf0i6Ex6xdNuhVX-2ubvVP-5PjuDGusk2tTZUM1ZLNFBXVkc5NUFSMzZOTk9UMUxTVk1ERyQlQCN0PWcu
     emailaddress: "info@unverpackt-mucnord.de"
     mailaufforderung: "Dann schreib uns eine Mail an info@unverpackt-mucnord.de!"
     section: contact
@@ -299,7 +297,7 @@ en: &DEFAULT_EN
     title: Shopping without packaging
     text: Coming soon to the north of Munich!
     button: Tell me more
-    buttonlink: "#services"
+    buttonlink: "#about"
 
   about:
     title: "About us"
@@ -309,12 +307,10 @@ en: &DEFAULT_EN
     Simply because we want to dome good for the environment.
 
 
-    Currently we are preparing everything in order to open up a store in 2022. Let us know if you want to help!
+    Currently we are preparing everything in order to open up a store in 2022. Let us know if you want to help!"
     
-    
-    If you want to give us some information regarding your expectation towards the store, we would be happy if you answer our survey:"
-    umfragelink: "https://umfrage.unverpackt-mucnord.de/index.php/774938?lang=de-informal"
-    umfragename: "Questionnaire"
+    umfragelink: 
+    umfragename: 
     section: about
 
   services:
@@ -489,7 +485,7 @@ en: &DEFAULT_EN
   contact:
     title: "Contact us"
     text: "Questions about the store or the cooperative?"
-    formurl: https://umfrage.unverpackt-mucnord.de/index.php/722449?lang=de
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=-rLNDgdgf0i6Ex6xdNuhVX-2ubvVP-5PjuDGusk2tTZUM1ZLNFBXVkc5NUFSMzZOTk9UMUxTVk1ERyQlQCN0PWcu
     emailaddress: "info@unverpackt-mucnord.de"
     mailaufforderung: "Send us a mail to info@unverpackt-mucnord.de!"
     section: contact

@@ -1,18 +1,18 @@
 // Styling for the navbar
 #mainNav {
-  background-color: rgba(255, 255, 255, 0.8);;
+  background-color: rgba($gray-100, 0.9);;
   .navbar-toggler {
     font-size: 12px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     border: 0;
-    background-color: rgba(255, 255, 255, 0.8);;
+    background-color: rgba($gray-100, 0.9);;
     @include heading-font;
   }
   .navbar-brand {
-    color: white;
+    color: black;
     @include script-font;
     &.active,
     &:active,
@@ -65,7 +65,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: rgba($gray-200, 0.8);;
+      background-color: rgba($gray-100, 0.9);;
       // background-color: $gray-900;
       .navbar-brand {
         font-size: 1.25em;
