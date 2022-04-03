@@ -3,7 +3,7 @@
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="./index.html">
           {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+            <img style="padding: 5px" height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
@@ -17,7 +17,7 @@
         {% for link in site.data.navigation[page.locale].nav %}
           <li class="nav-item">
             {%- if link.url -%}
-              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+              <a class="nav-link js-scroll-trigger hover-underline-animation" href="{{ link.url }}">{{ link.title }}</a>
             {%- else if link.section -%}
               <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
             {%- else -%}
