@@ -19,10 +19,11 @@ de: &DEFAULT_DE
   about:
     title: "Über uns"
     text: ""
-    body: "Wir planen, eine Genossenschaft zu gründen, die einen Unverpackt-Laden namens 'Rieselbar' im Münchner Norden betreiben soll.
+    body: "Wir sind eine Gruppe von engagierten Bürgern aus dem Münchner Norden. Wir haben eine Genossenschaft gegründet mit dem Ziel, einen unverpackt-Laden in der Gegend um Moosach zu eröffnen.
+     
 
-    
-     Derzeit sind wir noch in der Vorbereitung, um im Jahr 2022 den Laden eröffnen zu können. Melde Dich bei uns wenn Du dabei sein willst!"
+     Der Laden wird Rieselbar heißen, wir sind derzeit auf der Suche nach einer geeigneten Ladenfläche. Melde Dich bei uns wenn Du dabei sein willst!
+     "
      
     umfragelink: 
     umfragename: 
@@ -103,13 +104,18 @@ de: &DEFAULT_DE
     end: "Werde ein <br> Teil unserer <br> Geschichte!"
 
   appointments:
-    title: "Nächste Termine"
+    title: "Nächste Termine und vergangene Meilensteine"
     text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail, dann laden wir euch ein."
     kontaktaufforderung: "Kontakt"
     section: appointments
     # left is the default
     #start_align: "left"
     events:
+      - title: "Treffen große Runde nach Ostern"
+        year: "27.04.2022"
+        desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Mitgliederwerbung und Immobiliensuche."
+        align: left
+        image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Wir haben offiziell die Genossenschaft gegründet!"
         year: "07.03.2022"
         desc: "Im Stadtteilladen Moosach haben wir mit Hilfe von Frau Bahar und Herrn Max Riedl der Genossenschaftsverband Bayern 
@@ -118,22 +124,10 @@ de: &DEFAULT_DE
            Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen, der eine Immobilie anbieten kann, dann 
            melden Sie sich gerne per Mail unter [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
         image: ../../assets/img/timeline/gruendung_all.JPG
-        align: left
-        alt:
-      - title: "Gründungstreffen geplant"
-        year: "03.22, 19.30 Uhr"
-        desc: "Wir veranstalten ein Treffen, bei dem wir offiziell die Genossenschaft gründen. Aufgrund der derzeitigen Situation erfolgt die Gründung der Genossenschaft in Abstimmung mit dem Genossenschaftsverband im kleinen Kreis."
         align: right
-        image: ../../assets/img/timeline/Gruendung.jpg
-        alt:
-      - title: "Wahl des Aufsichtsrats, Ernennung der Vorstände"
-        year: "07.02.2022, 19.30 Uhr"
-        desc: "Bewerberinnen und Bewerber für die Posten als Aufsichtsrat oder Vorstand stellen sich vor. Anschließend erfolgt die Wahl des Aufsichtsrat, der wiederum den Vorstand namentlich benennt.<br>Mit den neu gewählten Aufsichtsräten und neu ernannten Vorständen besprechen wir die nächsten Schritte. "
-        align: left
-        image: ../../assets/img/timeline/Wahl.jpg
         alt:
       - title: "350 Personen haben sich an der Umfrage beteiligt"
-        year: "01.02.22"
+        year: "Februar 22"
         desc: "Wir freuen uns über die rege Teilnahme! "
         align: left
         image: ../../assets/img/timeline/Data.jpg
@@ -145,7 +139,7 @@ de: &DEFAULT_DE
         image: ../../assets/img/timeline/InfoAbend.jpg
         alt:
       - title: "Mitte Januar Start der Umfrage"
-        year: "Mitte 01.22"
+        year: "Januar 22"
         desc: "Informationen zum Standort, zu den Öffnungszeiten und zum Warensortiment würden wir gerne über eine Umfrage erhalten. Diese erreichen Sie über unsere Homepage oder über den untenstehenden QR-Code. "
         align: left
         image: ../../assets/img/timeline/Umfrage.jpg
@@ -302,13 +296,11 @@ en: &DEFAULT_EN
   about:
     title: "About us"
     text: "Our Story"
-    body: "We run this store as a registered cooperative.
-
-    Simply because we want to dome good for the environment.
+    body: "We are a group of citizens from the north of Munich. We have founded a cooperative with the goal of opening a packaging-free store in the Moosach area.
 
 
-    Currently we are preparing everything in order to open up a store in 2022. Let us know if you want to help!"
-    
+     The store will be called Rieselbar, we are currently looking for a suitable store location. Feel free to contact us if you are willing to participate!
+     "
     umfragelink: 
     umfragename: 
     section: about
@@ -431,6 +423,11 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - title: "Meeting whole group after easter"
+        year: "27.04.2022"
+        desc: "We discuss the next steps, mainly regarding advertising and location search."
+        align: right
+        image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Official incorporation"
         year: "07.03.2022"
         desc: "With the help of Mrs. Bahar und Mr. Max Riedl of Genossenschaftsverband Bayern, the *Unverpackt Laden München Nord eG* was 
@@ -441,20 +438,8 @@ en: &DEFAULT_EN
         align: left
         image: ../../assets/img/timeline/gruendung_all.JPG
         alt:
-      - title: "Planned incorporation meeting."
-        year: "03.2022, 19.30 Uhr"
-        desc: "We plan a meeting to officially incorporate the cooperative association. Due to the current situation the cooperative association incorporation occurs only in small committee."
-        align: right
-        image: ../../assets/img/timeline/Gruendung.jpg
-        alt:
-      - title: "Election of board and supervisory committee"
-        year: "07.02.2022, 19:30"
-        desc: "Candidates to supervisory and board committees introduce themselves. The supervisory board is then elected and can nominate the board members.<br>The new comittees members and core voluntary team start discussing the next steps."
-        align: left
-        image: ../../assets/img/timeline/Wahl.jpg
-        alt:
       - title: "350 took part to the poll!"
-        year: "01.02.22"
+        year: "February 22"
         desc: "We are thrilled by the high participation quota!"
         align: right
         image: ../../assets/img/timeline/Data.jpg
@@ -466,7 +451,7 @@ en: &DEFAULT_EN
         image: ../../assets/img/timeline/InfoAbend.jpg
         alt:
       - title: "Mid-January - Poll start."
-        year: "Mid 01.22"
+        year: "January 22"
         desc: "We hope to refine our understanding of expectations about location, opening hours and product offerings thanks to a poll. You can find this one on our homepage or by using the dedicated QR code. "
         align: right
         image: ../../assets/img/timeline/Umfrage.jpg
