@@ -105,7 +105,7 @@ de: &DEFAULT_DE
 
   appointments:
     title: "Nächste Termine und vergangene Meilensteine"
-    text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail, dann laden wir euch ein."
+    text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail, dann laden wir euch ein:"
     kontaktaufforderung: "Kontakt"
     section: appointments
     # left is the default
