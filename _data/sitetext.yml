@@ -105,15 +105,20 @@ de: &DEFAULT_DE
 
   appointments:
     title: "Nächste Termine und vergangene Meilensteine"
-    text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail, dann laden wir euch ein."
+    text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail, dann laden wir euch ein:"
     kontaktaufforderung: "Kontakt"
     section: appointments
     # left is the default
     #start_align: "left"
     events:
+      - title: "Treffen große Runde "
+        year: "16.05.2022"
+        desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Finanzierung, Businessplan sowie Immobiliensuche. Außerdem ziehen wir ein erstes Fazit bezüglich der Mitgliederwerbung."
+        align: right
+        image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Treffen große Runde nach Ostern"
         year: "27.04.2022"
-        desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Mitgliederwerbung und Immobiliensuche."
+        desc: "Wir haben uns ausgetauscht bezüglich Mitgliederwerbung: Wir machen nun aktiv Werbung online. Außerdem haben wir uns über Finanzierung sowie Business Plan unterhalten."
         align: left
         image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Wir haben offiziell die Genossenschaft gegründet!"
@@ -423,6 +428,11 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - title: "Meeting whole group after easter"
+        year: "16.05.2022"
+        desc: "We discuss the next steps, mainly regarding finance and location search. Additional we discuss how the advertising went till last time."
+        align: left
+        image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Meeting whole group after easter"
         year: "27.04.2022"
         desc: "We discuss the next steps, mainly regarding advertising and location search."
