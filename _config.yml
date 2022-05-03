@@ -20,10 +20,9 @@ title      : Unverpackt München Nord
 email      : info@unverpackt-mucnord.de 
 description: "Unverpackt einkaufen in München Nord"
 author     : Benedikt Häuser
-logo:     #optional, defaults to site title
-  path: ../../assets/img/logo/gefaesse_noBackground.png
-  height: 80 #height in px, defaults to 52px
-
+logo: ../../assets/img/logo/gefaesse_noBackground.png
+logo-height: 80 #height in px, defaults to 52px
+google_site_verification: i7xJzIzAxyRZpOsJseu9IpQMOIfIaxJU9DLb4aO03pI
 locale: "de" 
 
 collections:
