@@ -3,7 +3,7 @@
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="./index.html">
           {%- if site.logo -%}
-            <img style="padding: 5px" height="{{ site.-.height | default: 52 }}" src="{{ site.logo.path }}"/>
+            <img style="padding: 5px" height="{{ site.-.height | default: 52 }}" src="{{ site.logo }}"/>
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
@@ -36,7 +36,7 @@
     <div class="container">
       <div class="intro-text">
 	  {%- if site.data.sitetext[page.locale].header.title -%}
-        <div class="text-above-background-image intro-lead-in">{{ site.data.sitetext[page.locale].header.title | markdownify }}</div>
+        <div class="text-above-background-image intro-heading text-uppercase">{{ site.data.sitetext[page.locale].header.title | markdownify }}</div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext[page.locale].header.text -%}
         <div class="text-above-background-image intro-heading text-uppercase">{{ site.data.sitetext[page.locale].header.text | markdownify }}</div>

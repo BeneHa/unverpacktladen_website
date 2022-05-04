@@ -207,7 +207,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     people_ar:
       - name: "Benedikt Häuser"
         role: "Cloud Data Engineer, in der Freizeit Sportler. Kümmert sich um die Website und die sonstige Technik."
-        image: ../../assets/img/team/beha_round.png
+        image: ../../assets/img/team/benedikt.JPG
 
         social:
           - url: "mailto:admin@unverpackt-mucnord.de"
@@ -284,6 +284,8 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
         icon: "far fa-envelope-open"
       - url: https://github.com/BeneHa/unverpacktladen_website
         icon: "fab fa-github"
+      - url: https://www.facebook.com/Rieselbar/
+        icon: "fab fa-facebook"
 
 
 
@@ -519,7 +521,7 @@ en: &DEFAULT_EN
     people_ar:
       - name: "Benedikt Häuser"
         role: "Cloud Data Engineer, sportsman in his free time. Takes care of the website and other technical stuff."
-        image: ../../assets/img/team/beha_round.png
+        image: ../../assets/img/team/benedikt.JPG
         social:
           - url: "mailto:admin@unverpackt-mucnord.de"
             icon: far fa-envelope-open
@@ -584,6 +586,8 @@ en: &DEFAULT_EN
         icon: "far fa-envelope-open"
       - url: https://github.com/BeneHa/unverpacktladen_website
         icon: "fab fa-github"
+      - url: https://www.facebook.com/Rieselbar/
+        icon: "fab fa-facebook"
 
 
 en-GB:
