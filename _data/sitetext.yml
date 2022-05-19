@@ -106,20 +106,29 @@ de: &DEFAULT_DE
   appointments:
     title: "Nächste Termine und vergangene Meilensteine"
     text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail, dann laden wir euch ein:"
+    passed_event_headline: "Vergangene Termine"
     kontaktaufforderung: "Kontakt"
     section: appointments
     # left is the default
-    #start_align: "left"
+    start_align: "left"
     events:
+      - title: "Wochenmarkt Feldmoching "
+        year: "20.05.2022"
+        desc: "Wir verteilen Flyer auf dem Feldmochinger Wochenmarkt ab ca. 15 Uhr."
+        image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Treffen große Runde "
-        year: "16.05.2022"
+        year: "30.05.2022"
         desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Finanzierung, Businessplan sowie Immobiliensuche. Außerdem ziehen wir ein erstes Fazit bezüglich der Mitgliederwerbung."
         align: right
+        image: ../../assets/img/timeline/InfoAbend.jpg
+    passed_events:
+      - title: "Treffen große Runde "
+        year: "16.05.2022"
+        desc: "Wir haben über Marketing und die Verteilung der gedruckten Flyer (z.B. Wochenmärkte), eine mögliche Immobilie sowie über den Businessplan gesprochen."
         image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Treffen große Runde nach Ostern"
         year: "27.04.2022"
         desc: "Wir haben uns ausgetauscht bezüglich Mitgliederwerbung: Wir machen nun aktiv Werbung online. Außerdem haben wir uns über Finanzierung sowie Business Plan unterhalten."
-        align: left
         image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Wir haben offiziell die Genossenschaft gegründet!"
         year: "07.03.2022"
@@ -129,24 +138,20 @@ de: &DEFAULT_DE
            Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen, der eine Immobilie anbieten kann, dann 
            melden Sie sich gerne per Mail unter [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
         image: ../../assets/img/timeline/gruendung_all.JPG
-        align: right
         alt:
       - title: "350 Personen haben sich an der Umfrage beteiligt"
         year: "Februar 22"
         desc: "Wir freuen uns über die rege Teilnahme! "
-        align: left
         image: ../../assets/img/timeline/Data.jpg
         alt:
       - title: "Informationsveranstaltung zu den Aufgaben der Vorstände und Aufsichtsräte"
         year: "31.01.22, 19.30 Uhr"
         desc: "Die Aufgaben der Vorstände und Aufsichtsräte wurden vorgestellt."
-        align: right
         image: ../../assets/img/timeline/InfoAbend.jpg
         alt:
       - title: "Mitte Januar Start der Umfrage"
         year: "Januar 22"
         desc: "Informationen zum Standort, zu den Öffnungszeiten und zum Warensortiment würden wir gerne über eine Umfrage erhalten. Diese erreichen Sie über unsere Homepage oder über den untenstehenden QR-Code. "
-        align: left
         image: ../../assets/img/timeline/Umfrage.jpg
         alt:
       - title: "Zoom Meeting mit Herrn Max Riedl vom Genossenschaftsverband Bayern e.V."
@@ -155,7 +160,6 @@ de: &DEFAULT_DE
               • Einblick seine Arbeit und seine Unterstützung für eine Genossenschaft <br>
               • Notwendigkeit von aktiven Mitgliedern in den Fokus gestellt <br>
               • Die Gründung der Genossenschaft wird in Kürze stattfinden"
-        align: right
         image: ../../assets/img/timeline/Meeting.jpg
         alt:
 
