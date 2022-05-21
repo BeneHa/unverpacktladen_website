@@ -17,6 +17,11 @@
       </div>
     </div>
   </div>
+  <div>
+    <p></p>
+    <p style="margin-bottom: 10px; text-align: center;">{{ site.data.sitetext[page.locale].contact.text | default: "" }}</p>
+    <p style="text-align: center"><a href="mailto:{{ site.data.sitetext[page.locale].contact.emailaddress }}" >{{ site.data.sitetext[page.locale].contact.mailaufforderung }}</a></p>
+  </div>
   <div class="container-fluid" style="width:100%">
     <div class="row">
       <img style="width:100%; padding:5%" src="../../assets/img/faq/faq.png">
