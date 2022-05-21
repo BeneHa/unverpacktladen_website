@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /feature
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.unverpackt-mucnord.de/sitemap.txt
