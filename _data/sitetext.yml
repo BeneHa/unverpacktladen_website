@@ -249,10 +249,10 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
 
   contact:
     title: "Kontaktiere uns"
-    text: "Fragen zum Laden oder der Genossenschaft?"
+    text: "Hast du noch spezielle Fragen zum Laden oder der Genossenschaft?"
     formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=-rLNDgdgf0i6Ex6xdNuhVX-2ubvVP-5PjuDGusk2tTZUM1ZLNFBXVkc5NUFSMzZOTk9UMUxTVk1ERyQlQCN0PWcu
     emailaddress: "info@unverpackt-mucnord.de"
-    mailaufforderung: "Dann schreib uns eine Mail an info@unverpackt-mucnord.de!"
+    mailaufforderung: "Dann kontaktiere uns gerne persönlich per E-Mail an: info@unverpackt-mucnord.de"
     section: contact
 
   faq:
@@ -286,10 +286,12 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     social:
       - url: mailto:info@unverpackt-mucnord.de
         icon: "far fa-envelope-open"
-      - url: https://github.com/BeneHa/unverpacktladen_website
-        icon: "fab fa-github"
       - url: https://www.facebook.com/Rieselbar/
         icon: "fab fa-facebook"
+      - url: https://www.instagram.com/rieselbar/
+        icon: "fab fa-instagram"
+      - url: https://github.com/BeneHa/unverpacktladen_website
+        icon: "fab fa-github"
 
 
 
@@ -588,10 +590,12 @@ en: &DEFAULT_EN
     social:
       - url: mailto:info@unverpackt-mucnord.de
         icon: "far fa-envelope-open"
-      - url: https://github.com/BeneHa/unverpacktladen_website
-        icon: "fab fa-github"
       - url: https://www.facebook.com/Rieselbar/
         icon: "fab fa-facebook"
+      - url: https://www.instagram.com/rieselbar/
+        icon: "fab fa-instagram"
+      - url: https://github.com/BeneHa/unverpacktladen_website
+        icon: "fab fa-github"
 
 
 en-GB:
