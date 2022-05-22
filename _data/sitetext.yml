@@ -112,16 +112,16 @@ de: &DEFAULT_DE
     # left is the default
     start_align: "left"
     events:
-      - title: "Wochenmarkt Feldmoching "
-        year: "20.05.2022"
-        desc: "Wir verteilen Flyer auf dem Feldmochinger Wochenmarkt ab ca. 15 Uhr."
-        image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Treffen große Runde "
         year: "30.05.2022"
         desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Finanzierung, Businessplan sowie Immobiliensuche. Außerdem ziehen wir ein erstes Fazit bezüglich der Mitgliederwerbung."
         align: right
         image: ../../assets/img/timeline/InfoAbend.jpg
     passed_events:
+      - title: "Wochenmarkt Feldmoching "
+        year: "20.05.2022"
+        desc: "Wir verteilen Flyer auf dem Feldmochinger Wochenmarkt ab ca. 15 Uhr."
+        image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Treffen große Runde "
         year: "16.05.2022"
         desc: "Wir haben über Marketing und die Verteilung der gedruckten Flyer (z.B. Wochenmärkte), eine mögliche Immobilie sowie über den Businessplan gesprochen."
@@ -272,7 +272,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
       answer: "Wir haben verschiedene Arbeitsgruppen, die sich um Themen wie den Laden, Finanzen oder Technik kümmern. Schreib uns eine [Mail](mailto:info@unverpackt-mucnord.de), dann besprechen wir wo es für dich Sinn machen würde mitzumachen."
     - question: "Wie läuft die Arbeit in der Genossenschaft?"
       answer: "Jede Arbeitsgruppe tauscht sich individuell aus, wir nutzen für die Kommunikation meist Microsoft Teams, Zoom oder treffen uns persönlich. Zu wichtigen Anlässen stimmen sich die Aufsichtsräte und Vorstände dann ab, um ein Treffen mit allen Mitgliedern zu organisieren (bisher immer als Videokonferenz)."
-    - question: "Welche Leistungen müssen Mitglieder leisten?"
+    - question: "Welche Leistungen müssen Mitglieder erbringen?"
       answer: "Du musst bei uns gar keine Leistungen erbringen, die Mitarbeit in den Arbeitsgruppen ist komplett freiwillig."
     - question: "Gibt es eine Nachschusspflicht?"
       answer: "Nein, das ist laut unserer [Satzung](../../lang/de/membership.html) nicht vorgesehen. Das bedeutet, dass es nicht passieren kann, dass du zusätzlich zu dem Geld für deine Anteile noch etwas nachzahlen musst."
