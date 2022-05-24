@@ -171,6 +171,9 @@ de: &DEFAULT_DE
       - title: "tz"
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
         logo: ../../assets/img/clients/tz.png
+      - title: "HalloMünchen"
+        url: https://www.hallo-muenchen.de/muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
+        logo: ../../assets/img/clients/halloMuenchen.jpeg
       - title: "Lokalanzeiger"
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
         logo: ../../assets/img/clients/lokalanzeiger.png
@@ -404,6 +407,9 @@ en: &DEFAULT_EN
       - title: "tz"
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
         logo: ../../assets/img/clients/tz.png
+      - title: "HalloMünchen"
+        url: https://www.hallo-muenchen.de/muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
+        logo: ../../assets/img/clients/halloMuenchen.jpeg
       - title: "Lokalanzeiger"
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
         logo: ../../assets/img/clients/lokalanzeiger.png
