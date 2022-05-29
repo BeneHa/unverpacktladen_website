@@ -19,6 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title      : Unverpackt München Nord - die Rieselbar
 email      : info@unverpackt-mucnord.de 
 description: "Unverpackt einkaufen in München Nord"
+image: "../../assets/img/header_oben.png"
 author     : Benedikt Häuser
 logo: ../../assets/img/logo/gefaesse_noBackground.png
 logo-height: 80 #height in px, defaults to 52px
