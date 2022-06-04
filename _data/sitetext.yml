@@ -178,6 +178,9 @@ de: &DEFAULT_DE
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
         logo: ../../assets/img/clients/lokalanzeiger.png
 
+  social_media:
+    title: Neues aus den sozialen Netzwerken
+    section: socialmedia
 
   team:
     title_vs: "Vorstand"
@@ -397,7 +400,9 @@ en: &DEFAULT_EN
       
     end: "Become a <br> part of <br> our story!"
 
-
+  social_media:
+    title: News from social media
+    section: socialmedia
 
   clients:
     section: clients
