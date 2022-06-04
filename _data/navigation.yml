@@ -19,8 +19,6 @@ de: &DEFAULT_DE
       url: ./upcoming.html
     - title: "Mitgliedschaft"
       url: ./membership.html
-    - title: "Organisation"
-      url: ./organisation.html
     - title: "Fragen?"
       url: ./faq.html
 
@@ -35,8 +33,6 @@ en: &DEFAULT_EN
       url: ./membership.html
     - title: "Appointments"
       url: ./upcoming.html
-    - title: "Organization"
-      url: ./organisation.html
     - title: "Questions?"
       url: ./faq.html
 
