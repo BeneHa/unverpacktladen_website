@@ -11,7 +11,7 @@
       <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext[page.locale].about.body | markdownify }}</div>
         {% if site.data.sitetext[page.locale].about.umfragelink %}
-        <h2 class="section-subheading text-muted"><a href="{{ site.data.sitetext[page.locale].about.umfragelink }}" style="color:blue">{{ site.data.sitetext[page.locale].about.umfragename }}</a></h2>
+        <h2 class="section-subheading text-muted"><a href="{{ site.data.sitetext[page.locale].about.umfragelink }}">{{ site.data.sitetext[page.locale].about.umfragename }}</a></h2>
         {% endif %}
         
       </div>
