@@ -200,7 +200,7 @@ de: &DEFAULT_DE
       - name: "Susanne Hofstetter"
         role: "Ich möchte meinen 3 Kindern 11,14 & 16 ein gutes Vorbild sein in Sachen Umweltschutz. 
 Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Projekt nach Moosach zu bringen."
-        image: ../../assets/img/team/susanne.jpeg
+        image: ../../assets/img/team/susanne.png
         social:
           - url: "mailto:susanne@unverpackt-mucnord.de"
             icon: far fa-envelope-open
@@ -521,7 +521,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook
       - name: "Susanne Hofstetter"
         role: "I want to be a role model for my children of 11, 14 and 16 years when it comes to environmental protection. Besides, it is fun to bring this project to Moosach with a great team!"
-        image: ../../assets/img/team/susanne.jpeg
+        image: ../../assets/img/team/susanne.png
         social:
           - url: "mailto:susanne@unverpackt-mucnord.de"
             icon: far fa-envelope-open
