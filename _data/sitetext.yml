@@ -22,7 +22,10 @@ de: &DEFAULT_DE
     body: "Wir sind eine Gruppe von engagierten Bürgern aus dem Münchner Norden. Wir haben eine Genossenschaft gegründet mit dem Ziel, einen unverpackt-Laden in der Gegend um Moosach zu eröffnen.
      
 
-     Der Laden wird Rieselbar heißen, wir sind derzeit auf der Suche nach einer geeigneten Ladenfläche. Melde Dich bei uns wenn Du dabei sein willst!
+    Seit Ende 2021 sind wir mit Planungen und Vorbereitungen beschäftigt. Im März 2022 hatten wir unsere Gründungsversammlung, seitdem sind wir in Gesprächen mit möglichen Vermietern, werben um weitere Mitglieder und konkretisiereen unseren Business Plan.
+
+
+     Der Laden wird Rieselbar heißen und als Ort haben wir uns für Moosach entschieden. Melde Dich bei uns wenn Du dabei sein willst!
      "
      
     umfragelink: 
@@ -79,17 +82,18 @@ de: &DEFAULT_DE
     # left is the default
     #start_align: "left"
     events:
+      - title: "Stadtteilkulturtage Moosach"
+        year: "25 Juni 2022"
+        desc: "Wir präsentieren uns mit einem Stand und Flyern auf den Stadtteilkulturtagen Moosach."
+        align: left
+        image: ../../assets/img/timeline/stadtteilkulturtage_small.jpg
+        alt:
       - title: "Gründung der Genossenschaft!"
         year: "7 März 2022"
         desc: "Offizielle Gründung der *Unverpackt Laden München Nord eG*! Jetzt wird ein Lokal aktiv gesucht. Wir freuen uns auf jeden Tipp!"
         align: right
         image: ../../assets/img/timeline/gruendung_all.JPG
         alt:
-      - title: "Arbeitsgruppen"
-        year: "ab Dezember 2021"
-        desc: "In verschiedenen Arbeitsgruppen haben wir uns auf die verschiedenen Themen aufgeteilt, um uns z.B. um den Business Plan, Ladensuche oder die IT zu kümmern."
-        image: ../../assets/img/timeline/3.jpg
-        alt: 
       - title: "Das erste Treffen"
         year: "17.11.2021"
         desc: "Bei der ersten Infoveranstaltung in Moosach wird die Idee vorgestellt und Unterstützer gesucht."
@@ -112,23 +116,19 @@ de: &DEFAULT_DE
     # left is the default
     start_align: "left"
     events:
-      - title: "Treffen große Runde "
-        year: "30.05.2022"
-        desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Finanzierung, Businessplan sowie Immobiliensuche. Außerdem ziehen wir ein erstes Fazit bezüglich der Mitgliederwerbung."
+      - title: "Treffen große Runde"
+        year: "18.07.2022"
+        desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Finanzierung, Businessplan sowie Immobiliensuche. Außerdem ziehen wir ein Fazit bezüglich der Mitgliederwerbung."
         align: right
         image: ../../assets/img/timeline/InfoAbend.jpg
     passed_events:
-      - title: "Wochenmarkt Feldmoching "
-        year: "20.05.2022"
-        desc: "Wir verteilen Flyer auf dem Feldmochinger Wochenmarkt ab ca. 15 Uhr."
-        image: ../../assets/img/timeline/InfoAbend.jpg
+      - title: "Stadtteilkulturtage Moosach"
+        year: "25.06.2022"
+        desc: "Wir verteilen Flyer auf den Stadtteilkulturtagen und werben neue Mitglieder"
+        image: ../../assets/img/timeline/stadtteilkulturtage_small.jpg
       - title: "Treffen große Runde "
         year: "16.05.2022"
         desc: "Wir haben über Marketing und die Verteilung der gedruckten Flyer (z.B. Wochenmärkte), eine mögliche Immobilie sowie über den Businessplan gesprochen."
-        image: ../../assets/img/timeline/InfoAbend.jpg
-      - title: "Treffen große Runde nach Ostern"
-        year: "27.04.2022"
-        desc: "Wir haben uns ausgetauscht bezüglich Mitgliederwerbung: Wir machen nun aktiv Werbung online. Außerdem haben wir uns über Finanzierung sowie Business Plan unterhalten."
         image: ../../assets/img/timeline/InfoAbend.jpg
       - title: "Wir haben offiziell die Genossenschaft gegründet!"
         year: "07.03.2022"
@@ -143,11 +143,6 @@ de: &DEFAULT_DE
         year: "Februar 22"
         desc: "Wir freuen uns über die rege Teilnahme! "
         image: ../../assets/img/timeline/Data.jpg
-        alt:
-      - title: "Informationsveranstaltung zu den Aufgaben der Vorstände und Aufsichtsräte"
-        year: "31.01.22, 19.30 Uhr"
-        desc: "Die Aufgaben der Vorstände und Aufsichtsräte wurden vorgestellt."
-        image: ../../assets/img/timeline/InfoAbend.jpg
         alt:
       - title: "Mitte Januar Start der Umfrage"
         year: "Januar 22"
@@ -267,7 +262,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     - question: "Warum eine Genossenschaft?"
       answer: "Wir alle möchten helfen, einen Laden zu eröffnen, aber wir haben hauptberufliche Jobs, denen wir auch weiterhin nachgehen wollen. Indem wir das Projekt als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit so viel Geld, wie er einzahlen will."
     - question: "Ist die Genossenschaft eingetragen?"
-      answer: "Noch nicht, daran arbeiten wir gerade. Wir hoffen, dass dies im April oder Mai abgeschlossen ist."
+      answer: "Noch nicht, daran arbeiten wir gerade. Wir hoffen, dass dies im Juli abgeschlossen ist."
     - question: "Wie ist eine Genossenschaft aufgebaut?"
       answer: "Die Mitglieder wählen bei der Generalversammlung den Aufsichtsrat, der wiederum den Vorstand einsetzt. Der Vorstand führt dann die Geschäfte der Genossenschaft."
     - question: "Wie kann ich Mitglied werden?"
@@ -284,6 +279,8 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
       answer: "Nein, das ist laut unserer [Satzung](../../lang/de/membership.html) nicht vorgesehen. Das bedeutet, dass es nicht passieren kann, dass du zusätzlich zu dem Geld für deine Anteile noch etwas nachzahlen musst."
     - question: "Was ist, wenn ich aussteigen will?"
       answer: "Jedes Mitglied hat das Recht, die Mitgliedschaft zum Ende des Kalenderjahres zu kündigen. Die Kündigung muss spätestens sechs Monate vorher schriftlich erfolgen und ist frühestens zum Ende des dritten Geschäftsjahres nach dem Mitgliedsbeitritt möglich."
+    - question: "Was ist der aktuelle Status?"
+      answer: "Stand Ende Juni 22 sind wir auf der Suche nach einer Ladenfläche und nach weiteren Mitgliedern. Der Businessplan ist fertig berechnet, wir präsentieren uns bei verschiedenen Veranstaltungen wie z.B. den Stadtteilkulturtagen Moosach mit einem Stand und Flyern. Auch auf Social Media machen wir Werbung und suchen Mitglieder, Lieferanten und Interessierte."
 
 
 
