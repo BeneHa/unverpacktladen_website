@@ -86,7 +86,7 @@ de: &DEFAULT_DE
         year: "25 Juni 2022"
         desc: "Wir präsentieren uns mit einem Stand und Flyern auf den Stadtteilkulturtagen Moosach."
         align: left
-        image: ../../assets/img/timeline/stadtteilkulturtage_small.jpg
+        image: ../../assets/img/timeline/stadtteilkulturtage_small.JPG
         alt:
       - title: "Gründung der Genossenschaft!"
         year: "7 März 2022"
@@ -125,7 +125,7 @@ de: &DEFAULT_DE
       - title: "Stadtteilkulturtage Moosach"
         year: "25.06.2022"
         desc: "Wir verteilen Flyer auf den Stadtteilkulturtagen und werben neue Mitglieder"
-        image: ../../assets/img/timeline/stadtteilkulturtage_small.jpg
+        image: ../../assets/img/timeline/stadtteilkulturtage_small.JPG
       - title: "Treffen große Runde "
         year: "16.05.2022"
         desc: "Wir haben über Marketing und die Verteilung der gedruckten Flyer (z.B. Wochenmärkte), eine mögliche Immobilie sowie über den Businessplan gesprochen."
