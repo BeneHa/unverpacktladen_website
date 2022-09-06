@@ -116,12 +116,15 @@ de: &DEFAULT_DE
     # left is the default
     start_align: "left"
     events:
+      - title: "Treffen nach der Sommerpause"
+        year: "10.09.2022"
+        desc: "Wir besprechen was in der Sommerpause passiert ist und wie es weitergeht. Melde dich bei uns wenn du vorbeischauen willst!"
+    passed_events:
       - title: "Treffen große Runde"
         year: "18.07.2022"
         desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Finanzierung, Businessplan sowie Immobiliensuche. Außerdem ziehen wir ein Fazit bezüglich der Mitgliederwerbung."
         align: right
         image: ../../assets/img/timeline/InfoAbend.jpg
-    passed_events:
       - title: "Stadtteilkulturtage Moosach"
         year: "25.06.2022"
         desc: "Wir verteilen Flyer auf den Stadtteilkulturtagen und werben neue Mitglieder"
