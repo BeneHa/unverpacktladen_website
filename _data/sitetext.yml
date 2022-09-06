@@ -163,6 +163,9 @@ de: &DEFAULT_DE
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
+      - title: "SZ"
+        url: https://www.sueddeutsche.de/muenchen/muenchen-nachhaltigkeit-unverpackt-laden-inflation-verpackungsmuell-umwelt-laim-1.5650655
+        logo: ../../assets/img/clients/sz.jpeg
       - title: "tz"
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
         logo: ../../assets/img/clients/tz.png
@@ -408,6 +411,9 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
+      - title: "SZ"
+        url: https://www.sueddeutsche.de/muenchen/muenchen-nachhaltigkeit-unverpackt-laden-inflation-verpackungsmuell-umwelt-laim-1.5650655
+        logo: ../../assets/img/clients/sz.jpeg
       - title: "tz"
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
         logo: ../../assets/img/clients/tz.png
