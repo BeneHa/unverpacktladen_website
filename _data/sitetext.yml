@@ -119,6 +119,8 @@ de: &DEFAULT_DE
       - title: "Treffen nach der Sommerpause"
         year: "10.09.2022"
         desc: "Wir besprechen was in der Sommerpause passiert ist und wie es weitergeht. Melde dich bei uns wenn du vorbeischauen willst!"
+        image: ../../assets/img/timeline/gruendung_all.JPG
+        align: left
     passed_events:
       - title: "Treffen große Runde"
         year: "18.07.2022"
