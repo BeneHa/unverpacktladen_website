@@ -292,7 +292,15 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     - question: "Ich gehe schon auf den Wochenmarkt. Worin unterscheidet sich der Unverpackt-Laden?"
       answer: "Das Sortiment eines Unverpackt-Ladens ist breiter. Es gibt nicht nur Obst und Gemüse, sondern auch Trockenware wie Mehl, Bohnen und Reis sowie Kosmetikartikel wie Seife, Shampoo und Zahnpastatabs."
 
-
+  progress:
+    title: Fortschritt
+    items:
+      - text: Der Businessplan ist fast fertig und wird derzeit mit dem Genossenschaftsverband geprüft.
+        index: 1
+      - text: Wir haben schon fast 50 Mitglieder, brauchen aber noch deutlich mehr um den Laden betreiben zu können.
+        index: 2
+      - text: Wir haben schon verschiedene möglich Läden angeschaut und mit Vermietern gesprochen, sind aber nach wie vor auf der Suche nach einer passenden Fläche.
+        index: 3
 
   footer:
     legal: "Impressum"

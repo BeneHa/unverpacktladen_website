@@ -1,0 +1,22 @@
+<!-- Progress -->
+<section class="py-5"   id="{{ site.data.sitetext[page.locale].progress.section | default: "progress" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[page.locale].progress.title | markdownify | default: "Fortschritt" }}</h2>
+      </div>
+    </div>
+    <div class="row" >
+      <div class="container" style="text-align: center;">    
+
+    {% for item in site.data.sitetext[page.locale].progress.items %}
+      <div class="progress progress-striped">
+        <div class="progress-bar progress-bar-{{ item.index }}">
+        </div> 
+      </div> 
+      <p style="padding-bottom: 5vh; padding-top: 1vh">{{ item.text }}</p>
+    {% endfor %}
+  </div>
+    </div>
+  </div>
+</section>
