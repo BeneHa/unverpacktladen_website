@@ -297,10 +297,16 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     items:
       - text: Der Businessplan ist fast fertig und wird derzeit mit dem Genossenschaftsverband geprüft.
         index: 1
+        text1: Business
+        text2: Eingetragene Genossenschaft
       - text: Wir haben schon fast 50 Mitglieder, brauchen aber noch deutlich mehr um den Laden betreiben zu können.
         index: 2
-      - text: Wir haben schon verschiedene möglich Läden angeschaut und mit Vermietern gesprochen, sind aber nach wie vor auf der Suche nach einer passenden Fläche.
+        text1: Mitglieder und Kapital
+        text2: 70.000€ Startkapital
+      - text: Wir haben schon verschiedene mögliche Läden angeschaut und mit Vermietern gesprochen, sind aber nach wie vor auf der Suche nach einer passenden Fläche.
         index: 3
+        text1: Laden
+        text2: Laden ist angemietet und eingerichtet
 
   footer:
     legal: "Impressum"
