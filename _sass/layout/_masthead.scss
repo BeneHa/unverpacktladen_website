@@ -8,6 +8,23 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+
+  .hint-box {
+    padding-top: 140px;
+    .hint {
+      background-color: #fcba03b9;
+      color: $primary;
+      min-height: 70px;
+      font-size: 2em;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      box-shadow: 0 0 7px 5px #fcba03b9;
+      @include serif-font;
+      font-weight: bold;
+    }
+  }
+
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
