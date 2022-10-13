@@ -34,7 +34,10 @@
   <!-- Header -->
   <header class="masthead">
     <div class="container">
+      {% assign now = "now" | date: "%Y-%m-%d" %}
+      {% if  now == '2022-10-13' or now == '2022-10-14' %}
       <div class="hint-box"><div class="hint"><span>Freitag, 14. Oktober 13:00 - 18:00 Uhr: Treff' uns beim Nachhaltigkeitsfest am Pelkovenschlössl (<a target="_blank" href="https://www.pelkovenschloessl.de/veranstaltung/1-moosacher-energie-und-nachhaltigkeits-messe-abschluss-der-energie-nachhaltigkeitswoche-der-stadtsanierung-moosach/">Veranstaltungslink</a>)!</span></div></div>
+      {% endif %}
       <div class="intro-text">
 	  {%- if site.data.sitetext[page.locale].header.title -%}
         <div class="text-above-background-image intro-heading text-uppercase">{{ site.data.sitetext[page.locale].header.title | markdownify }}</div>
