@@ -116,12 +116,17 @@ de: &DEFAULT_DE
     # left is the default
     start_align: "left"
     events:
+    passed_events:
+      - title: "Nachhaltigkeitsmesse Pelkovenschlössel"
+        year: "14.10.2022"
+        desc: "Wir haben auf der Nachhaltigkeitsmesse am Pelkovenschlössel euch informiert, über den aktuellen Stand und unser Projekt vorgestellt!"
+        image: ../../assets/img/timeline/2022-10_Nachhaltigkeitsmesse.jpeg
+        align: right
       - title: "Treffen nach der Sommerpause"
         year: "10.09.2022"
         desc: "Wir besprechen was in der Sommerpause passiert ist und wie es weitergeht. Melde dich bei uns wenn du vorbeischauen willst!"
         image: ../../assets/img/timeline/gruendung_all.JPG
         align: left
-    passed_events:
       - title: "Treffen große Runde"
         year: "18.07.2022"
         desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Finanzierung, Businessplan sowie Immobiliensuche. Außerdem ziehen wir ein Fazit bezüglich der Mitgliederwerbung."
