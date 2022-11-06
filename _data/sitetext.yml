@@ -82,9 +82,9 @@ de: &DEFAULT_DE
     # left is the default
     #start_align: "left"
     events:
-      - title: "Stadtteilkulturtage Moosach"
-        year: "25 Juni 2022"
-        desc: "Wir präsentieren uns mit einem Stand und Flyern auf den Stadtteilkulturtagen Moosach."
+      - title: "Nachhaltigkeitsmesse Moosach"
+        year: "15 Oktober 2022"
+        desc: "Wir präsentieren uns mit einem Stand und Flyern auf der Nachhaltigkeitsmesse am Pelkovenschlössl."
         align: left
         image: ../../assets/img/timeline/stadtteilkulturtage_small.JPG
         alt:
