@@ -17,7 +17,7 @@ url    : "https://unverpackt-mucnord.de"
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Unverpackt München Nord - die Rieselbar
-email      : info@unverpackt-mucnord.de 
+email      : info@rieselbar.de 
 description: "Unverpackt einkaufen in München Nord"
 image:
   path: assets/img/logo/gefaesse_noBackground.png

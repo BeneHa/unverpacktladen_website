@@ -33,7 +33,7 @@ Wir planen derzeit eine Genossenschaft zu gründen, sind derzeit aber noch nicht
 Benedikt Häuser\
 Hardenbergstraße 24\
 80992 München\
- <a href="mailto:admin@unverpackt-mucnord.de">admin@unverpackt-mucnord.de</a>
+ <a href="mailto:admin@rieselbar.de">admin@rieselbar.de</a>
 
 
 **BILDER AUF DIESER WEBSEITE**
