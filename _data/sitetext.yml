@@ -70,7 +70,7 @@ de: &DEFAULT_DE
      - title: "Beitrittserklärung ausfüllen und an uns versenden"
        link: "cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf"
        icon: fas fa-envelope-open-text
-       desc: "Fülle die [Beitrittserklärung](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) zu unserer Genossenschaft aus und schicke sie an: [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
+       desc: "Fülle die [Beitrittserklärung](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) zu unserer Genossenschaft aus und schicke sie an: [info@rieselbar.de](mailto:info@rieselbar.de)"
      - title: "Überweisung des Betrags der Anteile"
        icon: fas fa-credit-card
        desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile. <br> <sup>(Da aktuell noch kein Bankkonto für die Genossenschaft vorhanden ist, werden wir nochmal auf Euch zukommen, sobald der Betrag überwiesen werden kann.)</sup>
@@ -146,7 +146,7 @@ de: &DEFAULT_DE
           die Genossenschaft *Unverpackt Laden München Nord eG* gegründet. Jetzt sind wir bereit für die nächste Schritte!<br>
            Weiterhin sind wir auf jede Art von Unterstützung angewiesen!<br>
            Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen, der eine Immobilie anbieten kann, dann 
-           melden Sie sich gerne per Mail unter [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
+           melden Sie sich gerne per Mail unter [info@rieselbar.de](mailto:info@rieselbar.de)"
         image: ../../assets/img/timeline/gruendung_all.JPG
         alt:
       - title: "350 Personen haben sich an der Umfrage beteiligt"
@@ -199,7 +199,7 @@ de: &DEFAULT_DE
         role: "Nachhaltigkeitsfetischistin und -bloggerin. Kümmert sich um alles was mit Kommunikation und IT zu tun hat."
         image: ../../assets/img/team/isa.jpg
         social:
-          - url: "mailto:isa@unverpackt-mucnord.de"
+          - url: "mailto:isa@rieselbar.de"
             icon: far fa-envelope-open
           - url: https://www.instagram.com/lgv.muc/
             icon: fab fa-instagram
@@ -210,13 +210,13 @@ de: &DEFAULT_DE
 Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Projekt nach Moosach zu bringen."
         image: ../../assets/img/team/susanne.png
         social:
-          - url: "mailto:susanne@unverpackt-mucnord.de"
+          - url: "mailto:susanne@rieselbar.de"
             icon: far fa-envelope-open
       - name: "Marcus Spreti"
         role: "Maschinenbautechniker und Aussteiger in der Autoindustrie, Opa und Pilot"
         image: ../../assets/img/team/marcus.jpg
         social:
-          - url: "mailto:marcus@unverpackt-mucnord.de"
+          - url: "mailto:marcus@rieselbar.de"
             icon: far fa-envelope-open
 
     title_ar: "Aufsichtsrat"
@@ -228,7 +228,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
         image: ../../assets/img/team/benedikt.JPG
 
         social:
-          - url: "mailto:admin@unverpackt-mucnord.de"
+          - url: "mailto:admin@rieselbar.de"
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
@@ -248,7 +248,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
         role: "Tagsüber engagiert in Krebsforschung, nachts Vater, auch gerne in Bergen unterwegs!"
         image: ../../assets/img/team/guillaume.png
         social:
-          - url: "mailto:guillaume@unverpackt-mucnord.de"
+          - url: "mailto:guillaume@rieselbar.de"
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
             icon: fab fa-linkedin
@@ -258,15 +258,15 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
         role: "Papa, Outdoormensch und Ingenieur aus München hat Lust etwas zu verändern"
         image: ../../assets/img/team/stephan.jpg
         social:
-          - url: "mailto:stephan@unverpackt-mucnord.de"
+          - url: "mailto:stephan@rieselbar.de"
             icon: far fa-envelope-open
 
   contact:
     title: "Kontaktiere uns"
     text: "Hast du noch spezielle Fragen zum Laden oder der Genossenschaft?"
-    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=-rLNDgdgf0i6Ex6xdNuhVX-2ubvVP-5PjuDGusk2tTZUM1ZLNFBXVkc5NUFSMzZOTk9UMUxTVk1ERyQlQCN0PWcu
-    emailaddress: "info@unverpackt-mucnord.de"
-    mailaufforderung: "Dann kontaktiere uns gerne persönlich per E-Mail an: info@unverpackt-mucnord.de"
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=LKPdCE7ywEGhgW7q7A5dymOqK-DRc9BFsOUr_0KB335UMEJRV0VPMlNVUFJSUk9OMExCNEY1RzQxNy4u
+    emailaddress: "info@rieselbar.de"
+    mailaufforderung: "Dann kontaktiere uns gerne persönlich per E-Mail an: info@rieselbar.de"
     section: contact
 
   faq:
@@ -283,7 +283,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     - question: "Was ist der Mindest- und Höchstbeitrag?"
       answer: "Es ist möglich, einen oder mehrere Anteile pro Person zu kaufen, ein Anteil kostet 150€. Eine Höchstzahl an Anteilen gibt es nicht."
     - question: "Wie kann ich mich einbringen?"
-      answer: "Wir haben verschiedene Arbeitsgruppen, die sich um Themen wie den Laden, Finanzen oder Technik kümmern. Schreib uns eine [Mail](mailto:info@unverpackt-mucnord.de), dann besprechen wir näheres."
+      answer: "Wir haben verschiedene Arbeitsgruppen, die sich um Themen wie den Laden, Finanzen oder Technik kümmern. Schreib uns eine [Mail](mailto:info@rieselbar.de), dann besprechen wir näheres."
     - question: "Wie läuft die Arbeit in der Genossenschaft ab?"
       answer: "Jede Arbeitsgruppe tauscht sich individuell aus, wir nutzen dafür Microsoft Teams, Zoom oder treffen uns persönlich. Zu wichtigen Anlässen stimmen sich die Aufsichtsräte und Vorstände dann ab, und ein Treffen mit allen Mitgliedern wird organisiert, bis jetzt meistens online."
     - question: "Welche Leistungen müssen Mitglieder erbringen?"
@@ -316,7 +316,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
   footer:
     legal: "Impressum"
     social:
-      - url: mailto:info@unverpackt-mucnord.de
+      - url: mailto:info@rieselbar.de
         icon: "far fa-envelope-open"
       - url: https://www.facebook.com/Rieselbar/
         icon: "fab fa-facebook"
@@ -389,7 +389,7 @@ en: &DEFAULT_EN
      - title: "Fill Declaration of Accession and send it to us"
        link: "cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf"
        icon: fas fa-envelope-open-text
-       desc: "Fill the [Declaration of Accession](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) for our cooperative and send it to: [info@unverpackt-mucnord.de](mailto:info@unverpackt-mucnord.de)"
+       desc: "Fill the [Declaration of Accession](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) for our cooperative and send it to: [info@rieselbar.de](mailto:info@rieselbar.de)"
      - title: "Transfer the amount"
        icon: fas fa-credit-card
        desc: Transfer your signed share.
@@ -492,7 +492,7 @@ en: &DEFAULT_EN
         officially incorporated.<br>
            We are still looking for help and support!<br>
            Would you have interest in joining us in this team work or if you know someone offering an adequate location, 
-           then feel free to reach us per email: info@unverpackt-mucnord.de"
+           then feel free to reach us per email: info@rieselbar.de"
         align: left
         image: ../../assets/img/timeline/gruendung_all.JPG
         alt:
@@ -528,9 +528,9 @@ en: &DEFAULT_EN
   contact:
     title: "Contact us"
     text: "Questions about the store or the cooperative?"
-    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=-rLNDgdgf0i6Ex6xdNuhVX-2ubvVP-5PjuDGusk2tTZUM1ZLNFBXVkc5NUFSMzZOTk9UMUxTVk1ERyQlQCN0PWcu
-    emailaddress: "info@unverpackt-mucnord.de"
-    mailaufforderung: "Send us a mail to info@unverpackt-mucnord.de!"
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=LKPdCE7ywEGhgW7q7A5dymOqK-DRc9BFsOUr_0KB335UMEJRV0VPMlNVUFJSUk9OMExCNEY1RzQxNy4u
+    emailaddress: "info@rieselbar.de"
+    mailaufforderung: "Send us a mail to info@rieselbar.de!"
     section: contact
 
   team:
@@ -542,7 +542,7 @@ en: &DEFAULT_EN
         role: "Sustainability freak and blogger. Takes care of communications and IT."
         image: ../../assets/img/team/isa.jpg
         social:
-          - url: "mailto:isa@unverpackt-mucnord.de"
+          - url: "mailto:isa@rieselbar.de"
             icon: far fa-envelope-open
           - url: https://www.instagram.com/lgv.muc/
             icon: fab fa-instagram
@@ -552,13 +552,13 @@ en: &DEFAULT_EN
         role: "I want to be a role model for my children of 11, 14 and 16 years when it comes to environmental protection. Besides, it is fun to bring this project to Moosach with a great team!"
         image: ../../assets/img/team/susanne.png
         social:
-          - url: "mailto:susanne@unverpackt-mucnord.de"
+          - url: "mailto:susanne@rieselbar.de"
             icon: far fa-envelope-open
       - name: "Marcus Spreti"
         role: "Mechanical engineer who quit the automotive industry, pilot and grandfather."
         image: ../../assets/img/team/marcus.jpg
         social:
-          - url: "mailto:marcus@unverpackt-mucnord.de"
+          - url: "mailto:marcus@rieselbar.de"
             icon: far fa-envelope-open
 
     title_ar: "Board"
@@ -569,7 +569,7 @@ en: &DEFAULT_EN
         role: "Cloud Data Engineer, sportsman in his free time. Takes care of the website and other technical stuff."
         image: ../../assets/img/team/benedikt.JPG
         social:
-          - url: "mailto:admin@unverpackt-mucnord.de"
+          - url: "mailto:admin@rieselbar.de"
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
@@ -597,7 +597,7 @@ en: &DEFAULT_EN
         role: "Father, outdoory guy and engineer from Munich who wants to make change happen"
         image: ../../assets/img/team/stephan.jpg
         social:
-          - url: "mailto:stephan@unverpackt-mucnord.de"
+          - url: "mailto:stephan@rieselbar.de"
             icon: far fa-envelope-open
 
   faq:
@@ -628,7 +628,7 @@ en: &DEFAULT_EN
   footer:
     legal: "Legal"
     social:
-      - url: mailto:info@unverpackt-mucnord.de
+      - url: mailto:info@rieselbar.de
         icon: "far fa-envelope-open"
       - url: https://www.facebook.com/Rieselbar/
         icon: "fab fa-facebook"
