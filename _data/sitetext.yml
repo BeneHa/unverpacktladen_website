@@ -31,7 +31,7 @@ de: &DEFAULT_DE
 
   services:
     title: "Die Idee"
-    text: "im Münchner Norden"
+    text: "für einen unverpackt-Laden im Münchner Norden"
     section: services
     list:
       - title: "Keine Verpackungen"
