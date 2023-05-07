@@ -30,7 +30,7 @@ de: &DEFAULT_DE
     section: about
 
   services:
-    title: "Der Laden"
+    title: "Die Idee"
     text: "im Münchner Norden"
     section: services
     list:
@@ -73,12 +73,17 @@ de: &DEFAULT_DE
        desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile. <br> <sup>(Da aktuell noch kein Bankkonto für die Genossenschaft vorhanden ist, werden wir nochmal auf Euch zukommen, sobald der Betrag überwiesen werden kann.)</sup>
 
   timeline:
-    title: "Zeitleiste"
+    title: "Werde Teil unserer Geschichte"
     text: "Was bisher geschah"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
+      - title: "Eintragung der Genossenschaft"
+        year: 27 Dezember 2022
+        desc: "Die Genossenschaft ist offiziell im Genossenschaftsregister eingetragen."
+        image: ../../assets/img/timeline/gruendung_all.JPG
+        alt: 
       - title: "Nachhaltigkeitsmesse Moosach"
         year: "15 Oktober 2022"
         desc: "Wir präsentieren uns mit einem Stand und Flyern auf der Nachhaltigkeitsmesse am Pelkovenschlössl."
@@ -221,7 +226,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     subtext_ar: "Der Aufsichtsrat wird in der Generalversammlung von allen Genossenschaftsmitgliedern gewählt. Die Generalversammlung findet einmal pro Jahr statt."
     people_ar:
       - name: "Benedikt Häuser"
-        role: "Cloud Data Engineer, in der Freizeit Sportler. Kümmert sich um die Website und die sonstige Technik."
+        role: "Cloud Architekt, in der Freizeit Sportler. Kümmert sich um die Website und die sonstige Technik."
         image: ../../assets/img/team/benedikt.JPG
 
         social:
@@ -259,7 +264,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
             icon: far fa-envelope-open
 
   contact:
-    title: "Kontaktiere uns"
+    title: "Newsletter-Anmeldung"
     text: "Hast du noch spezielle Fragen zum Laden oder der Genossenschaft?"
     formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=LKPdCE7ywEGhgW7q7A5dymOqK-DRc9BFsOUr_0KB335UMEJRV0VPMlNVUFJSUk9OMExCNEY1RzQxNy4u
     emailaddress: "info@rieselbar.de"
@@ -297,11 +302,11 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
   progress:
     title: Fortschritt
     items:
-      - text: Der Businessplan ist fast fertig und wird derzeit mit dem Genossenschaftsverband geprüft.
+      - text: Der Businessplan ist fertig und die Genossenschaft eingetragen.
         index: 1
         text1: Business
         text2: Eingetragene Genossenschaft
-      - text: Wir haben schon fast 50 Mitglieder und 20.000€ Kapital, brauchen aber noch deutlich mehr um den Laden betreiben zu können.
+      - text: Wir haben schon über 50 Mitglieder und 20.000€ Kapital, brauchen aber noch deutlich mehr um den Laden betreiben zu können.
         index: 2
         text1: Mitglieder und Kapital
         text2: 100.000€ Startkapital

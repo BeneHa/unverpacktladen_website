@@ -11,14 +11,16 @@
 # -----------------
 de: &DEFAULT_DE
   nav:
+    - title: "Start"
+      url: ./index.html
     - title: "Über uns"
       url: ./index.html#about
     - title: "Kontakt"
       url: ./index.html#contact
-    - title: "Termine"
-      url: ./upcoming.html
     - title: "Mitgliedschaft"
       url: ./membership.html
+    - title: "Presse"
+      url: ./index.html#clients
     - title: "Fragen?"
       url: ./faq.html
 
@@ -31,8 +33,6 @@ en: &DEFAULT_EN
       url: ./index.html#contact
     - title: "Membership"
       url: ./membership.html
-    - title: "Appointments"
-      url: ./upcoming.html
     - title: "Questions?"
       url: ./faq.html
 
