@@ -197,16 +197,6 @@ de: &DEFAULT_DE
     text_vs: "Hier sind unsere Vorstände, die das Tagesgeschäft führen:"
     subtext_vs: "Die Vorstände werden immer für ein Jahr bestimmt."
     people_vs:
-      - name: "Isa Broxvall"
-        role: "Nachhaltigkeitsfetischistin und -bloggerin. Kümmert sich um alles was mit Kommunikation und IT zu tun hat."
-        image: ../../assets/img/team/isa.jpg
-        social:
-          - url: "mailto:isa@rieselbar.de"
-            icon: far fa-envelope-open
-          - url: https://www.instagram.com/lgv.muc/
-            icon: fab fa-instagram
-          - url: https://www.facebook.com/lgvmuc
-            icon: fab fa-facebook
       - name: "Susanne Hofstetter"
         role: "Ich möchte meinen 3 Kindern 11,14 & 16 ein gutes Vorbild sein in Sachen Umweltschutz. 
 Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Projekt nach Moosach zu bringen."
