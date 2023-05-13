@@ -195,7 +195,7 @@ de: &DEFAULT_DE
   team:
     title_vs: "Vorstand"
     text_vs: "Hier sind unsere Vorstände, die das Tagesgeschäft führen:"
-    subtext_vs: "Die Vorstände werden immer für ein Jahr bestimmt."
+    subtext_vs: "Die Vorstände werden immer für drei Jahre bestimmt."
     people_vs:
       - name: "Susanne Hofstetter"
         role: "Ich möchte meinen 3 Kindern 11,14 & 16 ein gutes Vorbild sein in Sachen Umweltschutz. 
@@ -271,7 +271,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     - question: "Wie ist eine Genossenschaft aufgebaut?"
       answer: "Die Mitglieder wählen bei der Generalversammlung den Aufsichtsrat, der wiederum den Vorstand einsetzt. Der Vorstand führt dann die Geschäfte der Genossenschaft."
     - question: "Wie kann ich Mitglied werden?"
-      answer: "Du kannst dich jetzt schon mit unserem [Beitrittsformular](../../lang/de/membership.html) anmelden. Wenn wir ins Genossenschaftsregister eingetragen sind und somit ein Bankkonto haben, kommen wir auf dich zurück, mit der Bitte, den Betrag zu überweisen. Sobald dann deine Einlage überwiesen ist, bist du offiziell Mitglied."
+      answer: "Du kannst dich jetzt schon mit unserem [Beitrittsformular](../../lang/de/membership.html) anmelden. Schick uns das ausgefüllte Formular, dann schicken wir dir deine Mitgliedsnummer und du kannst deinen Anteil überweisen.
     - question: "Was ist der Mindest- und Höchstbeitrag?"
       answer: "Es ist möglich, einen oder mehrere Anteile pro Person zu kaufen, ein Anteil kostet 150€. Eine Höchstzahl an Anteilen gibt es nicht."
     - question: "Wie kann ich mich einbringen?"
