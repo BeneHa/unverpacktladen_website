@@ -68,9 +68,9 @@ de: &DEFAULT_DE
        link: "cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf"
        icon: fas fa-envelope-open-text
        desc: "Fülle die [Beitrittserklärung](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) zu unserer Genossenschaft aus und schicke sie an: [info@rieselbar.de](mailto:info@rieselbar.de)"
-     - title: "Überweisung des Betrags der Anteile"
+     - title: "Überweisung der Anteile"
        icon: fas fa-credit-card
-       desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile. <br> <sup>(Da aktuell noch kein Bankkonto für die Genossenschaft vorhanden ist, werden wir nochmal auf Euch zukommen, sobald der Betrag überwiesen werden kann.)</sup>
+       desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile.
 
   timeline:
     title: "Werde Teil unserer Geschichte"
