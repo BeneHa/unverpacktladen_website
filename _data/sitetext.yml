@@ -212,6 +212,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
         role: "Cloud Architekt beim den Stadtwerken München. Kümmert sich um die Website und die sonstige Technik."
         image: ../../assets/img/team/benedikt.JPG
 
+
         social:
           - url: "mailto:admin@rieselbar.de"
             icon: far fa-envelope-open
