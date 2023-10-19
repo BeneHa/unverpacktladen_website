@@ -37,12 +37,12 @@ section#progress {
   }
 
   .progress-bar-2 {
-    width: 25%;
+    width: 50%;
     animation: progressAnimationStrike60 8s;
     }
 
 .progress-bar-3 {
-    width: 55%;
+    width: 100%;
     animation: progressAnimationStrike5 8s;
     }
   
@@ -58,5 +58,5 @@ section#progress {
 
 @keyframes progressAnimationStrike5 {
     from { width: 0 }
-    to   { width: 55% }
+    to   { width: 100% }
 }

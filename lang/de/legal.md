@@ -28,12 +28,7 @@ Bei Fragen, bitte kontaktiert uns unter <a href="mailto:{{ site.email }}">{{ sit
 
 **GENOSSENSCHAFT**
 
-Wir planen derzeit eine Genossenschaft zu gründen, sind derzeit aber noch nicht gegründet. Bis es soweit ist ist verantwortlich für diese Website und alle Inhalte:
-
-Benedikt Häuser\
-Hardenbergstraße 24\
-80992 München\
- <a href="mailto:admin@rieselbar.de">admin@rieselbar.de</a>
+Für alle rechtlichen Themen ist die unverpackt München Nord eG verantwortlich.
 
 
 **BILDER AUF DIESER WEBSEITE**
