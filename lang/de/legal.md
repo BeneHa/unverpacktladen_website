@@ -25,7 +25,6 @@ Wir sammeln keinerlei personenbezogene Daten und nutzen keine Cookies.
 
 Bei Fragen, bitte kontaktiert uns unter <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
 
-
 **GENOSSENSCHAFT**
 
 Für alle rechtlichen Themen ist die unverpackt München Nord eG verantwortlich.
