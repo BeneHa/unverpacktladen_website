@@ -1,4 +1,4 @@
-# Unverpackt store Munich north webpage
+# Rieselbar (Unverpackt store Munich north) webpage
 
 The webpage of our unverpackt store. Created in Jekyll based on the [agency theme](https://startbootstrap.com/theme/agency).
 
@@ -8,9 +8,6 @@ Basend on the [Jekyll agency theme](https://github.com/raviriley/agency-jekyll-t
 
 ## Setup with Docker
 
-**Prerequisites**:
-To use the setup with Docker, Docker and Docker Compose needs to be installed. For detailed information see [Get Docker](https://docs.docker.com/get-docker/) and [Install Docker Compose](https://docs.docker.com/compose/install/).
+docker build . -t jekyll
 
-To install all dependencies for the Jekyll server run `docker-compose run jekyll bundle install` in root directory. This will create a `vendor/bundle` folder, containing all dependencies.
-
-To run the server, start the container with `docker-compose up`.
+docker run -p 4000:4000 -v $(pwd):/site jekyll
