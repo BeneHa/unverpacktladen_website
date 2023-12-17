@@ -11,8 +11,8 @@
 # -----------------
 de: &DEFAULT_DE
   header:
-    title: Es ist bald so weit -
-    text: wir öffnen demnächst im Moosach!
+    title: Am 2.2. ist es soweit -
+    text: wir öffnen im Stadtteilladen Moosach!
     button: Erzählt mir mehr
     buttonlink: "#about"
 
@@ -22,7 +22,7 @@ de: &DEFAULT_DE
     body: "Wir sind eine Gruppe von engagierten Bürgern und Bürgerinnen aus dem Münchner Norden. Wir haben eine Genossenschaft gegründet mit dem Ziel, einen unverpackt-Laden in der Gegend um Moosach zu eröffnen.   
 
 
-     Der Laden eröffnet im ersten Quartal 2024, wir befinden uns also mitten in der Vorbereitung. Melde dich bei uns wenn du mitmachen willst!
+     Der Laden eröffnet am 2. Februar 2024, wir befinden uns also mitten in der Vorbereitung. Melde dich bei uns wenn du mitmachen willst!
      "
      
     umfragelink: 
@@ -80,7 +80,7 @@ de: &DEFAULT_DE
     #start_align: "left"
     events:
       - title: "Ladenöffnung"
-        year: Q1 2024
+        year: 2 Februar 2024
         desc: Nächstes Jahr eröffnet endlich unser Laden
         image: ../../assets/img/timeline/shop_open.jpg
       - title: "Eintragung der Genossenschaft"
@@ -252,7 +252,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
   contact:
     title: "Newsletter-Anmeldung"
     text: "Hast du noch spezielle Fragen zum Laden oder der Genossenschaft?"
-    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=LKPdCE7ywEGhgW7q7A5dymOqK-DRc9BFsOUr_0KB335UMEJRV0VPMlNVUFJSUk9OMExCNEY1RzQxNy4u
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
     emailaddress: "info@rieselbar.de"
     mailaufforderung: "Dann kontaktiere uns gerne persönlich per E-Mail an: info@rieselbar.de"
     section: contact
@@ -292,10 +292,10 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
         index: 1
         text1: Business
         text2: Eingetragene Genossenschaft
-      - text: Wir haben schon über 50 Mitglieder und 20.000€ Kapital, brauchen aber noch deutlich mehr um den Laden betreiben zu können.
+      - text: Wir haben schon über 60 Mitglieder und 20.000€ Kapital, damit können wir für zwei Tage pro Woche im Stadtteilladen öffnen.
         index: 2
         text1: Mitglieder und Kapital
-        text2: 100.000€ Startkapital
+        text2: 20.000€ Startkapital
       - text: Wir haben einen Laden gefunden! Der Stadtteilladen Moosach lässt uns für zwei Tage die Woche, Freitag und Samstag, seine Fläche nutzen.
         index: 3
         text1: Laden
@@ -516,7 +516,7 @@ en: &DEFAULT_EN
   contact:
     title: "Contact us"
     text: "Questions about the store or the cooperative?"
-    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=LKPdCE7ywEGhgW7q7A5dymOqK-DRc9BFsOUr_0KB335UMEJRV0VPMlNVUFJSUk9OMExCNEY1RzQxNy4u
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
     emailaddress: "info@rieselbar.de"
     mailaufforderung: "Send us a mail to info@rieselbar.de!"
     section: contact
