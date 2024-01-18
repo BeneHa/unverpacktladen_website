@@ -31,12 +31,7 @@ jobs:
 
     - name: storage upload
       run: |
-        if [ "${{ github.ref_name }}" = "main" ]; then
-          web='$web'
-        else
-          web="web/${{ github.ref_name }}"
-        fi
-        az storage blob upload-batch --destination "$web" --source "_site" --account-name  ${{ secrets.storage_account_name }} --overwrite true
+        az storage blob upload-batch --destination "$web" --source "_site" --account-name  ${{ secrets.STORAGE_ACCOUNT_NAME }} --overwrite true --auth-mode login
 
     # - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
     #   with:
