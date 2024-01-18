@@ -36,7 +36,7 @@ jobs:
 
     - name: storage upload
       run: |
-      az storage blob upload-batch --destination ${{ steps.targetFolder.outputs.value }} --source "_site" --account-name  ${{ secrets.storage_account_name }} --overwrite true
+        az storage blob upload-batch --destination ${{ steps.targetFolder.outputs.value }} --source "_site" --account-name  ${{ secrets.storage_account_name }} --overwrite true
 
     # - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
     #   with:
