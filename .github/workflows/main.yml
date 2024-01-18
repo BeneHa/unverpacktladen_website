@@ -5,27 +5,22 @@ on:
     branches:
       - '**'
 
+permissions:
+      id-token: write
+      contents: read
 
 jobs:
   jekyll:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
-
-    - uses: actions/cache@v1
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-    # Standard usage
     - uses: lemonarc/jekyll-action@1.0.0
-    - uses: haya14busa/action-cond@v1
-      id: targetFolder
-      with:
-        cond: ${{ github.ref_name ==  'main' }}
-        if_true: '$web'
-        if_false: '$web/${{ github.ref_name }}'
+    # - uses: haya14busa/action-cond@v1
+    #   id: targetFolder
+    #   with:
+    #     cond: ${{ github.ref_name ==  'main' }}
+    #     if_true: '$web'
+    #     if_false: '$web/${{ github.ref_name }}'
 
     - name: Azure Login
       uses: Azure/login@v1
@@ -36,7 +31,12 @@ jobs:
 
     - name: storage upload
       run: |
-        az storage blob upload-batch --destination ${{ steps.targetFolder.outputs.value }} --source "_site" --account-name  ${{ secrets.storage_account_name }} --overwrite true
+        if [ "${{ github.ref_name }}" = "main" ]; then
+          web='$web'
+        else
+          web="web/${{ github.ref_name }}"
+        fi
+        az storage blob upload-batch --destination "$web" --source "_site" --account-name  ${{ secrets.storage_account_name }} --overwrite true
 
     # - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
     #   with:
