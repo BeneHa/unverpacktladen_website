@@ -31,7 +31,7 @@ jobs:
 
     - name: storage upload
       run: |
-        az storage blob upload-batch --destination "$web" --source "_site" --account-name  ${{ secrets.STORAGE_ACCOUNT_NAME }} --overwrite true --auth-mode login
+        az storage blob upload-batch --destination \$web --source '_site' --account-name  ${{ secrets.STORAGE_ACCOUNT_NAME }} --overwrite true --auth-mode login
 
     # - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
     #   with:
