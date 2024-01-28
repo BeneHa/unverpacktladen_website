@@ -29,6 +29,20 @@ de: &DEFAULT_DE
     umfragename: 
     section: about
 
+  slideshow:
+    title: Impressionen aus dem Laden
+    images:
+    - filename: behaelter.jpg
+      caption: Behälter für Gewürze
+    - filename: einfuellen.jpeg
+      caption: Susanne und Stefan beim Befüllen
+    - filename: lieferung.jpeg
+      caption: Der Quinoa aus Feldmoching wird angeliefert
+    - filename: regal_leer.jpg
+      caption: Die fertig aufgebauten Regale
+    - filename: waschmittel.jpeg
+      caption: Waschmittel zum selber abfüllen
+
   services:
     title: "Die Idee"
     text: "für einen unverpackt-Laden im Münchner Norden"
@@ -185,13 +199,12 @@ de: &DEFAULT_DE
         logo: ../../assets/img/clients/lokalanzeiger.png
 
   social_media:
-    title: Neues aus den sozialen Netzwerken
+    title: Neues von Instagram
     section: socialmedia
 
   team:
     title_vs: "Vorstand"
     text_vs: "Hier sind unsere Vorstände, die das Tagesgeschäft führen:"
-    subtext_vs: "Die Vorstände werden immer für drei Jahre bestimmt."
     people_vs:
       - name: "Susanne Hofstetter"
         role: "Ich möchte meinen 3 Kindern 11,14 & 16 ein gutes Vorbild sein in Sachen Umweltschutz. 
@@ -209,7 +222,6 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
 
     title_ar: "Aufsichtsrat"
     text_ar: "Die Aufsichtsräte bestimmen den Vorstand und kontrollieren seine Arbeit."
-    subtext_ar: "Der Aufsichtsrat wird in der Generalversammlung von allen Genossenschaftsmitgliedern gewählt. Die Generalversammlung findet einmal pro Jahr statt."
     people_ar:
       - name: "Benedikt Häuser"
         role: "Cloud Architekt beim den Stadtwerken München. Kümmert sich um die Website und die sonstige Technik."
@@ -244,7 +256,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
             icon: fab fa-github
       - name: "Stephan Schwerd"
         role: "Papa, Outdoormensch und Ingenieur aus München hat Lust etwas zu verändern"
-        image: ../../assets/img/team/stephan.jpg
+        image: ../../assets/img/team/stephan.jpeg
         social:
           - url: "mailto:stephan@rieselbar.de"
             icon: far fa-envelope-open
@@ -583,7 +595,7 @@ en: &DEFAULT_EN
             icon: fab fa-github
       - name: "Stephan Schwerd"
         role: "Father, outdoory guy and engineer from Munich who wants to make change happen"
-        image: ../../assets/img/team/stephan.jpg
+        image: ../../assets/img/team/stephan.jpeg
         social:
           - url: "mailto:stephan@rieselbar.de"
             icon: far fa-envelope-open
