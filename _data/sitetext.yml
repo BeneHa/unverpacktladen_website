@@ -11,10 +11,10 @@
 # -----------------
 de: &DEFAULT_DE
   header:
-    title: Am 2.2. ist es soweit -
-    text: wir öffnen im Stadtteilladen Moosach!
+    title: Eröffnung verschoben!
+    text: 
     button: Erzählt mir mehr
-    buttonlink: "#about"
+    buttonlink: "#aktuelles"
 
   about:
     title: "Über uns"
