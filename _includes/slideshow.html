@@ -15,8 +15,10 @@
 
           {% for image in site.data.sitetext[page.locale].slideshow.images %}
           <div class="mySlides fade" style="opacity: 100">
-            <img src="../../../assets/img/slideshow/{{ image.filename}}" style="width:100%">
-            <div class="text">{{ image.caption }}</div>
+            <img src="../../../assets/img/slideshow/{{ image.filename}}" style="max-width:80%; max-height:50%">
+            <div class="text">
+              <span class="highlight">&nbsp&nbsp&nbsp{{ image.caption }}&nbsp&nbsp&nbsp</span>
+            </div>
           </div>
           {% endfor %}
 

@@ -10,6 +10,8 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Next & previous buttons */
@@ -41,7 +43,7 @@
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -84,4 +86,8 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.highlight {
+  background: url(https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ffff43);
 }

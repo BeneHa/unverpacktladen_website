@@ -32,14 +32,16 @@ de: &DEFAULT_DE
   slideshow:
     title: Impressionen aus dem Laden
     images:
+    - filename: regale.jpeg
+      caption: Zwei der Regale für Lebenshmittel
+    - filename: schieberegal.jpeg
+      caption: Hier gibts Süssigkeiten, Honig und sonstiges Kleinzeug
     - filename: behaelter.jpg
       caption: Behälter für Gewürze
     - filename: einfuellen.jpeg
       caption: Susanne und Stefan beim Befüllen
     - filename: lieferung.jpeg
       caption: Der Quinoa aus Feldmoching wird angeliefert
-    - filename: regal_leer.jpg
-      caption: Die fertig aufgebauten Regale
     - filename: waschmittel.jpeg
       caption: Waschmittel zum selber abfüllen
 
@@ -185,15 +187,15 @@ de: &DEFAULT_DE
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
+      - title: "HalloMünchen"
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-moosach-stadttetil-unverpackt-laden-rieselbar-plastik-spender-behaelter-sortiment-92795410.html
+        logo: ../../assets/img/clients/halloMuenchen.jpeg
       - title: "SZ"
         url: https://www.sueddeutsche.de/muenchen/muenchen-nachhaltigkeit-unverpackt-laden-inflation-verpackungsmuell-umwelt-laim-1.5650655
         logo: ../../assets/img/clients/sz.jpeg
       - title: "tz"
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
         logo: ../../assets/img/clients/tz.png
-      - title: "HalloMünchen"
-        url: https://www.hallo-muenchen.de/muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
-        logo: ../../assets/img/clients/halloMuenchen.jpeg
       - title: "Lokalanzeiger"
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
         logo: ../../assets/img/clients/lokalanzeiger.png
