@@ -30,8 +30,12 @@ de: &DEFAULT_DE
   slideshow:
     title: Impressionen aus dem Laden
     images:
-    - filename: regale.jpeg
-      caption: Zwei der Regale für Lebenshmittel
+    - filename: gruppenbild.jpeg
+      caption: Ein Teil des Teams
+    - filename: hanuschke.jpeg
+      caption: Nebenan gibts frisches Obst und Gemüse bei Hanuschke
+    - filename: einkaufen.jpeg
+      caption: Wir haben geöffnet!
     - filename: schieberegal.jpeg
       caption: Hier gibts Süssigkeiten, Honig und sonstiges Kleinzeug
     - filename: behaelter.jpg
@@ -224,7 +228,7 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     text_ar: "Die Aufsichtsräte bestimmen den Vorstand und kontrollieren seine Arbeit."
     people_ar:
       - name: "Benedikt Häuser"
-        role: "Cloud Architekt beim den Stadtwerken München. Kümmert sich um die Website und die sonstige Technik."
+        role: "Cloud Architekt beim den Stadtwerken München. Kümmert sich um die Technik."
         image: ../../assets/img/team/benedikt.JPG
 
         social:
@@ -232,8 +236,6 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
-          - url: https://www.xing.com/profile/Benedikt_Haeuser/cv
-            icon: fab fa-xing
           - url: https://github.com/BeneHa
             icon: fab fa-github
       - name: "Rafael Muselmann"
