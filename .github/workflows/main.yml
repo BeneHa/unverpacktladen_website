@@ -1,32 +1,33 @@
-name: deployment
+---
+name       : deployment
 
-on:
+on         :
   push:
     branches:
-      - 'main'
+      - main
 
 permissions:
-      id-token: write
-      contents: read
+  id-token: write
+  contents: read
 
-jobs:
+jobs       :
   jekyll:
     runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@v2
-    - uses: lemonarc/jekyll-action@1.0.0
+      - uses: actions/checkout@v2
+      - uses: lemonarc/jekyll-action@1.0.0
 
-    - name: Azure Login
-      uses: Azure/login@v1
-      with:
-        client-id: ${{ secrets.CLIENT_ID }}
-        tenant-id: ${{ secrets.TENANT_ID }}
-        subscription-id: ${{ secrets.SUBSCRIPTION_ID}}
+      - name: Azure Login
+        uses: Azure/login@v1
+        with:
+          client-id: ${{ secrets.CLIENT_ID }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          subscription-id: ${{ secrets.SUBSCRIPTION_ID}}
 
-    - name: storage upload
-      run: |
-        az storage blob upload-batch --destination \$web --source '_site' --account-name  ${{ secrets.STORAGE_ACCOUNT_NAME }} --overwrite true --auth-mode login
+      - name: storage upload
+        run: |
+          az storage blob upload-batch --destination \$web --source '_site' --account-name  ${{ secrets.STORAGE_ACCOUNT_NAME }} --overwrite true --auth-mode login
 
-    - name: cdn endpoint purge
-      run: |
-        az cdn endpoint purge -g domain_unverpacktladen -n cdnEndpointUnverpacktWebsite --profile-name cdnProfileUnverpacktWebsite --content-paths '/*'
+      - name: cdn endpoint purge
+        run: |
+          az cdn endpoint purge -g domain_unverpacktladen -n cdnEndpointUnverpacktWebsite --profile-name cdnProfileUnverpacktWebsite --content-paths '/*'

@@ -2,11 +2,11 @@
 caption: #what displays in the portfolio grid:
   title: Organisatorisches
   thumbnail: /assets/img/organisation/organisatorisches.jpg
-  
+
 #what displays when the item is clicked:
 title: Organisatorisches
 subtitle: Die Organisationstalente
-image: /assets/img/organisation/organisatorisches.jpg 
+image: /assets/img/organisation/organisatorisches.jpg
 alt: image alt text
 
 ---

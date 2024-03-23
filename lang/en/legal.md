@@ -34,4 +34,3 @@ Benedikt Häuser\
 Hardenbergstraße 24\
 80992 München\
  <a href="mailto:admin@rieselbar.de">admin@rieselbar.de</a>
-

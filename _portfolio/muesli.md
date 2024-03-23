@@ -1,15 +1,14 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Müsli
-  subtitle: 
+  subtitle:
   thumbnail: /assets/img/portfolio/muesli.jpg
-  
+
 #what displays when the item is clicked:
 title: Title
-subtitle: 
+subtitle:
 image: /assets/img/portfolio/muesli.jpg
-alt: 
+alt:
 
 ---
 Wir wollen verschiedene Müslis anbieten, von Schoko über Hafer bis hin zu Cornflakes.
-

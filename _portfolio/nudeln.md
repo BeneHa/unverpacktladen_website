@@ -1,9 +1,9 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Nudeln
-  subtitle: 
+  subtitle:
   thumbnail: /assets/img/portfolio/nudeln.jpg
-  
+
 #what displays when the item is clicked:
 title: Title
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
@@ -12,4 +12,3 @@ alt: image alt text
 
 ---
 Wir wollen Nudeln und sonstige Pasta verkaufen.
-

@@ -1,9 +1,9 @@
 ---
 caption: #what displays in the portfolio grid:
   title: IT
-  subtitle: 
+  subtitle:
   thumbnail: /assets/img/organisation/it.jpg
-  
+
 #what displays when the item is clicked:
 title: IT
 subtitle: The nerds

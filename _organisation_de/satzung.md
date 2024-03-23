@@ -1,9 +1,9 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Satzung
-  subtitle: 
+  subtitle:
   thumbnail: /assets/img/organisation/satzung.jpg
-  
+
 #what displays when the item is clicked:
 title: Satzung
 subtitle: Die Juristen

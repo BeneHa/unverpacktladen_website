@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Charter
   thumbnail: /assets/img/organisation/satzung.jpg
-  
+
 #what displays when the item is clicked:
 title: Charter
 subtitle: The lawyers

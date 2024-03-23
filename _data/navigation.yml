@@ -1,3 +1,4 @@
+---
 #
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
@@ -9,31 +10,69 @@
 
 # English (default)
 # -----------------
-de: &DEFAULT_DE
+de   :
   nav:
-    - title: "Start"
+    - title: Start
       url: ./index.html
-    - title: "Kontakt"
+    - title: Kontakt
       url: ./index.html#contact
-    - title: "Mitgliedschaft"
+    - title: Mitgliedschaft
       url: ./membership.html
-    - title: "Presse"
+    - title: Presse
       url: ./index.html#clients
-    - title: "Fragen?"
+    - title: Fragen?
       url: ./faq.html
 
 
-en: &DEFAULT_EN
+en   : &DEFAULT_EN
   nav:
-    - title: "About us"
+    - title: About us
       url: ./index.html#about
-    - title: "Contact"
+    - title: Contact
       url: ./index.html#contact
-    - title: "Membership"
+    - title: Membership
       url: ./membership.html
-    - title: "Questions?"
+    - title: Questions?
       url: ./faq.html
 
+it   :
+  nav:
+    - title: Inizio
+      url: ./index.html
+    - title: Contatto
+      url: ./index.html#contact
+    - title: Associazione
+      url: ./membership.html
+    - title: Stampa
+      url: ./index.html#clients
+    - title: Domande?
+      url: ./faq.html
+
+hr   :
+  nav:
+    - title: Početak
+      url: ./index.html
+    - title: Kontakt
+      url: ./index.html#contact
+    - title: Članstvo
+      url: ./membership.html
+    - title: Tisak
+      url: ./index.html#clients
+    - title: Pitanja?
+      url: ./faq.html
+
+ar   :
+  nav:
+    - title: البداية
+      url: ./index.html
+    - title: اتصال
+      url: ./index.html#contact
+    - title: العضوية
+      url: ./membership.html
+    - title: الصحافة
+      url: ./index.html#clients
+    - title: أسئلة؟
+      url: ./faq.html
 
 en-US:
   <<: *DEFAULT_EN

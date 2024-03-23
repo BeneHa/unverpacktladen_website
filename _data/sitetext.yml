@@ -1,3 +1,4 @@
+---
 #
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
@@ -9,51 +10,48 @@
 
 # English (default)
 # -----------------
-de: &DEFAULT_DE
+de   :
   header:
     title: Seit 8. März geöffnet!
-    text: 
+    text:
 
   about:
-    title: "Über uns"
-    text: ""
-    body: "Wir sind eine Gruppe von engagierten Bürgern und Bürgerinnen aus dem Münchner Norden. Wir haben eine Genossenschaft gegründet mit dem Ziel, einen unverpackt-Laden in der Gegend um Moosach zu eröffnen.   
+    title: Über uns
+    text: ''
+    body: "Wir sind eine Gruppe von engagierten Bürgern und Bürgerinnen aus dem Münchner Norden. Wir haben eine Genossenschaft gegründet mit dem Ziel, einen\
+      \ unverpackt-Laden in der Gegend um Moosach zu eröffnen.\n\nDer Laden hat am 8. März 2024 geöffnet, wir freuen uns auf Deinen Besuch! "
 
-
-     Der Laden hat am 8. März 2024 geöffnet, wir freuen uns auf Deinen Besuch!
-     "
-     
-    umfragelink: 
-    umfragename: 
+    umfragelink:
+    umfragename:
     section: about
 
   slideshow:
     section: slideshow
     title: Impressionen aus dem Laden
     images:
-    - filename: gruppenbild.jpeg
-      caption: Ein Teil des Teams
-    - filename: hanuschke.jpeg
-      caption: Nebenan gibts frisches Obst und Gemüse bei Hanuschke
-    - filename: einkaufen.jpeg
-      caption: Wir haben geöffnet!
-    - filename: schieberegal.jpeg
-      caption: Hier gibts Süssigkeiten, Honig und sonstiges Kleinzeug
-    - filename: behaelter.jpg
-      caption: Behälter für Gewürze
-    - filename: einfuellen.jpeg
-      caption: Susanne und Stefan beim Befüllen
-    - filename: lieferung.jpeg
-      caption: Der Quinoa aus Feldmoching wird angeliefert
-    - filename: waschmittel.jpeg
-      caption: Waschmittel zum selber abfüllen
+      - filename: gruppenbild.jpeg
+        caption: Ein Teil des Teams
+      - filename: hanuschke.jpeg
+        caption: Nebenan gibts frisches Obst und Gemüse bei Hanuschke
+      - filename: einkaufen.jpeg
+        caption: Wir haben geöffnet!
+      - filename: schieberegal.jpeg
+        caption: Hier gibts Süssigkeiten, Honig und sonstiges Kleinzeug
+      - filename: behaelter.jpg
+        caption: Behälter für Gewürze
+      - filename: einfuellen.jpeg
+        caption: Susanne und Stefan beim Befüllen
+      - filename: lieferung.jpeg
+        caption: Der Quinoa aus Feldmoching wird angeliefert
+      - filename: waschmittel.jpeg
+        caption: Waschmittel zum selber abfüllen
 
   map:
     title: Komm doch mal vorbei!
     opening_times: Öffnungszeiten
-    line_1: "Freitag: 9 - 12, 14 - 18 Uhr"
-    line_2: "Samstag: 9 - 13 Uhr"
-    line_3: "Am Karsamstag schon ab 8 Uhr geöffnet!"
+    line_1: 'Freitag: 9 - 12, 14 - 18 Uhr'
+    line_2: 'Samstag: 9 - 13 Uhr'
+    line_3: Am Karsamstag schon ab 8 Uhr geöffnet!
 
   sortiment:
     title: Sortiment
@@ -94,96 +92,67 @@ de: &DEFAULT_DE
         text: Shampoo, Conditioner, Deo, Gesichtscreme, Körperlotion
 
   services:
-    title: "Die Idee"
-    text: "für einen unverpackt-Laden im Münchner Norden"
+    title: Die Idee
+    text: für einen unverpackt-Laden im Münchner Norden
     section: services
     list:
-      - title: "Keine Verpackungen"
-        desc: "Wir wollen nur Produkte verkaufen, die komplett ohne Verpackungen auskommen. So vermeiden wir Müll und schonen die Umwelt."
+      - title: Keine Verpackungen
+        desc: Wir wollen nur Produkte verkaufen, die komplett ohne Verpackungen auskommen. So vermeiden wir Müll und schonen die Umwelt.
         icon: fas fa-box-open
-      - title: "Regionale Produzenten"
-        desc: "Wir werden unsere Produkte soweit möglich von Produzenten aus der Region beziehen. Das reduziert Transportwege und schont so die Umwelt."
+      - title: Regionale Produzenten
+        desc: Wir werden unsere Produkte soweit möglich von Produzenten aus der Region beziehen. Das reduziert Transportwege und schont so die Umwelt.
         icon: fas fa-truck-moving
-      - title: "Super Atmosphäre"
-        desc: "Bei uns sollst du nicht nur einkaufen können sondern dich auch einfach wohlfühlen. Deshalb wollen wir irgendwann auch ein Café eröffnen, das ein Treffpunkt für alle Moosacher sein soll."
+      - title: Super Atmosphäre
+        desc: Bei uns sollst du nicht nur einkaufen können sondern dich auch einfach wohlfühlen. Deshalb wollen wir irgendwann auch ein Café eröffnen, das
+          ein Treffpunkt für alle Moosacher sein soll.
         icon: fas fa-mug-hot
 
   portfolio:
-    title: "Produkte"
-    text: "Was du bei uns kaufen kannst"
+    title: Produkte
+    text: Was du bei uns kaufen kannst
     section: portfolio
-    closebutton: "Schließen"
+    closebutton: Schließen
 
   organisation:
-    title: "Organisation"
-    text: "Als Genossenschaft ist es jedem Mitglied möglich mitzuarbeiten wo und wie viel er oder sie möchte. Dafür haben wir verschiedene Arbeitsgruppen, die nach Themen getrennt sind."
+    title: Organisation
+    text: Als Genossenschaft ist es jedem Mitglied möglich mitzuarbeiten wo und wie viel er oder sie möchte. Dafür haben wir verschiedene Arbeitsgruppen,
+      die nach Themen getrennt sind.
     section: portfolio
-    closebutton: "Schließen"
+    closebutton: Schließen
 
   membership:
-    title: "Mitgliedschaft"
-    getMember: "Willst du Teil der Unverpackt-Gemeinschaft im Münchner Norden werden? <br> Dann werde Mitglied in nur 3 Schritten:"
+    title: Mitgliedschaft
+    getMember: 'Willst du Teil der Unverpackt-Gemeinschaft im Münchner Norden werden? <br> Dann werde Mitglied in nur 3 Schritten:'
     steps:
-     - title: "Satzung lesen"
-       link: "cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf"
-       icon: fas fa-file-alt
-       desc: Lies unsere [Satzung](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf), um unsere Werte kennenzulernen!
-     - title: "Beitrittserklärung ausfüllen und an uns versenden"
-       link: "cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf"
-       icon: fas fa-envelope-open-text
-       desc: "Fülle die [Beitrittserklärung](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) zu unserer Genossenschaft aus und schicke sie an: [info@rieselbar.de](mailto:info@rieselbar.de)"
-     - title: "Überweisung der Anteile"
-       icon: fas fa-credit-card
-       desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile.
+      - title: Satzung lesen
+        link: cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf
+        icon: fas fa-file-alt
+        desc: Lies unsere [Satzung](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf), um unsere Werte kennenzulernen!
+      - title: Beitrittserklärung ausfüllen und an uns versenden
+        link: cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf
+        icon: fas fa-envelope-open-text
+        desc: 'Fülle die [Beitrittserklärung](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) zu unserer Genossenschaft
+          aus und schicke sie an: [info@rieselbar.de](mailto:info@rieselbar.de)'
+      - title: Überweisung der Anteile
+        icon: fas fa-credit-card
+        desc: Überweise den Gesamtbetrag der gekennzeichneten Genossenschaftsanteile.
 
-  timeline:
-    title: "Werde Teil unserer Geschichte"
-    text: "Was bisher geschah"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Ladenöffnung"
-        year: 2 Februar 2024
-        desc: Nächstes Jahr eröffnet endlich unser Laden
-        image: ../../assets/img/timeline/shop_open.jpg
-      - title: "Eintragung der Genossenschaft"
-        year: 27 Dezember 2022
-        desc: "Die Genossenschaft ist offiziell im Genossenschaftsregister eingetragen."
-        align: right
-        image: ../../assets/img/timeline/gruendung_all.JPG
-        alt: 
-      - title: "Gründung der Genossenschaft!"
-        year: "7 März 2022"
-        desc: "Offizielle Gründung der *Unverpackt Laden München Nord eG*! Jetzt wird ein Lokal aktiv gesucht. Wir freuen uns auf jeden Tipp!"
-        align: left
-        image: ../../assets/img/timeline/Meeting.jpg
-        alt:
-      - title: "Die Idee"
-        year: "Sommer 2021"
-        desc: "Vier Freunde aus dem Münchner Norden tun sich zusammen mit dem Ziel, eine Genossenschaft zu gründen. Diese soll später einen unverpackt Laden eröffnen. Mitstreiter werden über [nebenan.de](https://nebenan.de){:target='_blank'} gesucht."
-        image: ../../assets/img/timeline/nebenan.jpg
-        align: right
-        alt:
-
-    end: "Werde ein <br> Teil unserer <br> Geschichte!"
-    link_target_end: ./membership
 
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: '' #"yes/no"
     list:
-      - title: "HalloMünchen"
+      - title: HalloMünchen
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-moosach-stadttetil-unverpackt-laden-rieselbar-plastik-spender-behaelter-sortiment-92795410.html
         logo: ../../assets/img/clients/halloMuenchen.jpeg
-      - title: "SZ"
+      - title: SZ
         url: https://www.sueddeutsche.de/muenchen/muenchen-nachhaltigkeit-unverpackt-laden-inflation-verpackungsmuell-umwelt-laim-1.5650655
         logo: ../../assets/img/clients/sz.jpeg
-      - title: "tz"
+      - title: tz
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
         logo: ../../assets/img/clients/tz.png
-      - title: "Lokalanzeiger"
+      - title: Lokalanzeiger
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
         logo: ../../assets/img/clients/lokalanzeiger.png
 
@@ -192,158 +161,164 @@ de: &DEFAULT_DE
     section: socialmedia
 
   team:
-    title_vs: "Vorstand"
-    text_vs: "Hier sind unsere Vorstände, die das Tagesgeschäft führen:"
+    title_vs: Vorstand
+    text_vs: 'Hier sind unsere Vorstände, die das Tagesgeschäft führen:'
     people_vs:
-      - name: "Susanne Hofstetter"
-        role: "Ich möchte meinen 3 Kindern 11,14 & 16 ein gutes Vorbild sein in Sachen Umweltschutz. 
-Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Projekt nach Moosach zu bringen."
+      - name: Susanne Hofstetter
+        role: Ich möchte meinen 3 Kindern 11,14 & 16 ein gutes Vorbild sein in Sachen Umweltschutz. Außerdem macht es total viel Spaß, in einem Team von
+          tollen Leuten, dieses Projekt nach Moosach zu bringen.
         image: ../../assets/img/team/susanne.png
         social:
-          - url: "mailto:susanne@rieselbar.de"
+          - url: mailto:susanne@rieselbar.de
             icon: far fa-envelope-open
-      - name: "Marcus Spreti"
-        role: "Maschinenbautechniker und Aussteiger in der Autoindustrie, Opa und Pilot"
+      - name: Marcus Spreti
+        role: Maschinenbautechniker und Aussteiger in der Autoindustrie, Opa und Pilot
         image: ../../assets/img/team/marcus.jpg
         social:
-          - url: "mailto:marcus@rieselbar.de"
+          - url: mailto:marcus@rieselbar.de
             icon: far fa-envelope-open
 
-    title_ar: "Aufsichtsrat"
-    text_ar: "Die Aufsichtsräte bestimmen den Vorstand und kontrollieren seine Arbeit."
+    title_ar: Aufsichtsrat
+    text_ar: Die Aufsichtsräte bestimmen den Vorstand und kontrollieren seine Arbeit.
     people_ar:
-      - name: "Benedikt Häuser"
-        role: "Cloud Architekt beim den Stadtwerken München. Kümmert sich um die Technik."
+      - name: Benedikt Häuser
+        role: Cloud Architekt beim den Stadtwerken München. Kümmert sich um die Technik.
         image: ../../assets/img/team/benedikt.JPG
 
         social:
-          - url: "mailto:admin@rieselbar.de"
+          - url: mailto:admin@rieselbar.de
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
           - url: https://github.com/BeneHa
             icon: fab fa-github
-      - name: "Rafael Muselmann"
-        role: "Passion for a better world: Gerne bereit mit Engagement die Welt ein kleines Stückchen zu verbessern."
+      - name: Rafael Muselmann
+        role: 'Passion for a better world: Gerne bereit mit Engagement die Welt ein kleines Stückchen zu verbessern.'
         image: ../../assets/img/team/rafael.png
         social:
-          - url:  https://www.linkedin.com/in/rmuselmann/
+          - url: https://www.linkedin.com/in/rmuselmann/
             icon: fab fa-linkedin
           - url: https://github.com/moffer
             icon: fab fa-github
-      - name: "Guillaume Potdevin"
-        role: "Tagsüber engagiert in Krebsforschung, nachts Vater, auch gerne in Bergen unterwegs!"
+      - name: Guillaume Potdevin
+        role: Tagsüber engagiert in Krebsforschung, nachts Vater, auch gerne in Bergen unterwegs!
         image: ../../assets/img/team/guillaume.png
         social:
-          - url: "mailto:guillaume@rieselbar.de"
+          - url: mailto:guillaume@rieselbar.de
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
             icon: fab fa-linkedin
           - url: https://github.com/gpotdevin
             icon: fab fa-github
-      - name: "Stephan Schwerd"
-        role: "Papa, Outdoormensch und Ingenieur aus München hat Lust etwas zu verändern"
+      - name: Stephan Schwerd
+        role: Papa, Outdoormensch und Ingenieur aus München hat Lust etwas zu verändern
         image: ../../assets/img/team/stephan.jpeg
         social:
-          - url: "mailto:stephan@rieselbar.de"
+          - url: mailto:stephan@rieselbar.de
             icon: far fa-envelope-open
 
   contact:
-    title: "Newsletter-Anmeldung"
-    text: "Hast du noch spezielle Fragen zum Laden oder der Genossenschaft?"
+    title: Newsletter-Anmeldung
+    text: Hast du noch spezielle Fragen zum Laden oder der Genossenschaft?
     formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
-    emailaddress: "info@rieselbar.de"
-    mailaufforderung: "Dann kontaktiere uns gerne persönlich per E-Mail an: info@rieselbar.de"
+    emailaddress: info@rieselbar.de
+    mailaufforderung: 'Dann kontaktiere uns gerne persönlich per E-Mail an: info@rieselbar.de'
     section: contact
 
   faq:
-    title: "Häufig gestellte Fragen"
+    title: Häufig gestellte Fragen
     items:
-    - question: "Warum eine Genossenschaft?"
-      answer: "Wir alle möchten helfen, einen Laden zu eröffnen, aber wir haben hauptberufliche Jobs, denen wir auch weiterhin nachgehen wollen. Indem wir das Projekt als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit so viel Geld, wie er einzahlen will."
-    - question: "Ist die Genossenschaft eingetragen?"
-      answer: "Die Genossenschaft ist im Genossenschaftsregister eingetragen."
-    - question: "Wie ist eine Genossenschaft aufgebaut?"
-      answer: "Die Mitglieder wählen bei der Generalversammlung den Aufsichtsrat, der wiederum den Vorstand einsetzt. Der Vorstand führt dann die Geschäfte der Genossenschaft."
-    - question: "Wie kann ich Mitglied werden?"
-      answer: "Du kannst dich jetzt schon mit unserem [Beitrittsformular](../../lang/de/membership.html) anmelden. Schick uns das ausgefüllte Formular, dann schicken wir dir deine Mitgliedsnummer und du kannst deinen Anteil überweisen."
-    - question: "Was ist der Mindest- und Höchstbeitrag?"
-      answer: "Es ist möglich, einen oder mehrere Anteile pro Person zu kaufen, ein Anteil kostet 150€. Eine Höchstzahl an Anteilen gibt es nicht."
-    - question: "Wie kann ich mich einbringen?"
-      answer: "Wir haben verschiedene Arbeitsgruppen, die sich um Themen wie den Laden, Finanzen oder Technik kümmern. Schreib uns eine [Mail](mailto:info@rieselbar.de), dann besprechen wir näheres."
-    - question: "Wie läuft die Arbeit in der Genossenschaft ab?"
-      answer: "Jede Arbeitsgruppe tauscht sich individuell aus. Zu wichtigen Anlässen stimmen sich die Aufsichtsräte und Vorstände dann ab, und ein Treffen mit allen Mitgliedern wird organisiert."
-    - question: "Welche Leistungen müssen Mitglieder erbringen?"
-      answer: "Du musst bei uns gar keine Leistungen erbringen, die Mitarbeit in den Arbeitsgruppen ist komplett freiwillig."
-    - question: "Gibt es eine Nachschusspflicht?"
-      answer: "Nein, das ist laut unserer [Satzung](../../lang/de/membership.html) nicht vorgesehen. Das bedeutet, dass es nicht passieren kann, dass du zusätzlich zu dem Geld für deine Anteile noch etwas nachzahlen musst."
-    - question: "Was ist, wenn ich aussteigen will?"
-      answer: "Jedes Mitglied hat das Recht, die Mitgliedschaft zum Ende des Kalenderjahres zu kündigen. Die Kündigung muss spätestens sechs Monate vorher schriftlich erfolgen und ist frühestens zum Ende des dritten Geschäftsjahres nach dem Mitgliedsbeitritt möglich."
-    - question: "Was ist der aktuelle Status?"
-      answer: "Am 8. März 2024 haben wir bei Hanuschke geöffnet."
-    - question: "Ich gehe schon auf den Wochenmarkt. Worin unterscheidet sich der Unverpackt-Laden?"
-      answer: "Das Sortiment eines Unverpackt-Ladens ist breiter. Es gibt nicht nur Obst und Gemüse, sondern auch Trockenware wie Mehl, Bohnen und Reis sowie Kosmetikartikel wie Seife, Shampoo und Zahnpastatabs."
+      - question: Warum eine Genossenschaft?
+        answer: Wir alle möchten helfen, einen Laden zu eröffnen, aber wir haben hauptberufliche Jobs, denen wir auch weiterhin nachgehen wollen. Indem
+          wir das Projekt als Genossenschaft auf viele Schultern verteilen, bleibt der Arbeitsaufwand überschaubar und jeder haftet auch nur mit so viel
+          Geld, wie er einzahlen will.
+      - question: Ist die Genossenschaft eingetragen?
+        answer: Die Genossenschaft ist im Genossenschaftsregister eingetragen.
+      - question: Wie ist eine Genossenschaft aufgebaut?
+        answer: Die Mitglieder wählen bei der Generalversammlung den Aufsichtsrat, der wiederum den Vorstand einsetzt. Der Vorstand führt dann die Geschäfte
+          der Genossenschaft.
+      - question: Wie kann ich Mitglied werden?
+        answer: Du kannst dich jetzt schon mit unserem [Beitrittsformular](../../lang/de/membership.html) anmelden. Schick uns das ausgefüllte Formular,
+          dann schicken wir dir deine Mitgliedsnummer und du kannst deinen Anteil überweisen.
+      - question: Was ist der Mindest- und Höchstbeitrag?
+        answer: Es ist möglich, einen oder mehrere Anteile pro Person zu kaufen, ein Anteil kostet 150€. Eine Höchstzahl an Anteilen gibt es nicht.
+      - question: Wie kann ich mich einbringen?
+        answer: Wir haben verschiedene Arbeitsgruppen, die sich um Themen wie den Laden, Finanzen oder Technik kümmern. Schreib uns eine [Mail](mailto:info@rieselbar.de),
+          dann besprechen wir näheres.
+      - question: Wie läuft die Arbeit in der Genossenschaft ab?
+        answer: Jede Arbeitsgruppe tauscht sich individuell aus. Zu wichtigen Anlässen stimmen sich die Aufsichtsräte und Vorstände dann ab, und ein Treffen
+          mit allen Mitgliedern wird organisiert.
+      - question: Welche Leistungen müssen Mitglieder erbringen?
+        answer: Du musst bei uns gar keine Leistungen erbringen, die Mitarbeit in den Arbeitsgruppen ist komplett freiwillig.
+      - question: Gibt es eine Nachschusspflicht?
+        answer: Nein, das ist laut unserer [Satzung](../../lang/de/membership.html) nicht vorgesehen. Das bedeutet, dass es nicht passieren kann, dass du
+          zusätzlich zu dem Geld für deine Anteile noch etwas nachzahlen musst.
+      - question: Was ist, wenn ich aussteigen will?
+        answer: Jedes Mitglied hat das Recht, die Mitgliedschaft zum Ende des Kalenderjahres zu kündigen. Die Kündigung muss spätestens sechs Monate vorher
+          schriftlich erfolgen und ist frühestens zum Ende des dritten Geschäftsjahres nach dem Mitgliedsbeitritt möglich.
+      - question: Was ist der aktuelle Status?
+        answer: Am 8. März 2024 haben wir bei Hanuschke geöffnet.
+      - question: Ich gehe schon auf den Wochenmarkt. Worin unterscheidet sich der Unverpackt-Laden?
+        answer: Das Sortiment eines Unverpackt-Ladens ist breiter. Es gibt nicht nur Obst und Gemüse, sondern auch Trockenware wie Mehl, Bohnen und Reis
+          sowie Kosmetikartikel wie Seife, Shampoo und Zahnpastatabs.
 
 
   footer:
-    legal: "Impressum"
+    legal: Impressum
     social:
       - url: mailto:info@rieselbar.de
-        icon: "far fa-envelope-open"
+        icon: far fa-envelope-open
       - url: https://www.facebook.com/Rieselbar/
-        icon: "fab fa-facebook"
+        icon: fab fa-facebook
       - url: https://www.instagram.com/rieselbar/
-        icon: "fab fa-instagram"
+        icon: fab fa-instagram
       - url: https://github.com/BeneHa/unverpacktladen_website
-        icon: "fab fa-github"
+        icon: fab fa-github
 
 
 
-de: &DEFAULT_EN
+en   : &DEFAULT_EN
   header:
     title: Open since March 8th!
-    text: 
+    text:
 
   about:
-    title: "About Us"
-    text: ""
-    body: "We are a group of dedicated citizens from the northern part of Munich. We founded a cooperative with the goal of opening a package-free store in the Moosach area.
+    title: About Us
+    text: ''
+    body: "We are a group of dedicated citizens from the northern part of Munich. We founded a cooperative with the goal of opening a package-free store\
+      \ in the Moosach area.\n\nThe store opened on March 8th, 2024, and we look forward to your visit! "
 
-
-     The store opened on March 8th, 2024, and we look forward to your visit!
-     "
-     
-    umfragelink: 
-    umfragename: 
+    umfragelink:
+    umfragename:
     section: about
 
   slideshow:
     section: slideshow
     title: Impressions from the store
     images:
-    - filename: gruppenbild.jpeg
-      caption: Part of the team
-    - filename: hanuschke.jpeg
-      caption: Fresh fruit and vegetables next door at Hanuschke
-    - filename: einkaufen.jpeg
-      caption: We are open!
-    - filename: schieberegal.jpeg
-      caption: Here you can find sweets, honey and other small items
-    - filename: behaelter.jpg
-      caption: Containers for spices
-    - filename: einfuellen.jpeg
-      caption: Susanne and Stefan filling up
-    - filename: lieferung.jpeg
-      caption: The quinoa from Feldmoching is delivered
-    - filename: waschmittel.jpeg
-      caption: Detergents for self-service refilling
+      - filename: gruppenbild.jpeg
+        caption: Part of the team
+      - filename: hanuschke.jpeg
+        caption: Fresh fruit and vegetables next door at Hanuschke
+      - filename: einkaufen.jpeg
+        caption: We are open!
+      - filename: schieberegal.jpeg
+        caption: Here you can find sweets, honey and other small items
+      - filename: behaelter.jpg
+        caption: Containers for spices
+      - filename: einfuellen.jpeg
+        caption: Susanne and Stefan filling up
+      - filename: lieferung.jpeg
+        caption: The quinoa from Feldmoching is delivered
+      - filename: waschmittel.jpeg
+        caption: Detergents for self-service refilling
 
   map:
     title: Come visit us!
     opening_times: Opening Hours
-    line_1: "Friday: 9am - 12pm, 2pm - 6pm"
-    line_2: "Saturday: 9am - 1pm"
-    line_3: "Open from 8am on Holy Saturday!"
+    line_1: 'Friday: 9am - 12pm, 2pm - 6pm'
+    line_2: 'Saturday: 9am - 1pm'
+    line_3: Open from 8am on Holy Saturday!
 
   sortiment:
     title: Assortment
@@ -384,96 +359,67 @@ de: &DEFAULT_EN
         text: Shampoo, Conditioner, Deodorant, Face cream, Body lotion
 
   services:
-    title: "The Idea"
-    text: "for a package-free store in the north of Munich"
+    title: The Idea
+    text: for a package-free store in the north of Munich
     section: services
     list:
-      - title: "No Packaging"
-        desc: "We want to sell only products that are completely free of packaging. In this way, we avoid waste and protect the environment."
+      - title: No Packaging
+        desc: We want to sell only products that are completely free of packaging. In this way, we avoid waste and protect the environment.
         icon: fas fa-box-open
-      - title: "Regional Producers"
-        desc: "We will source our products from regional producers as much as possible. This reduces transportation distances and consequently helps to protect the environment."
+      - title: Regional Producers
+        desc: We will source our products from regional producers as much as possible. This reduces transportation distances and consequently helps to protect
+          the environment.
         icon: fas fa-truck-moving
-      - title: "Great Atmosphere"
-        desc: "You should be able to not just shop with us, but also feel good. That's why we also plan to eventually open a café that will be a meeting place for everyone from Moosach."
+      - title: Great Atmosphere
+        desc: You should be able to not just shop with us, but also feel good. That's why we also plan to eventually open a café that will be a meeting
+          place for everyone from Moosach.
         icon: fas fa-mug-hot
 
   portfolio:
-    title: "Products"
-    text: "What you can buy from us"
+    title: Products
+    text: What you can buy from us
     section: portfolio
-    closebutton: "Close"
+    closebutton: Close
 
   organisation:
-    title: "Organization"
-    text: "As a cooperative, each member has the opportunity to work as much as they want and where they want. For this, we have various working groups that are separated by topics."
+    title: Organization
+    text: As a cooperative, each member has the opportunity to work as much as they want and where they want. For this, we have various working groups that
+      are separated by topics.
     section: portfolio
-    closebutton: "Close"
+    closebutton: Close
 
   membership:
-    title: "Membership"
-    getMember: "Do you want to be part of the package-free community in the north of Munich? <br> Then become a member in just 3 steps:"
+    title: Membership
+    getMember: 'Do you want to be part of the package-free community in the north of Munich? <br> Then become a member in just 3 steps:'
     steps:
-     - title: "Read the Statutes"
-       link: "cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf"
-       icon: fas fa-file-alt
-       desc: Read our [Statutes](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf) to get to know our values!
-     - title: "Fill out the Declaration of Membership and send it to us"
-       link: "cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf"
-       icon: fas fa-envelope-open-text
-       desc: "Fill out the [Declaration of Membership](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) for our cooperative and send it to: [info@rieselbar.de](mailto:info@rieselbar.de)"
-     - title: "Transfer of Shares"
-       icon: fas fa-credit-card
-       desc: Transfer the total amount of the designated cooperative shares.
-
-  timeline:
-    title: "Become Part of Our Story"
-    text: "What has happened so far"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Store Opening"
-        year: February 2, 2024
-        desc: Next year our store will finally open
-        image: ../../assets/img/timeline/shop_open.jpg
-      - title: "Registration of the Cooperative"
-        year: December 27, 2022
-        desc: "The cooperative is officially registered in the Cooperative Register."
-        align: right
-        image: ../../assets/img/timeline/gruendung_all.JPG
-        alt: 
-      - title: "Founding of the Cooperative!"
-        year: "March 7, 2022"
-        desc: "Official founding of the *Unverpackt Laden München Nord eG*! Now actively searching for premises. We appreciate every tip!"
-        align: left
-        image: ../../assets/img/timeline/Meeting.jpg
-        alt:
-      - title: "The Idea"
-        year: "Summer 2021"
-        desc: "Four friends from the north of Munich come together with the goal of founding a cooperative. This will later open a package-free store. Supporters are sought through [nebenan.de](https://nebenan.de){:target='_blank'}."
-        image: ../../assets/img/timeline/nebenan.jpg
-        align: right
-        alt:
-
-    end: "Become a <br> Part of <br> Our Story!"
-    link_target_end: ./membership
+      - title: Read the Statutes
+        link: cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf
+        icon: fas fa-file-alt
+        desc: Read our [Statutes](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf) to get to know our values!
+      - title: Fill out the Declaration of Membership and send it to us
+        link: cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf
+        icon: fas fa-envelope-open-text
+        desc: 'Fill out the [Declaration of Membership](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) for
+          our cooperative and send it to: [info@rieselbar.de](mailto:info@rieselbar.de)'
+      - title: Transfer of Shares
+        icon: fas fa-credit-card
+        desc: Transfer the total amount of the designated cooperative shares.
 
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: '' #"yes/no"
     list:
-      - title: "HalloMünchen"
+      - title: HalloMünchen
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-moosach-stadttetil-unverpackt-laden-rieselbar-plastik-spender-behaelter-sortiment-92795410.html
         logo: ../../assets/img/clients/halloMuenchen.jpeg
-      - title: "SZ"
+      - title: SZ
         url: https://www.sueddeutsche.de/muenchen/muenchen-nachhaltigkeit-unverpackt-laden-inflation-verpackungsmuell-umwelt-laim-1.5650655
         logo: ../../assets/img/clients/sz.jpeg
-      - title: "tz"
+      - title: tz
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
         logo: ../../assets/img/clients/tz.png
-      - title: "Local Gazette"
+      - title: Local Gazette
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
         logo: ../../assets/img/clients/lokalanzeiger.png
 
@@ -482,110 +428,118 @@ de: &DEFAULT_EN
     section: socialmedia
 
   team:
-    title_vs: "Executive Board"
-    text_vs: "Here are our board members who manage the day-to-day business:"
+    title_vs: Executive Board
+    text_vs: 'Here are our board members who manage the day-to-day business:'
     people_vs:
-      - name: "Susanne Hofstetter"
-        role: "I want to be a good role model for my 3 children, ages 11, 14 & 16, in terms of environmental protection. 
-Also, it's a lot of fun to bring this project to Moosach with a team of great people."
+      - name: Susanne Hofstetter
+        role: I want to be a good role model for my 3 children, ages 11, 14 & 16, in terms of environmental protection. Also, it's a lot of fun to bring
+          this project to Moosach with a team of great people.
         image: ../../assets/img/team/susanne.png
         social:
-          - url: "mailto:susanne@rieselbar.de"
+          - url: mailto:susanne@rieselbar.de
             icon: far fa-envelope-open
-      - name: "Marcus Spreti"
-        role: "Mechanical engineering technician and dropout in the auto industry, grandfather, and pilot"
+      - name: Marcus Spreti
+        role: Mechanical engineering technician and dropout in the auto industry, grandfather, and pilot
         image: ../../assets/img/team/marcus.jpg
         social:
-          - url: "mailto:marcus@rieselbar.de"
+          - url: mailto:marcus@rieselbar.de
             icon: far fa-envelope-open
 
-    title_ar: "Supervisory Board"
-    text_ar: "The supervisory board members determine the executive board and monitor its work."
+    title_ar: Supervisory Board
+    text_ar: The supervisory board members determine the executive board and monitor its work.
     people_ar:
-      - name: "Benedikt Häuser"
-        role: "Cloud architect at the Munich City Utilities. Takes care of the technology."
+      - name: Benedikt Häuser
+        role: Cloud architect at the Munich City Utilities. Takes care of the technology.
         image: ../../assets/img/team/benedikt.JPG
 
         social:
-          - url: "mailto:admin@rieselbar.de"
+          - url: mailto:admin@rieselbar.de
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
           - url: https://github.com/BeneHa
             icon: fab fa-github
-      - name: "Rafael Muselmann"
-        role: "Passion for a better world: Readily committed to making the world a little bit better with engagement."
+      - name: Rafael Muselmann
+        role: 'Passion for a better world: Readily committed to making the world a little bit better with engagement.'
         image: ../../assets/img/team/rafael.png
         social:
-          - url:  https://www.linkedin.com/in/rmuselmann/
+          - url: https://www.linkedin.com/in/rmuselmann/
             icon: fab fa-linkedin
           - url: https://github.com/moffer
             icon: fab fa-github
-      - name: "Guillaume Potdevin"
-        role: "Engaged in cancer research during the day, father by night, also likes to be in the mountains!"
+      - name: Guillaume Potdevin
+        role: Engaged in cancer research during the day, father by night, also likes to be in the mountains!
         image: ../../assets/img/team/guillaume.png
         social:
-          - url: "mailto:guillaume@rieselbar.de"
+          - url: mailto:guillaume@rieselbar.de
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
             icon: fab fa-linkedin
           - url: https://github.com/gpotdevin
             icon: fab fa-github
-      - name: "Stephan Schwerd"
-        role: "Dad, outdoor enthusiast, and engineer from Munich who is eager to make a change"
+      - name: Stephan Schwerd
+        role: Dad, outdoor enthusiast, and engineer from Munich who is eager to make a change
         image: ../../assets/img/team/stephan.jpeg
         social:
-          - url: "mailto:stephan@rieselbar.de"
+          - url: mailto:stephan@rieselbar.de
             icon: far fa-envelope-open
 
   contact:
-    title: "Newsletter Registration"
-    text: "Do you have any specific questions about the store or the cooperative?"
+    title: Newsletter Registration
+    text: Do you have any specific questions about the store or the cooperative?
     formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
-    emailaddress: "info@rieselbar.de"
-    mailaufforderung: "Then feel free to personally contact us via email at: info@rieselbar.de"
+    emailaddress: info@rieselbar.de
+    mailaufforderung: 'Then feel free to personally contact us via email at: info@rieselbar.de'
     section: contact
 
   faq:
-    title: "Frequently Asked Questions"
+    title: Frequently Asked Questions
     items:
-    - question: "Why a cooperative?"
-      answer: "We all want to help open a store, but we have main jobs that we want to continue. By distributing the project as a cooperative among many shoulders, the workload remains manageable and everyone is only liable with as much money as they want to invest."
-    - question: "Is the cooperative registered?"
-      answer: "The cooperative is registered in the Cooperative Register."
-    - question: "How is a cooperative structured?"
-      answer: "The members elect the supervisory board at the general meeting, which in turn appoints the executive board. The executive board then manages the business of the cooperative."
-    - question: "How can I become a member?"
-      answer: "You can sign up now with our [Membership Form](../../lang/de/membership.html). Send us the completed form, then we will send you your membership number and you can transfer your share."
-    - question: "What are the minimum and maximum contributions?"
-      answer: "It is possible to buy one or more shares per person, one share costs 150€. There is no maximum number of shares."
-    - question: "How can I get involved?"
-      answer: "We have various working groups that focus on topics such as the store, finances, or technology. Write us an [email](mailto:info@rieselbar.de), then we can discuss further."
-    - question: "How does the work in the cooperative proceed?"
-      answer: "Each working group exchanges information individually. On important occasions, the supervisory boards and executive boards coordinate, and a meeting with all members is organized."
-    - question: "What services must members provide?"
-      answer: "You don't have to perform any services with us, participation in the working groups is completely voluntary."
-    - question: "Is there a margin call?"
-      answer: "No, this is not provided for according to our [Statutes](../../lang/de/membership.html). This means that it cannot happen that you have to pay any more than the money for your shares."
-    - question: "What if I want to exit?"
-      answer: "Every member has the right to terminate their membership at the end of the calendar year. The termination must be made in writing at least six months prior and is possible at the earliest at the end of the third fiscal year after joining as a member."
-    - question: "What is the current status?"
-      answer: "On March 8th, 2024, we opened at Hanuschke."
-    - question: "I already go to the farmers' market. What sets the package-free store apart?"
-      answer: "The range of a package-free store is wider. There's not just fruit and vegetables, but also dry goods like flour, beans, and rice, as well as cosmetics like soap, shampoo, and toothpaste tabs."
+      - question: Why a cooperative?
+        answer: We all want to help open a store, but we have main jobs that we want to continue. By distributing the project as a cooperative among many
+          shoulders, the workload remains manageable and everyone is only liable with as much money as they want to invest.
+      - question: Is the cooperative registered?
+        answer: The cooperative is registered in the Cooperative Register.
+      - question: How is a cooperative structured?
+        answer: The members elect the supervisory board at the general meeting, which in turn appoints the executive board. The executive board then manages
+          the business of the cooperative.
+      - question: How can I become a member?
+        answer: You can sign up now with our [Membership Form](../../lang/de/membership.html). Send us the completed form, then we will send you your membership
+          number and you can transfer your share.
+      - question: What are the minimum and maximum contributions?
+        answer: It is possible to buy one or more shares per person, one share costs 150€. There is no maximum number of shares.
+      - question: How can I get involved?
+        answer: We have various working groups that focus on topics such as the store, finances, or technology. Write us an [email](mailto:info@rieselbar.de),
+          then we can discuss further.
+      - question: How does the work in the cooperative proceed?
+        answer: Each working group exchanges information individually. On important occasions, the supervisory boards and executive boards coordinate, and
+          a meeting with all members is organized.
+      - question: What services must members provide?
+        answer: You don't have to perform any services with us, participation in the working groups is completely voluntary.
+      - question: Is there a margin call?
+        answer: No, this is not provided for according to our [Statutes](../../lang/de/membership.html). This means that it cannot happen that you have
+          to pay any more than the money for your shares.
+      - question: What if I want to exit?
+        answer: Every member has the right to terminate their membership at the end of the calendar year. The termination must be made in writing at least
+          six months prior and is possible at the earliest at the end of the third fiscal year after joining as a member.
+      - question: What is the current status?
+        answer: On March 8th, 2024, we opened at Hanuschke.
+      - question: I already go to the farmers' market. What sets the package-free store apart?
+        answer: The range of a package-free store is wider. There's not just fruit and vegetables, but also dry goods like flour, beans, and rice, as well
+          as cosmetics like soap, shampoo, and toothpaste tabs.
 
 
   footer:
-    legal: "Imprint"
+    legal: Imprint
     social:
       - url: mailto:info@rieselbar.de
-        icon: "far fa-envelope-open"
+        icon: far fa-envelope-open
       - url: https://www.facebook.com/Rieselbar/
-        icon: "fab fa-facebook"
+        icon: fab fa-facebook
       - url: https://www.instagram.com/rieselbar/
-        icon: "fab fa-instagram"
+        icon: fab fa-instagram
       - url: https://github.com/BeneHa/unverpacktladen_website
-        icon: "fab fa-github"
+        icon: fab fa-github
 
 
 
@@ -597,3 +551,779 @@ en-CA:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
+
+it   :
+  header:
+    title: Aperto dall'8 Marzo!
+    text: ''
+
+  about:
+    title: Chi siamo
+    text: ''
+    body: "Siamo un gruppo di cittadini impegnati del nord di Monaco. Abbiamo fondato una cooperativa con l'obiettivo di aprire un negozio sfuso nella zona\
+      \ intorno a Moosach.\n\nIl negozio ha aperto l'8 Marzo 2024, non vediamo l'ora della tua visita! "
+
+    umfragelink:
+    umfragename:
+    section: about
+
+  slideshow:
+    section: slideshow
+    title: Immagini del negozio
+    images:
+      - filename: gruppenbild.jpeg
+        caption: Una parte del team
+      - filename: hanuschke.jpeg
+        caption: A fianco c'è frutta e verdura fresca da Hanuschke
+      - filename: einkaufen.jpeg
+        caption: Abbiamo aperto!
+      - filename: schieberegal.jpeg
+        caption: Qui ci sono dolcetti, miele e altre piccole cose
+      - filename: behaelter.jpg
+        caption: Contenitori per le spezie
+      - filename: einfuellen.jpeg
+        caption: Susanne e Stefan mentre riempiono
+      - filename: lieferung.jpeg
+        caption: La consegna del quinoa da Feldmoching
+      - filename: waschmittel.jpeg
+        caption: Detersivo da riempire da sé
+
+  map:
+    title: Vieni a trovarci!
+    opening_times: Orari di apertura
+    line_1: 'Venerdì: 9 - 12, 14 - 18'
+    line_2: 'Sabato: 9 - 13'
+    line_3: Aperto già dalle 8 il Sabato Santo!
+
+  sortiment:
+    title: Assortimento
+    highlight: Il nostro assortimento potrebbe ancora cambiare, quindi se hai desideri faccelo sapere e vedremo cosa possiamo fare.
+    content:
+      - title: Riso
+        text: Riso a chicco lungo, Couscous integrale, Bulgur medio, Riso per risotto bianco, Basmati bianco, Quinoa
+        image: reis.jpeg
+      - title: Detergenti
+        text: Bicarbonato, Detersivo per piatti, Brillantante, Sapone per le mani, Detergente tuttofare, Pulitore per bagno, Pulitore per WC, Detersivo
+          per il bucato
+      - title: Lenticchie
+        text: Lenticchie marroni, Lenticchie rosse, Ceci
+        image: linsen.jpeg
+      - title: Altro
+        text: Granulato di soia, Tovaglioli in cera d'api
+        subtitle:
+      - title: Muesli
+        text: Fiocchi d'avena fini / grossolani, Muesli di frutta / cioccolato / base, Crunchy al cioccolato
+        image: muesli.jpeg
+      - title: Pasta
+        text: Penne chiare, Spirali chiare, Penne integrali
+      - title: Noci & Semi
+        text: Semi di chia neri, Mandorle marroni, Nocciole, Mix di semi di nocciola, Semi di girasole, Anacardi, Semi di lino
+        image: nuesse.jpeg
+      - title: Dolciumi
+        text: Mirtilli, Chips di banana, Gomme da masticare alla frutta, Uvetta in cioccolato fondente, Gomme da masticare alla frutta zuccherate
+        image: gummibaerchen.jpeg
+      - title: Ingredienti per dolci
+        text: Zucchero di barbabietola, Zucchero di canna grezzo, Lievito in polvere per dolci, Farina di grano, Farina di farro
+        image: zucker.jpeg
+      - title: Spezie
+        text: Curry in polvere, Paprika in polvere, Pepe nero intero, Sale marino puro fine, Brodo vegetale
+      - title: Miele
+        text: Miele di fiori, miele di bosco, miele di grano saraceno, miele di acacia ecc., creme spalmabili al miele con lamponi per esempio
+        subtitle: Vendiamo il miele solo in vasetti normali di apicoltura, non sfuso
+        image: honig.jpeg
+      - title: Saponi & Co.
+        text: Shampoo, Balsamo, Deodorante, Crema viso, Lozione per il corpo
+
+  services:
+    title: L'idea
+    text: per un negozio sfuso nel nord di Monaco
+    section: services
+    list:
+      - title: Nessun imballaggio
+        desc: Vogliamo vendere solo prodotti che non richiedono imballaggi. In questo modo evitiamo rifiuti e proteggiamo l'ambiente.
+        icon: fas fa-box-open
+      - title: Produttori regionali
+        desc: Cercheremo di ottenere i nostri prodotti il più possibile da produttori locali. Questo riduce i tragitti di trasporto e dunque protegge l'ambiente.
+        icon: fas fa-truck-moving
+      - title: Atmosfera fantastica
+        desc: Da noi non dovresti soltanto fare la spesa, ma anche sentirti a tuo agio. Ecco perché vogliamo anche aprire un caffè che possa diventare un
+          punto d'incontro per tutti i residenti di Moosach.
+        icon: fas fa-mug-hot
+
+  portfolio:
+    title: Prodotti
+    text: Cosa puoi comprare da noi
+    section: portfolio
+    closebutton: Chiudi
+
+  organisation:
+    title: Organizzazione
+    text: Come cooperativa, è possibile per ogni membro lavorare dove e quanto desidera. Per questo abbiamo vari gruppi di lavoro, separati per tema.
+    section: portfolio
+    closebutton: Chiudi
+
+  membership:
+    title: Società
+    getMember: 'Vuoi diventare parte della comunità sfusa nel nord di Monaco? <br> Diventa membro in soli 3 passi:'
+    steps:
+      - title: Leggi lo statuto
+        link: cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf
+        icon: fas fa-file-alt
+        desc: Leggi il nostro [statuto](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf) per conoscere i nostri valori!
+      - title: Compila e inviaci la dichiarazione di adesione
+        link: cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf
+        icon: fas fa-envelope-open-text
+        desc: 'Compila la [dichiarazione di adesione](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) alla nostra
+          cooperativa e inviala a: [info@rieselbar.de](mailto:info@rieselbar.de)'
+      - title: Trasferimento delle quote
+        icon: fas fa-credit-card
+        desc: Trasferisci l'importo totale delle quote di cooperativa indicate.
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: '' #"sì/no"
+    list:
+      - title: HalloMünchen
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-moosach-stadttetil-unverpackt-laden-rieselbar-plastik-spender-behaelter-sortiment-92795410.html
+        logo: ../../assets/img/clients/halloMuenchen.jpeg
+      - title: SZ
+        url: https://www.sueddeutsche.de/muenchen/muenchen-nachhaltigkeit-unverpackt-laden-inflation-verpackungsmuell-umwelt-laim-1.5650655
+        logo: ../../assets/img/clients/sz.jpeg
+      - title: tz
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
+        logo: ../../assets/img/clients/tz.png
+      - title: Lokalanzeiger
+        url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
+        logo: ../../assets/img/clients/lokalanzeiger.png
+
+  social_media:
+    title: Novità da Instagram
+    section: socialmedia
+
+  team:
+    title_vs: Consiglio di amministrazione
+    text_vs: 'Ecco i nostri amministratori, che gestiscono le attività quotidiane:'
+    people_vs:
+      - name: Susanne Hofstetter
+        role: Voglio essere un buon esempio per i miei tre figli di 11, 14 e 16 anni in termini di protezione ambientale. Inoltre, è davvero divertente
+          portare questo progetto a Moosach insieme a un gruppo di persone fantastiche.
+        image: ../../assets/img/team/susanne.png
+        social:
+          - url: mailto:susanne@rieselbar.de
+            icon: far fa-envelope-open
+      - name: Marcus Spreti
+        role: Tecnico meccanico e disertore dell'industria automobilistica, nonno e pilota
+        image: ../../assets/img/team/marcus.jpg
+        social:
+          - url: mailto:marcus@rieselbar.de
+            icon: far fa-envelope-open
+
+    title_ar: Consiglio di sorveglianza
+    text_ar: I membri del consiglio di sorveglianza nominano e controllano il lavoro dell'amministrazione.
+    people_ar:
+      - name: Benedikt Häuser
+        role: Architetto cloud presso Stadtwerke München. Si occupa della tecnologia.
+        image: ../../assets/img/team/benedikt.JPG
+
+        social:
+          - url: mailto:admin@rieselbar.de
+            icon: far fa-envelope-open
+          - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
+            icon: fab fa-linkedin
+          - url: https://github.com/BeneHa
+            icon: fab fa-github
+      - name: Rafael Muselmann
+        role: 'Passione per un mondo migliore: pronto ad impegnarmi per migliorare il mondo anche di poco.'
+        image: ../../assets/img/team/rafael.png
+        social:
+          - url: https://www.linkedin.com/in/rmuselmann/
+            icon: fab fa-linkedin
+          - url: https://github.com/moffer
+            icon: fab fa-github
+      - name: Guillaume Potdevin
+        role: Di giorno impegnato nella ricerca sul cancro, di notte padre, ama anche le escursioni in montagna!
+        image: ../../assets/img/team/guillaume.png
+        social:
+          - url: mailto:guillaume@rieselbar.de
+            icon: far fa-envelope-open
+          - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
+            icon: fab fa-linkedin
+          - url: https://github.com/gpotdevin
+            icon: fab fa-github
+      - name: Stephan Schwerd
+        role: Papà, amante delle attività all'aperto e ingegnere da Monaco desideroso di fare cambiamenti
+        image: ../../assets/img/team/stephan.jpeg
+        social:
+          - url: mailto:stephan@rieselbar.de
+            icon: far fa-envelope-open
+
+  contact:
+    title: Iscriviti alla newsletter
+    text: Hai domande specifiche sul negozio o sulla cooperativa?
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
+    emailaddress: info@rieselbar.de
+    mailaufforderung: 'Allora contattaci personalmente via e-mail: info@rieselbar.de'
+    section: contact
+
+  faq:
+    title: Domande frequenti
+    items:
+      - question: Perché una cooperativa?
+        answer: Tutti noi vogliamo aiutare ad aprire un negozio, ma abbiamo anche i nostri lavori a tempo pieno. Distribuendo il progetto come una cooperativa
+          su molte spalle, il carico di lavoro rimane gestibile e ciascuno rischia solo tanto denaro quanto vuole investire.
+      - question: La cooperativa è registrata?
+        answer: La cooperativa è registrata nel registro delle cooperative.
+      - question: Come è strutturata una cooperativa?
+        answer: I membri eleggono il consiglio di sorveglianza nell'assemblea generale, che a sua volta nomina l'amministrazione. L'amministrazione poi
+          gestisce gli affari della cooperativa.
+      - question: Come posso diventare membro?
+        answer: Puoi già iscriverti con il nostro [modulo di adesione](../../lang/de/membership.html). Invia il modulo compilato, poi ti invieremo il tuo
+          numero di socio e potrai trasferire la tua quota.
+      - question: Qual è l'importo minimo e massimo di contribuzione?
+        answer: È possibile acquistare una o più quote per persona, una quota costa 150€. Non c'è un numero massimo di quote acquistabili.
+      - question: Come posso contribuire?
+        answer: Abbiamo diversi gruppi di lavoro che si occupano di temi come il negozio, le finanze o la tecnologia. Scrivici una [mail](mailto:info@rieselbar.de),
+          poi ne parleremo meglio.
+      - question: Come funziona il lavoro all'interno della cooperativa?
+        answer: Ogni gruppo di lavoro scambia informazioni in modo individuale. Per eventi importanti, i membri del consiglio di sorveglianza e dell'amministrazione
+          si coordinano, e viene organizzato un incontro con tutti i soci.
+      - question: Quali prestazioni devono fornire i membri?
+        answer: Non è necessario che tu fornisca alcun tipo di prestazione, il lavoro nei gruppi è completamente volontario.
+      - question: C'è un obbligo di contribuzione aggiuntiva?
+        answer: No, secondo il nostro [statuto](../../lang/de/membership.html) non è previsto. Ciò significa che non puoi essere obbligato a pagare più
+          del denaro per le tue quote.
+      - question: Cosa succede se voglio ritirarmi?
+        answer: Ogni membro ha il diritto di recedere dall'adesione alla fine dell'anno civile. La disdetta deve avvenire almeno sei mesi prima per iscritto
+          ed è possibile al più presto alla fine del terzo esercizio finanziario dopo l'ingresso nel consorzio.
+      - question: Qual è lo stato attuale?
+        answer: L'8 marzo 2024 abbiamo aperto presso Hanuschke.
+      - question: Vado già al mercato settimanale. In cosa si differenzia il negozio sfuso?
+        answer: L'assortimento di un negozio sfuso è più ampio. Non ci sono solo frutta e verdura, ma anche prodotti secchi come farina, fagioli e riso,
+          oltre a prodotti cosmetici come sapone, shampoo e pastiglie per dentifricio.
+
+  footer:
+    legal: Note legali
+    social:
+      - url: mailto:info@rieselbar.de
+        icon: far fa-envelope-open
+      - url: https://www.facebook.com/Rieselbar/
+        icon: fab fa-facebook
+      - url: https://www.instagram.com/rieselbar/
+        icon: fab fa-instagram
+      - url: https://github.com/BeneHa/unverpacktladen_website
+        icon: fab fa-github
+
+
+ar   :
+  header:
+    title: فتحت في 8 مارس!
+    text: ''
+
+  about:
+    title: من نحن
+    text: ''
+    body: "نحن مجموعة من المواطنين الملتزمين من شمال ميونيخ. قمنا بتأسيس تعاون مع الهدف من فتح متجر بدون تغليف في منطقة موزاخ. \n\nافتتح المتجر في 8 مارس\
+      \ 2024، نحن نتطلع لزيارتك!"
+
+  slideshow:
+    section: عرض الشرائح
+    title: صور من المتجر
+    images:
+      - filename: gruppenbild.jpeg
+        caption: جزء من الفريق
+      - filename: hanuschke.jpeg
+        caption: ثمار الفاكهة الطازجة متاحة في هانوشكي بالجوار
+      - filename: einkaufen.jpeg
+        caption: لقد افتتحنا!
+      - filename: schieberegal.jpeg
+        caption: هنا تجد الحلويات والعسل وأشياء صغيرة أخرى
+      - filename: behaelter.jpg
+        caption: حاويات للتوابل
+      - filename: einfuellen.jpeg
+        caption: سوزان وستيفان أثناء التعبئة
+      - filename: lieferung.jpeg
+        caption: الكينوا من فيلدموشينغ تم توصيلها
+      - filename: waschmittel.jpeg
+        caption: مسحوق الغسيل لملء بنفسك
+
+  map:
+    title: تفضلوا بزيارتنا!
+    opening_times: أوقات العمل
+    line_1: 'الجمعة: 9 صباحًا - 12 مساءً، 2 بعد الظهر - 6 مساءً'
+    line_2: 'السبت: 9 صباحًا - 1 بعد الظهر'
+    line_3: مفتوح في سبت الفصح ابتداءً من الساعة 8 صباحًا!
+
+  sortiment:
+    title: تشكيلة البضائع
+    highlight: تشكيلتنا من المنتجات قد تتغير، لذا إذا كان لديك أي رغبات فلا تتردد في إبلاغنا لنرى ما يمكننا فعله.
+    content:
+      - title: أرز
+        text: أرز طويل الحبة، كسكس كامل الحبوب، برغل متوسط، أرز ريزوتو أبيض، أرز باسماتي أبيض، كينوا
+        image: reis.jpeg
+      - title: منظفات
+        text: بيكربونات الصوديوم، سائل غسيل الصحون، مزيل الأصفرار، صابون اليدين، منظف عام، منظف للحمام، منظف للمرحاض، مسحوق الغسيل
+      - title: عدس
+        text: عدس بني، عدس أحمر، حمص
+        image: linsen.jpeg
+      - title: منتجات أخرى
+        text: حبيبات الصويا، مناشف الشمع النحل
+      - title: الحبوب المشكلة
+        text: شوفان ناعم / خشن، حبوب الإفطار بالفواكه / بالشوكولاتة / أساسي، شوكولاتة كرانشي
+        image: muesli.jpeg
+      - title: مكرونة
+        text: بيني إيطالية فاتحة اللون، مسمار إيطالي فاتح اللون، بيني كامل الحبوب
+      - title: المكسرات والبذور
+        text: بذور الشيا السوداء، لوز بني، نوى البندق، خليط نوى الجوز، بذور دوار الشمس، نوى الكاجو، بذور الكتان
+        image: nuesse.jpeg
+      - title: الحلويات
+        text: توت مجفف، شرائح الموز، حلوى الجلي Gummibärchen، زبيب في شوكولاتة داكنة، حلوى جلي مفرومة بالسكر
+        image: gummibaerchen.jpeg
+      - title: مواد الخبز
+        text: سكر البنجر، سكر قصب السكر، بيكنج باودر الكريم التتار، طحين القمح، طحين الدينقل
+        image: zucker.jpeg
+      - title: توابل
+        text: مسحوق الكاري، مسحوق الفلفل الحار، فلفل أسود كامل، ملح بحري طبيعي ناعم، مرق الخضروات نباتي
+      - title: عسل
+        text: عسل الزهور، عسل الغابة، عسل البقوليات، عسل الكتان وغيرها، مربى العسل مع عنابة وغيرها
+        subtitle: نبيع العسل فقط في أواني النحل العادية، لا بدون تغليف
+        image: honig.jpeg
+      - title: صابون وما إلى ذلك
+        text: شامبو، كريم الشعر، مزيل العرق، كريم الوجه، لوسيون الجسم
+
+  services:
+    title: الفكرة
+    text: لمتجر بدون تغليف في شمال ميونيخ
+    section: الخدمات
+    list:
+      - title: لا توجد تغليفات
+        desc: نرغب في بيع المنتجات التي لا تحتوي على أي تغليفات. بهذه الطريقة، نحن نقلل من القمامة ونحافظ على البيئة.
+        icon: fas fa-box-open
+      - title: المنتجون المحليون
+        desc: سنحصل على منتجاتنا في أقدر قدر ممكن من المنتجين المحليين. هذا يقلل من مسافات النقل وبالتالي يحافظ على البيئة.
+        icon: fas fa-truck-moving
+      - title: الجو الرائع
+        desc: نحن نريدك لا تتسوق فقط، بل تشعر بالراحة أيضًا. لذا نريد في وقت ما فتحة مقهى تكون مكانًا لجميع سكان موزاخ.
+        icon: fas fa-mug-hot
+
+  portfolio:
+    title: المنتجات
+    text: ما يمكنك شراؤه منا
+    section: معرض الصور
+    closebutton: إغلاق
+
+  organisation:
+    title: المنظمة
+    text: كجمعية تعاونية، كل عضو يمكنه المشاركة حيثما وكم يشاء. لذا لدينا مجموعات عمل مختلفة تعمل بشكل منفصل حسب الموضوعات.
+    section: المنظمة
+    closebutton: إغلاق
+
+  membership:
+    title: العضوية
+    getMember: 'هل تود أن تكون جزءًا من مجتمعنا بدون تغليف في شمال ميونيخ؟ <br> انضم إلينا في 3 خطوات فقط:'
+    steps:
+      - title: قراءة النظام الأساسي
+        link: cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf
+        icon: fas fa-file-alt
+        desc: اقرأ [نظامنا الأساسي](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf) لمعرفة قيمنا!
+      - title: ملء إقرار العضوية وإرساله إلينا
+        link: cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf
+        icon: fas fa-envelope-open-text
+        desc: 'املأ [إقرار الانضمام](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) لجمعيتنا التعاونية وأرسله
+          إلى: [info@rieselbar.de](mailto:info@rieselbar.de)'
+      - title: تحويل قيمة الحصص
+        icon: fas fa-credit-card
+        desc: حول المبلغ الإجمالي لحصص الجمعية المشار إليها.
+
+  clients:
+    section: العملاء
+    max-height: 100px
+    horizontal-scrolling: ''
+    list:
+      - title: HalloMünchen
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-moosach-stadttetil-unverpackt-laden-rieselbar-plastik-spender-behaelter-sortiment-92795410.html
+        logo: ../../assets/img/clients/halloMuenchen.jpeg
+      - title: SZ
+        url: https://www.sueddeutsche.de/muenchen/muenchen-nachhaltigkeit-unverpackt-laden-inflation-verpackungsmuell-umwelt-laim-1.5650655
+        logo: ../../assets/img/clients/sz.jpeg
+      - title: tz
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
+        logo: ../../assets/img/clients/tz.png
+      - title: Lokalanzeiger
+        url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
+        logo: ../../assets/img/clients/lokalanzeiger.png
+
+  social_media:
+    title: آخر الأخبار من إنستجرام
+    section: وسائل التواصل الاجتماعي
+
+  team:
+    title_vs: مجلس الإدارة
+    text_vs: 'إليكم أعضاء مجلس الإدارة الذين يديرون عملنا اليومي:'
+    people_vs:
+      - name: سوزان هوفشتتر
+        role: أرغب في أن أكون نموذجًا جيدًا لأطفالي الثلاثة، الذين تتراوح أعمارهم بين 11 و 14 و 16 عامًا، من حيث حماية البيئة. بالإضافة إلى أنه من الممتع
+          جدًا جلب هذا المشروع إلى موزاخ مع فريق رائع.
+        image: ../../assets/img/team/susanne.png
+        social:
+          - url: mailto:susanne@rieselbar.de
+            icon: far fa-envelope-open
+      - name: ماركوس سبرتي
+        role: فني هندسة ميكانيكية ومنسحب من صناعة السيارات، جد، وطيار
+        image: ../../assets/img/team/marcus.jpg
+        social:
+          - url: mailto:marcus@rieselbar.de
+            icon: far fa-envelope-open
+
+    title_ar: مجلس الرقابة
+    text_ar: يقوم أعضاء مجلس الرقابة بتحديد مجلس الإدارة ومراقبة أعماله.
+    people_ar:
+      - name: بنديكت هوسر
+        role: مهندس سحابي في شركة الخدمات العامة في ميونيخ. يعتني بالتكنولوجيا.
+        image: ../../assets/img/team/benedikt.JPG
+        social:
+          - url: mailto:admin@rieselbar.de
+            icon: far fa-envelope-open
+          - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
+            icon: fab fa-linkedin
+          - url: https://github.com/BeneHa
+            icon: fab fa-github
+      - name: رافائيل موسلمان
+        role: 'شغف لعالم أفضل: يلتزم على الفور في جعل العالم أفضل قليلًا من خلال الالتزام.'
+        image: ../../assets/img/team/rafael.png
+        social:
+          - url: https://www.linkedin.com/in/rmuselmann/
+            icon: fab fa-linkedin
+          - url: https://github.com/moffer
+            icon: fab fa-github
+      - name: جيلوم بوتديفان
+        role: ملتزم بالبحث عن علاج السرطان خلال النهار، وأب ليلاً، ويحب أيضًا أن يكون في الجبال!
+        image: ../../assets/img/team/guillaume.png
+        social:
+          - url: mailto:guillaume@rieselbar.de
+            icon: far fa-envelope-open
+          - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
+            icon: fab fa-linkedin
+          - url: https://github.com/gpotdevin
+            icon: fab fa-github
+      - name: ستيفان شفرد
+        role: أب، محب للأنشطة في الهواء الطلق، ومهندس من ميونيخ يتطلع لإحداث تغيير
+        image: ../../assets/img/team/stephan.jpeg
+        social:
+          - url: mailto:stephan@rieselbar.de
+            icon: far fa-envelope-open
+
+  contact:
+    title: تسجيل النشرة الإخبارية
+    text: هل لديك أي أسئلة محددة حول المتجر أو التعاونية؟
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
+    emailaddress: info@rieselbar.de
+    mailaufforderung: 'ثم لا تتردد في الاتصال بنا شخصيًا عبر البريد الإلكتروني على: info@rieselbar.de'
+    section: الاتصال
+
+  faq:
+    title: الأسئلة المتكررة
+    items:
+      - question: لماذا تعاونية؟
+        answer: نريد جميعًا مساعدة في فتح متجر، لكن لدينا وظائف رئيسية نريد أن نواصلها. من خلال توزيع المشروع كتعاونية بين الكثير من الكاهل، يبقى العبء
+          المتحمل قابلًا للتحمل ويكون كل شخص مسؤولًا فقط بقدر المال الذي يرغب في استثماره.
+      - question: هل المعاونية مسجلة؟
+        answer: التعاونية مسجلة في سجل التعاونيات.
+      - question: كيف تكون تعاونية منظمة؟
+        answer: ينتخب الأعضاء مجلس الرقابة في الجمعية العامة، الذي يعين بدوره مجلس الإدارة. يدير مجلس الإدارة بعد ذلك أعمال التعاونية.
+      - question: كيف يمكنني أن أصبح عضوًا؟
+        answer: يمكنك التسجيل الآن باستخدام [نموذج العضوية](../../lang/de/membership.html). أرسل لنا النموذج المكتمل، ثم سنرسل لك رقم العضوية الخاص بك ويمكنك
+          تحويل حصتك.
+      - question: ما هي الحد الأدنى والحد الأقصى للمساهمات؟
+        answer: من الممكن شراء سهم واحد أو أكثر لكل شخص، ويكلف السهم الواحد 150 يورو. لا يوجد حد أقصى لعدد الأسهم.
+      - question: كيف يمكنني المشاركة؟
+        answer: لدينا مجموعات عمل مختلفة تركز على مواضيع مثل المتجر والأمور المالية والتكنولوجيا. اكتب لنا [بريدًا إلكترونيًا](mailto:info@rieselbar.de)،
+          ثم يمكننا مناقشة المزيد.
+      - question: كيف تتقدم العمل في التعاونية؟
+        answer: تبادل كل مجموعة عمل المعلومات بشكل فردي. في المناسبات الهامة، يتنسق مجالس الرقابة ومجالس الإدارة، ويتم تنظيم اجتماع مع جميع الأعضاء.
+      - question: ما هي الخدمات التي يجب أن تقدمها الأعضاء؟
+        answer: لا تحتاج إلى تقديم أي خدمات معنا، مشاركة الأعضاء في مجموعات العمل اختيارية تمامًا.
+      - question: هل هناك دعوة هامشية؟
+        answer: لا، لا يتم توفير ذلك وفقًا لأنظمتنا [الأساسية](../../lang/de/membership.html). وهذا يعني أنه لا يمكن أن يحدث أن تضطر إلى دفع أي مبلغ إضافي
+          بخلاف المال المستثمر في أسهمك.
+      - question: ماذا لو أردت الخروج؟
+        answer: لكل عضو الحق في إنهاء عضويته في نهاية العام الميلادي. يجب أن يتم الإنهاء كتابةً قبل ستة أشهر على الأقل ويكون ممكنا في أقرب وقت ممكن في نهاية
+          السنة المالية الثالثة بعد الانضمام كعضو.
+      - question: ما هو الوضع الحالي؟
+        answer: في 8 مارس 2024، افتتحنا في هانوشكي.
+      - question: أذهب بالفعل إلى السوق الزراعي. ما الذي يميز متجرا لا يحتوي على تغليف عن الآخر؟
+        answer: تشمل مجموعة متجر لا يحتوي على تغليف أوسع. ليس فقط الفاكهة والخضروات، ولكن أيضًا السلع الجافة مثل الطحين والفاصوليا والأرز، وكذلك مستحضرات
+          التجميل مثل الصابون والشامبو وأقراص الوضعية للأسنان.
+
+  footer:
+    legal: إشهار
+    social:
+      - url: mailto:info@rieselbar.de
+        icon: far fa-envelope-open
+      - url: https://www.facebook.com/Rieselbar/
+        icon: fab fa-facebook
+      - url: https://www.instagram.com/rieselbar/
+        icon: fab fa-instagram
+      - url: https://github.com/BeneHa/unverpacktladen_website
+        icon: fab fa-github
+
+
+hr   :
+  header:
+    title: Otvoreno od 8. ožujka!
+    text: ''
+
+  about:
+    title: O nama
+    text: ''
+    body: "Mi smo grupa predanih građana i građanki sa sjevera Münchena. Osnivali smo zadrugu s ciljem otvaranja radnje bez ambalaže na području oko Moosacha.\n\
+      \nRadnja je otvorena 8. ožujka 2024., veselimo se vašem posjetu! "
+
+    umfragelink:
+    umfragename:
+    section: about
+
+  slideshow:
+    section: slideshow
+    title: Utisci iz trgovine
+    images:
+      - filename: gruppenbild.jpeg
+        caption: Dio tima
+      - filename: hanuschke.jpeg
+        caption: Pored nas svježe voće i povrće kod Hanuschkea
+      - filename: einkaufen.jpeg
+        caption: Otvoreno je!
+      - filename: schieberegal.jpeg
+        caption: Ovdje ima slatkiša, meda i raznih sitnica
+      - filename: behaelter.jpg
+        caption: Posude za začine
+      - filename: einfuellen.jpeg
+        caption: Susanne i Stefan pri punjenju
+      - filename: lieferung.jpeg
+        caption: Dostava kinoe iz Feldmochinga
+      - filename: waschmittel.jpeg
+        caption: Deterdžent za samostalno punjenje
+
+  map:
+    title: Navratite nekad!
+    opening_times: Radno vrijeme
+    line_1: 'Petak: 9 - 12, 14 - 18 sati'
+    line_2: 'Subota: 9 - 13 sati'
+    line_3: Otvoreno već od 8 sati na Veliku subotu!
+
+  sortiment:
+    title: Asortiman
+    highlight: Naš asortiman se još može mijenjati, stoga ako imate neke želje javite nam, pa ćemo vidjeti što možemo učiniti.
+    content:
+      - title: Riža
+        text: Dugačka riža, cijeli pšenični kuskus, srednji bulgur, bijeli rižoto riža, bijeli basmati riža, kinoja
+        image: reis.jpeg
+      - title: Sredstva za čišćenje
+        text: Soda bikarbona, deterdžent za suđe, sjajilo, sapun za ruke, sredstvo za čišćenje, sredstvo za čišćenje kupaonice, WC čistač, prašak za rublje
+      - title: Leća
+        text: Smeđa planinska leća, crvena leća, slanutak
+        image: linsen.jpeg
+      - title: Ostalo
+        text: Sojini granulati, pčelinji vosak salveti
+        subtitle:
+      - title: Musli
+        text: Sitni / krupni zobeni pahuljice, voćni / čokoladni / osnovni musli, hrskavi musli s čokoladom
+        image: muesli.jpeg
+      - title: Tjestenina
+        text: Svijetle penne, svijetle spirale, cijeložitne penne
+      - title: Orašasti plodovi & sjemenke
+        text: Crno chia sjeme, smeđi bademi, lješnjak jezgre, mješavina jezgri oraha, suncokretovo sjeme, indijski oraščići, laneno sjeme
+        image: nuesse.jpeg
+      - title: Slatkiši
+        text: Brusnice, čips od banane, gumene bombone, grožđice u tamnoj čokoladi, šećerni bomboni
+        image: gummibaerchen.jpeg
+      - title: Sastojci za pečenje
+        text: Šećer od cikle, sirovi trsni šećer, prašak za pecivo, pšenično brašno, pirovo brašno
+        image: zucker.jpeg
+      - title: Začini
+        text: Curry u prahu, paprika u prahu, cijeli crni papar, čisto fino morska sol, biljni temeljac
+      - title: Med
+        text: Cvjetni med, šumski med, heljdin med, med akacija i dr., namazi s medom, na primjer, s malinama
+        subtitle: Med prodajemo samo u normalnim pčelarskim staklenkama, nije bez ambalaže
+        image: honig.jpeg
+      - title: Sapun & Co.
+        text: Šampon, regenerator, dezodorans, krema za lice, losion za tijelo
+
+  services:
+    title: Ideja
+    text: za radnju bez ambalaže na sjeveru Münchena
+    section: services
+    list:
+      - title: Bez pakiranja
+        desc: Želimo prodavati samo proizvode koji su potpuno bez pakiranja. Time izbjegavamo otpad i čuvamo okoliš.
+        icon: fas fa-box-open
+      - title: Regionalni proizvođači
+        desc: Naše proizvode ćemo što je moguće više nabavljati od regionalnih proizvođača. To smanjuje putovanja i tako štiti okoliš.
+        icon: fas fa-truck-moving
+      - title: Super atmosfera
+        desc: Kod nas nije moguće samo kupovati, već se i ugodno osjećati. Zbog toga želimo jednog dana otvoriti i kafić, koji bi trebao biti mjesto susreta
+          za sve iz Moosacha.
+        icon: fas fa-mug-hot
+
+  portfolio:
+    title: Proizvodi
+    text: Što možete kupiti kod nas
+    section: portfolio
+    closebutton: Zatvori
+
+  organisation:
+    title: Organizacija
+    text: Kao zadruga, svakom članu je moguće sudjelovati gdje i koliko želi. Zbog toga imamo razne radne skupine podijeljene po temama.
+    section: portfolio
+    closebutton: Zatvori
+
+  membership:
+    title: Članstvo
+    getMember: 'Želiš postati dio zajednice bez ambalaže na sjeveru Münchena? <br> Postani član u samo tri koraka:'
+    steps:
+      - title: Pročitajte statut
+        link: cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf
+        icon: fas fa-file-alt
+        desc: Pročitajte naš [statut](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf) kako biste upoznali naše vrijednosti!
+      - title: Ispunite pristupnicu i pošaljite nam
+        link: cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf
+        icon: fas fa-envelope-open-text
+        desc: 'Ispunite [pristupnicu](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) za našu zadrugu i pošaljite
+          je na: [info@rieselbar.de](mailto:info@rieselbar.de)'
+      - title: Uplate udjela
+        icon: fas fa-credit-card
+        desc: Uplatite ukupan iznos označenih udjela zadruge.
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: '' #"da/ne"
+    list:
+      - title: HalloMünchen
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-moosach-stadttetil-unverpackt-laden-rieselbar-plastik-spender-behaelter-sortiment-92795410.html
+        logo: ../../assets/img/clients/halloMuenchen.jpeg
+      - title: SZ
+        url: https://www.sueddeutsche.de/muenchen/muenchen-nachhaltigkeit-unverpackt-laden-inflation-verpackungsmuell-umwelt-laim-1.5650655
+        logo: ../../assets/img/clients/sz.jpeg
+      - title: tz
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
+        logo: ../../assets/img/clients/tz.png
+      - title: Lokalanzeiger
+        url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
+        logo: ../../assets/img/clients/lokalanzeiger.png
+
+  social_media:
+    title: Novosti s Instagrama
+    section: socialmedia
+
+  team:
+    title_vs: Upravni odbor
+    text_vs: 'Evo naših direktora koji upravljaju dnevnim poslovanjem:'
+    people_vs:
+      - name: Susanne Hofstetter
+        role: Želim biti dobar primjer svojoj djeci od 11, 14 i 16 godina po pitanjima zaštite okoliša. Osim toga, jako je zabavno donijeti ovaj projekt
+          u Moosach s timom sjajnih ljudi.
+        image: ../../assets/img/team/susanne.png
+        social:
+          - url: mailto:susanne@rieselbar.de
+            icon: far fa-envelope-open
+      - name: Marcus Spreti
+        role: Tehničar strojarstva i bivši radnik autoindustrije, djed i pilot
+        image: ../../assets/img/team/marcus.jpg
+        social:
+          - url: mailto:marcus@rieselbar.de
+            icon: far fa-envelope-open
+
+    title_ar: Nadzorni odbor
+    text_ar: Članovi nadzornog odbora imenuju i kontroliraju rad upravnog odbora.
+    people_ar:
+      - name: Benedikt Häuser
+        role: Arhitekt oblaka u gradskim službama (Stadtwerke München). Brine se o tehnologiji.
+        image: ../../assets/img/team/benedikt.JPG
+
+        social:
+          - url: mailto:admin@rieselbar.de
+            icon: far fa-envelope-open
+          - url: https://www.linkedin.com/in/benedikt-häuser-455216175/
+            icon: fab fa-linkedin
+          - url: https://github.com/BeneHa
+            icon: fab fa-github
+      - name: Rafael Muselmann
+        role: 'Strast za bolji svijet: spreman sam se angažirati kako bi svijet postao malo bolje mjesto.'
+        image: ../../assets/img/team/rafael.png
+        social:
+          - url: https://www.linkedin.com/in/rmuselmann/
+            icon: fab fa-linkedin
+          - url: https://github.com/moffer
+            icon: fab fa-github
+      - name: Guillaume Potdevin
+        role: Danju se bavi istraživanjem raka, noću je otac, također voli planinarenje!
+        image: ../../assets/img/team/guillaume.png
+        social:
+          - url: mailto:guillaume@rieselbar.de
+            icon: far fa-envelope-open
+          - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
+            icon: fab fa-linkedin
+          - url: https://github.com/gpotdevin
+            icon: fab fa-github
+      - name: Stephan Schwerd
+        role: Tata, ljubitelj aktivnosti na otvorenom i inženjer iz Münchena koji ima želju nešto promijeniti
+        image: ../../assets/img/team/stephan.jpeg
+        social:
+          - url: mailto:stephan@rieselbar.de
+            icon: far fa-envelope-open
+
+  contact:
+    title: Prijavi se na newsletter
+    text: Imaš specifična pitanja o trgovini ili zadruzi?
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
+    emailaddress: info@rieselbar.de
+    mailaufforderung: 'Onda nas slobodno kontaktiraj putem e-maila: info@rieselbar.de'
+    section: contact
+
+  faq:
+    title: Često postavljena pitanja
+    items:
+      - question: Zašto zadruga?
+        answer: Svi želimo pomoći u otvaranju trgovine, ali imamo i svoje poslove s punim radnim vremenom. Distribuirajući projekt kao zadrugu na mnogo
+          ramena, radni teret ostaje upravljiv i svatko rizikuje samo onoliko novca koliko želi uložiti.
+      - question: Je li zadruga registrirana?
+        answer: Zadruga je registrirana u registru zadruga.
+      - question: Kako je strukturirana zadruga?
+        answer: Članovi biraju nadzorni odbor na Glavnoj skupštini, koji zatim postavlja upravni odbor. Upravni odbor potom vodi poslove zadruge.
+      - question: Kako mogu postati član?
+        answer: Već sada se možeš prijaviti s našim [obrascom za pristupanje](../../lang/de/membership.html). Pošalji nam popunjeni obrazac, zatim ćemo
+          ti poslati tvoj broj člana i možeš prenijeti svoj udio.
+      - question: Koji je minimalni i maksimalni iznos doprinosa?
+        answer: Moguće je kupiti jedan ili više udjela po osobi, jedan udio košta 150€. Maksimalni broj udjela nije definiran.
+      - question: Kako mogu doprinijeti?
+        answer: Imamo različite radne skupine koje se bave temama poput trgovine, financija ili tehnologije. Pošalji nam [mail](mailto:info@rieselbar.de),
+          a zatim ćemo bliže razgovarati.
+      - question: Kako teče rad u zadruzi?
+        answer: Svaka radna grupa razmjenjuje informacije pojedinačno. U važnim prilikama, članovi nadzornog i upravnog odbora koordiniraju, te se organizira
+          sastanak sa svim članovima.
+      - question: Koje usluge moraju pružiti članovi?
+        answer: Ne moraš obavljati nikakve usluge, rad u radnim grupama je potpuno dobrovoljan.
+      - question: Postoji li obaveza dodatnih uplata?
+        answer: Ne, prema našem [statutu](../../lang/de/membership.html) to nije predviđeno. To znači da od tebe ne može biti zahtijevano da platiš više
+          novca osim za svoje udjele.
+      - question: Što je ako se želim ispisati?
+        answer: Svaki član ima pravo otkazati članstvo do kraja kalendarske godine. Otkaz mora biti podnesen najmanje šest mjeseci unaprijed u pisanom obliku
+          i moguć je najranije na kraju treće poslovne godine nakon učlanjenja.
+      - question: Koji je trenutni status?
+        answer: 8. ožujka 2024. smo otvorili kod Hanuschkea.
+      - question: Već idem na tjedni sajam. U čemu se razlikuje trgovina bez pakiranja?
+        answer: Sortiment trgovine bez pakiranja je širi. Ne postoji samo voće i povrće, već i suhe namirnice kao što su brašno, grah i riža, kao i kozmetički
+          proizvodi poput sapuna, šampona i tableta za zubnu pastu.
+
+  footer:
+    legal: Pravne napomene
+    social:
+      - url: mailto:info@rieselbar.de
+        icon: far fa-envelope-open
+      - url: https://www.facebook.com/Rieselbar/
+        icon: fab fa-facebook
+      - url: https://www.instagram.com/rieselbar/
+        icon: fab fa-instagram
+      - url: https://github.com/BeneHa/unverpacktladen_website
+        icon: fab fa-github

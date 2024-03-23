@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Finanzen
   thumbnail: /assets/img/organisation/finanzen.jpg
-  
+
 #what displays when the item is clicked:
 title: Finanzen
 subtitle: Die Banker

@@ -2,7 +2,7 @@
 <html lang="{{ locale | slice: 0,2 | default: "de" }}">
 
   {% include head.html %}
- 
+
 	<body id="page-top" class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" style="padding:0">
 
 
