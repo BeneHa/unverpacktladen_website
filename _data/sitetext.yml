@@ -169,67 +169,6 @@ de: &DEFAULT_DE
     end: "Werde ein <br> Teil unserer <br> Geschichte!"
     link_target_end: ./membership
 
-  # appointments:
-  #   title: "Nächste Termine und vergangene Meilensteine"
-  #   text: "Interesse euch einzubringen? Schreibt uns einfach eine kurze Mail, dann laden wir euch ein:"
-  #   passed_event_headline: "Vergangene Termine"
-  #   kontaktaufforderung: "Kontakt"
-  #   section: appointments
-  #   # left is the default
-  #   start_align: "left"
-  #   events:
-  #   passed_events:
-  #     - title: "Nachhaltigkeitsmesse Pelkovenschlössel"
-  #       year: "14.10.2022"
-  #       desc: "Wir haben auf der Nachhaltigkeitsmesse am Pelkovenschlössel euch informiert, über den aktuellen Stand und unser Projekt vorgestellt!"
-  #       image: ../../assets/img/timeline/2022-10_Nachhaltigkeitsmesse.jpeg
-  #       align: right
-  #     - title: "Treffen nach der Sommerpause"
-  #       year: "10.09.2022"
-  #       desc: "Wir besprechen was in der Sommerpause passiert ist und wie es weitergeht. Melde dich bei uns wenn du vorbeischauen willst!"
-  #       image: ../../assets/img/timeline/gruendung_all.JPG
-  #       align: left
-  #     - title: "Treffen große Runde"
-  #       year: "18.07.2022"
-  #       desc: "Wir besprechen die nächsten Schritte, v.a. im Bereich Finanzierung, Businessplan sowie Immobiliensuche. Außerdem ziehen wir ein Fazit bezüglich der Mitgliederwerbung."
-  #       align: right
-  #       image: ../../assets/img/timeline/InfoAbend.jpg
-  #     - title: "Stadtteilkulturtage Moosach"
-  #       year: "25.06.2022"
-  #       desc: "Wir verteilen Flyer auf den Stadtteilkulturtagen und werben neue Mitglieder"
-  #       image: ../../assets/img/timeline/stadtteilkulturtage_small.JPG
-  #     - title: "Treffen große Runde "
-  #       year: "16.05.2022"
-  #       desc: "Wir haben über Marketing und die Verteilung der gedruckten Flyer (z.B. Wochenmärkte), eine mögliche Immobilie sowie über den Businessplan gesprochen."
-  #       image: ../../assets/img/timeline/InfoAbend.jpg
-  #     - title: "Wir haben offiziell die Genossenschaft gegründet!"
-  #       year: "07.03.2022"
-  #       desc: "Im Stadtteilladen Moosach haben wir mit Hilfe von Frau Bahar und Herrn Max Riedl der Genossenschaftsverband Bayern 
-  #         die Genossenschaft *Unverpackt Laden München Nord eG* gegründet. Jetzt sind wir bereit für die nächste Schritte!<br>
-  #          Weiterhin sind wir auf jede Art von Unterstützung angewiesen!<br>
-  #          Sollten Sie also Interesse an einer aktiven Mitarbeit haben, oder jemanden kennen, der eine Immobilie anbieten kann, dann 
-  #          melden Sie sich gerne per Mail unter [info@rieselbar.de](mailto:info@rieselbar.de)"
-  #       image: ../../assets/img/timeline/gruendung_all.JPG
-  #       alt:
-  #     - title: "350 Personen haben sich an der Umfrage beteiligt"
-  #       year: "Februar 22"
-  #       desc: "Wir freuen uns über die rege Teilnahme! "
-  #       image: ../../assets/img/timeline/Data.jpg
-  #       alt:
-  #     - title: "Mitte Januar Start der Umfrage"
-  #       year: "Januar 22"
-  #       desc: "Informationen zum Standort, zu den Öffnungszeiten und zum Warensortiment würden wir gerne über eine Umfrage erhalten. Diese erreichen Sie über unsere Homepage oder über den untenstehenden QR-Code. "
-  #       image: ../../assets/img/timeline/Umfrage.jpg
-  #       alt:
-  #     - title: "Zoom Meeting mit Herrn Max Riedl vom Genossenschaftsverband Bayern e.V."
-  #       year: "13.01.22"
-  #       desc: "• Informationsaustausch zur Gründung einer Genossenschaft <br>
-  #             • Einblick seine Arbeit und seine Unterstützung für eine Genossenschaft <br>
-  #             • Notwendigkeit von aktiven Mitgliedern in den Fokus gestellt <br>
-  #             • Die Gründung der Genossenschaft wird in Kürze stattfinden"
-  #       image: ../../assets/img/timeline/Meeting.jpg
-  #       alt:
-
   clients:
     section: clients
     max-height: 100px
@@ -341,25 +280,10 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
     - question: "Was ist, wenn ich aussteigen will?"
       answer: "Jedes Mitglied hat das Recht, die Mitgliedschaft zum Ende des Kalenderjahres zu kündigen. Die Kündigung muss spätestens sechs Monate vorher schriftlich erfolgen und ist frühestens zum Ende des dritten Geschäftsjahres nach dem Mitgliedsbeitritt möglich."
     - question: "Was ist der aktuelle Status?"
-      answer: "Stand Oktober 2023 bereiten wir uns auf die Öffnung des Ladens im ersten Quartal nächstes Jahr vor."
+      answer: "Am 8. März 2024 haben wir bei Hanuschke geöffnet."
     - question: "Ich gehe schon auf den Wochenmarkt. Worin unterscheidet sich der Unverpackt-Laden?"
       answer: "Das Sortiment eines Unverpackt-Ladens ist breiter. Es gibt nicht nur Obst und Gemüse, sondern auch Trockenware wie Mehl, Bohnen und Reis sowie Kosmetikartikel wie Seife, Shampoo und Zahnpastatabs."
 
-  progress:
-    title: Fortschritt
-    items:
-      - text: Der Businessplan ist fertig und die Genossenschaft eingetragen.
-        index: 1
-        text1: Business
-        text2: Eingetragene Genossenschaft
-      - text: Wir haben schon über 60 Mitglieder und 20.000€ Kapital, damit können wir für zwei Tage pro Woche im Stadtteilladen öffnen.
-        index: 2
-        text1: Mitglieder und Kapital
-        text2: 20.000€ Startkapital
-      - text: Wir haben einen Laden gefunden! Der Stadtteilladen Moosach lässt uns für zwei Tage die Woche, Freitag und Samstag, seine Fläche nutzen.
-        index: 3
-        text1: Laden
-        text2: Laden ist angemietet und eingerichtet
 
   footer:
     legal: "Impressum"
@@ -375,306 +299,284 @@ Außerdem macht es total viel Spaß, in einem Team von tollen Leuten, dieses Pro
 
 
 
-
-
-
-
-en: &DEFAULT_EN
+de: &DEFAULT_EN
   header:
-    title: Shopping without packaging
-    text: Coming soon to the north of Munich!
-    button: Tell me more
-    buttonlink: "#about"
+    title: Open since March 8th!
+    text: 
 
   about:
-    title: "About us"
-    text: "Our Story"
-    body: "We are a group of citizens from the north of Munich. We have founded a cooperative with the goal of opening a packaging-free store in the Moosach area.
+    title: "About Us"
+    text: ""
+    body: "We are a group of dedicated citizens from the northern part of Munich. We founded a cooperative with the goal of opening a package-free store in the Moosach area.
 
 
-     The store will be called Rieselbar, we are currently looking for a suitable store location. Feel free to contact us if you are willing to participate!
+     The store opened on March 8th, 2024, and we look forward to your visit!
      "
+     
     umfragelink: 
     umfragename: 
     section: about
 
+  slideshow:
+    section: slideshow
+    title: Impressions from the store
+    images:
+    - filename: gruppenbild.jpeg
+      caption: Part of the team
+    - filename: hanuschke.jpeg
+      caption: Fresh fruit and vegetables next door at Hanuschke
+    - filename: einkaufen.jpeg
+      caption: We are open!
+    - filename: schieberegal.jpeg
+      caption: Here you can find sweets, honey and other small items
+    - filename: behaelter.jpg
+      caption: Containers for spices
+    - filename: einfuellen.jpeg
+      caption: Susanne and Stefan filling up
+    - filename: lieferung.jpeg
+      caption: The quinoa from Feldmoching is delivered
+    - filename: waschmittel.jpeg
+      caption: Detergents for self-service refilling
+
+  map:
+    title: Come visit us!
+    opening_times: Opening Hours
+    line_1: "Friday: 9am - 12pm, 2pm - 6pm"
+    line_2: "Saturday: 9am - 1pm"
+    line_3: "Open from 8am on Holy Saturday!"
+
+  sortiment:
+    title: Assortment
+    highlight: Our assortment may still change, so if you have any requests, please let us know and we will see what we can do.
+    content:
+      - title: Rice
+        text: Long-grain rice, Couscous whole wheat, Bulgur medium, Risotto rice white, Basmati rice white, Quinoa
+        image: reis.jpeg
+      - title: Cleaning agents
+        text: Baking soda, Dishwashing liquid, Rinse aid, Hand soap, All-purpose cleaner, Bathroom cleaner, Toilet cleaner, Laundry detergent
+      - title: Lentils
+        text: Brown mountain lentils, Red lentils, Chickpeas
+        image: linsen.jpeg
+      - title: Misc
+        text: Soy granules, Beeswax wraps
+        subtitle:
+      - title: Muesli
+        text: Oat flakes fine / coarse, Muesli fruits / chocolate / basic, Crunchy chocolate
+        image: muesli.jpeg
+      - title: Pasta
+        text: Penne light, Spirals light, Penne whole wheat
+      - title: Nuts & Seeds
+        text: Black chia seeds, Brown almonds, Hazelnut kernels, Mixed nut kernels, Sunflower seeds, Cashew kernels, Flax seeds
+        image: nuesse.jpeg
+      - title: Sweets
+        text: Cranberries, Banana chips, Gummy bears, Sultanas in dark chocolate, Sugared fruit gummy bears
+        image: gummibaerchen.jpeg
+      - title: Baking ingredients
+        text: Beet sugar, Raw cane sugar, Cream of tartar baking powder, Wheat flour, Spelt flour
+        image: zucker.jpeg
+      - title: Spices
+        text: Curry powder, Paprika powder, Whole black pepper, Fine pure sea salt, Vegetable broth powder
+      - title: Honey
+        text: Flower, Forest, Buckwheat, Acacia honey etc., Honey spreads with e.g. raspberry
+        subtitle: We only sell honey in regular beekeeping jars, not unpackaged
+        image: honig.jpeg
+      - title: Soap & Co.
+        text: Shampoo, Conditioner, Deodorant, Face cream, Body lotion
+
   services:
-    title: "The store"
-    text: "in the north of Munich"
+    title: "The Idea"
+    text: "for a package-free store in the north of Munich"
     section: services
     list:
-      - title: "No packaging"
-        desc: "We only sell products without packaging. That way we avoid waste and reduce our environmental footprint."
+      - title: "No Packaging"
+        desc: "We want to sell only products that are completely free of packaging. In this way, we avoid waste and protect the environment."
         icon: fas fa-box-open
-      - title: "Regional manufacturers"
-        desc: "We buy our products from regional manufacturers wherever possible. This reduces the transporting distances and reduces CO2 produced by long distance driving."
+      - title: "Regional Producers"
+        desc: "We will source our products from regional producers as much as possible. This reduces transportation distances and consequently helps to protect the environment."
         icon: fas fa-truck-moving
-      - title: "Good vibes"
-        desc: "Our store is not only good for buying stuff but also a great place to be. Come by and grab a coffee with us!"
+      - title: "Great Atmosphere"
+        desc: "You should be able to not just shop with us, but also feel good. That's why we also plan to eventually open a café that will be a meeting place for everyone from Moosach."
         icon: fas fa-mug-hot
 
   portfolio:
     title: "Products"
-    text: "What you can buy in our store"
+    text: "What you can buy from us"
     section: portfolio
     closebutton: "Close"
 
   organisation:
     title: "Organization"
-    text: "Als Genossenschaft ist es jedem Mitglied möglich mitzuarbeiten wo und wie viel er oder sie möchte. Dafür haben wir verschiedene Arbeitsgruppen, die nach Themen getrennt sind."
+    text: "As a cooperative, each member has the opportunity to work as much as they want and where they want. For this, we have various working groups that are separated by topics."
     section: portfolio
     closebutton: "Close"
 
   membership:
     title: "Membership"
-    receiveMembership: "We are currently in the founding phase of a cooperative. As soon as the phase is completed, you can become a member. A membership form will be made available shortly. As soon as this has been processed by us and your contribution to the cooperative has been transferred, you are officially a member. "
-    getMember: "Want to be part of the community? <br> Only three steps:"
+    getMember: "Do you want to be part of the package-free community in the north of Munich? <br> Then become a member in just 3 steps:"
     steps:
-     - title: "Read the constitution"
+     - title: "Read the Statutes"
        link: "cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf"
        icon: fas fa-file-alt
-       desc: Read our [constitution](../../assets/other/en/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf), to get to know our values!
-     - title: "Fill Declaration of Accession and send it to us"
+       desc: Read our [Statutes](../../assets/other/de/cooperative/2022-03-07_Satzung-Unverpackt-Muc-Nord.pdf) to get to know our values!
+     - title: "Fill out the Declaration of Membership and send it to us"
        link: "cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf"
        icon: fas fa-envelope-open-text
-       desc: "Fill the [Declaration of Accession](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) for our cooperative and send it to: [info@rieselbar.de](mailto:info@rieselbar.de)"
-     - title: "Transfer the amount"
+       desc: "Fill out the [Declaration of Membership](../../assets/other/de/cooperative/UnverpacktMucNord_Beitrittserklaerung_Genossenschaft.pdf) for our cooperative and send it to: [info@rieselbar.de](mailto:info@rieselbar.de)"
+     - title: "Transfer of Shares"
        icon: fas fa-credit-card
-       desc: Transfer your signed share.
+       desc: Transfer the total amount of the designated cooperative shares.
 
   timeline:
-    title: "Timeline"
-    text: "What happened so far"
+    title: "Become Part of Our Story"
+    text: "What has happened so far"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Cooperative registered!"
-        year: "March, 7 2022"
-        desc: "Our Business entity named *Unverpackt Laden München Nord eG* was officially registered.<br>
-        We are now activaly looking for an adequate shop. Any hint is warmly welcome!"
-        image: ../../assets/img/timeline/gruendung_all.JPG
-        alt:
+      - title: "Store Opening"
+        year: February 2, 2024
+        desc: Next year our store will finally open
+        image: ../../assets/img/timeline/shop_open.jpg
+      - title: "Registration of the Cooperative"
+        year: December 27, 2022
+        desc: "The cooperative is officially registered in the Cooperative Register."
         align: right
-      - title: "Arbeitsgruppen"
-        year: "December 2021"
-        desc: "In different working groups we started working on topics like Business Plan, search for a location or IT topics."
-        image: ../../assets/img/timeline/3.jpg
+        image: ../../assets/img/timeline/gruendung_all.JPG
         alt: 
-      - title: "The first meeting"
-        year: "17th November 2021"
-        desc: "In a first information meeting in Moosach the idea is presented in order to gain supporters."
-        image: ../../assets/img/timeline/boomerang_round.png
+      - title: "Founding of the Cooperative!"
+        year: "March 7, 2022"
+        desc: "Official founding of the *Unverpackt Laden München Nord eG*! Now actively searching for premises. We appreciate every tip!"
+        align: left
+        image: ../../assets/img/timeline/Meeting.jpg
         alt:
-      - title: "The idea"
+      - title: "The Idea"
         year: "Summer 2021"
-        desc: "Four friends from the north of Munich decide to create a registered cooperative. The goal is to open up a store selling products without packaging. They search for collaborators via nebenan.de"
+        desc: "Four friends from the north of Munich come together with the goal of founding a cooperative. This will later open a package-free store. Supporters are sought through [nebenan.de](https://nebenan.de){:target='_blank'}."
         image: ../../assets/img/timeline/nebenan.jpg
+        align: right
         alt:
-      
-    end: "Become a <br> part of <br> our story!"
 
-  social_media:
-    title: News from social media
-    section: socialmedia
+    end: "Become a <br> Part of <br> Our Story!"
+    link_target_end: ./membership
 
   clients:
     section: clients
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
+      - title: "HalloMünchen"
+        url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-moosach-stadttetil-unverpackt-laden-rieselbar-plastik-spender-behaelter-sortiment-92795410.html
+        logo: ../../assets/img/clients/halloMuenchen.jpeg
       - title: "SZ"
         url: https://www.sueddeutsche.de/muenchen/muenchen-nachhaltigkeit-unverpackt-laden-inflation-verpackungsmuell-umwelt-laim-1.5650655
         logo: ../../assets/img/clients/sz.jpeg
       - title: "tz"
         url: https://www.tz.de/muenchen/stadt/hallo-muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
         logo: ../../assets/img/clients/tz.png
-      - title: "HalloMünchen"
-        url: https://www.hallo-muenchen.de/muenchen/muenchen-unverpackt-laden-rieselbar-geschaeft-standort-name-team-norden-mitglieder-genossenschaft-moosach-feldmoching-lerchenau-schwerd-91519008.html
-        logo: ../../assets/img/clients/halloMuenchen.jpeg
-      - title: "Lokalanzeiger"
+      - title: "Local Gazette"
         url: https://la24muc.de/19846/neugruendung-unverpackt-laden-in-muenchen-nord-west/
         logo: ../../assets/img/clients/lokalanzeiger.png
 
+  social_media:
+    title: News from Instagram
+    section: socialmedia
 
   team:
-    title: "The team"
-    text: "These are some of the people behind the project:"
-    subtext: "All decisions are done by the whole cooperative. No matter if you have one or ten shares - everybody has one vote.
-
-    The operative decision (e.g. choosing suppliers) are left to the directorate which is elected by all members."
-    section: team
-    people:
-      - name: "Benedikt Häuser"
-        role: "Technical stuff"
-        image: ../../assets/img/team/beha_round.png
-        social:
-          - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
-            icon: fab fa-linkedin
-          - url: https://www.xing.com/profile/Benedikt_Haeuser/cv
-            icon: fab fa-xing
-          - url: https://github.com/BeneHa
-            icon: fab fa-github
-
-  appointments:
-    title: "Upcoming appointments"
-    text: "Where to participate"
-    kontaktaufforderung: "Contact"
-    section: appointments
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Meeting whole group after easter"
-        year: "16.05.2022"
-        desc: "We discuss the next steps, mainly regarding finance and location search. Additional we discuss how the advertising went till last time."
-        align: left
-        image: ../../assets/img/timeline/InfoAbend.jpg
-      - title: "Meeting whole group after easter"
-        year: "27.04.2022"
-        desc: "We discuss the next steps, mainly regarding advertising and location search."
-        align: right
-        image: ../../assets/img/timeline/InfoAbend.jpg
-      - title: "Official incorporation"
-        year: "07.03.2022"
-        desc: "With the help of Mrs. Bahar und Mr. Max Riedl of Genossenschaftsverband Bayern, the *Unverpackt Laden München Nord eG* was 
-        officially incorporated.<br>
-           We are still looking for help and support!<br>
-           Would you have interest in joining us in this team work or if you know someone offering an adequate location, 
-           then feel free to reach us per email: info@rieselbar.de"
-        align: left
-        image: ../../assets/img/timeline/gruendung_all.JPG
-        alt:
-      - title: "350 took part to the poll!"
-        year: "February 22"
-        desc: "We are thrilled by the high participation quota!"
-        align: right
-        image: ../../assets/img/timeline/Data.jpg
-        alt:
-      - title: "Information meeting about the committees duties."
-        year: "31.01.22, 19.30 Uhr"
-        desc: "The board and supervisory committees duties were presented."
-        align: left
-        image: ../../assets/img/timeline/InfoAbend.jpg
-        alt:
-      - title: "Mid-January - Poll start."
-        year: "January 22"
-        desc: "We hope to refine our understanding of expectations about location, opening hours and product offerings thanks to a poll. You can find this one on our homepage or by using the dedicated QR code. "
-        align: right
-        image: ../../assets/img/timeline/Umfrage.jpg
-        alt:
-      - title: "Zoom Meeting with Mr. Max Riedl of the Genossenschaftsverband Bayern e.V."
-        year: "13.01.22"
-        desc: "• Information exchange about the incorporation of a coorperative association <br>
-              • Insight about his work and the support he provides to a cooperative association <br>
-              • The focus is put on the necessity for active members <br>
-              • The incorporation of the cooperative assoctiation should happen shortly"
-        align: left
-        image: ../../assets/img/timeline/Meeting.jpg
-        alt:
-
-
-  contact:
-    title: "Contact us"
-    text: "Questions about the store or the cooperative?"
-    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
-    emailaddress: "info@rieselbar.de"
-    mailaufforderung: "Send us a mail to info@rieselbar.de!"
-    section: contact
-
-  team:
-    title_vs: "Executive committee"
-    text_vs: "These are our executives in charge of the daily operations:"
-    subtext_vs: "The executives are chosen for one year."
+    title_vs: "Executive Board"
+    text_vs: "Here are our board members who manage the day-to-day business:"
     people_vs:
-      - name: "Isa Broxvall"
-        role: "Sustainability freak and blogger. Takes care of communications and IT."
-        image: ../../assets/img/team/isa.jpg
-        social:
-          - url: "mailto:isa@rieselbar.de"
-            icon: far fa-envelope-open
-          - url: https://www.instagram.com/lgv.muc/
-            icon: fab fa-instagram
-          - url: https://www.facebook.com/lgvmuc
-            icon: fab fa-facebook
       - name: "Susanne Hofstetter"
-        role: "I want to be a role model for my children of 11, 14 and 16 years when it comes to environmental protection. Besides, it is fun to bring this project to Moosach with a great team!"
+        role: "I want to be a good role model for my 3 children, ages 11, 14 & 16, in terms of environmental protection. 
+Also, it's a lot of fun to bring this project to Moosach with a team of great people."
         image: ../../assets/img/team/susanne.png
         social:
           - url: "mailto:susanne@rieselbar.de"
             icon: far fa-envelope-open
       - name: "Marcus Spreti"
-        role: "Mechanical engineer who quit the automotive industry, pilot and grandfather."
+        role: "Mechanical engineering technician and dropout in the auto industry, grandfather, and pilot"
         image: ../../assets/img/team/marcus.jpg
         social:
           - url: "mailto:marcus@rieselbar.de"
             icon: far fa-envelope-open
 
-    title_ar: "Board"
-    text_ar: "The board members choose the executive committee and control its work."
-    subtext_ar: "The board is elected by the general meeting by all cooperative members. The general meeting takes place once per year."
+    title_ar: "Supervisory Board"
+    text_ar: "The supervisory board members determine the executive board and monitor its work."
     people_ar:
       - name: "Benedikt Häuser"
-        role: "Cloud Data Engineer, sportsman in his free time. Takes care of the website and other technical stuff."
+        role: "Cloud architect at the Munich City Utilities. Takes care of the technology."
         image: ../../assets/img/team/benedikt.JPG
+
         social:
           - url: "mailto:admin@rieselbar.de"
             icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/benedikt-h%C3%A4user-455216175/
             icon: fab fa-linkedin
-          - url: https://www.xing.com/profile/Benedikt_Haeuser/cv
-            icon: fab fa-xing
           - url: https://github.com/BeneHa
             icon: fab fa-github
       - name: "Rafael Muselmann"
-        role: "Passion for a better world: Always happy to make the world a little bit better through personal engagement."
+        role: "Passion for a better world: Readily committed to making the world a little bit better with engagement."
         image: ../../assets/img/team/rafael.png
         social:
-          - url: https://github.com/moffer
-            icon: fab fa-github
           - url:  https://www.linkedin.com/in/rmuselmann/
             icon: fab fa-linkedin
+          - url: https://github.com/moffer
+            icon: fab fa-github
       - name: "Guillaume Potdevin"
-        role: "Engaged in cancer research by day, Happily playing with my kids at night while climbing mountains as much as possible!"
+        role: "Engaged in cancer research during the day, father by night, also likes to be in the mountains!"
         image: ../../assets/img/team/guillaume.png
         social:
+          - url: "mailto:guillaume@rieselbar.de"
+            icon: far fa-envelope-open
           - url: https://www.linkedin.com/in/guillaume-potdevin-9829b3
             icon: fab fa-linkedin
           - url: https://github.com/gpotdevin
             icon: fab fa-github
       - name: "Stephan Schwerd"
-        role: "Father, outdoory guy and engineer from Munich who wants to make change happen"
+        role: "Dad, outdoor enthusiast, and engineer from Munich who is eager to make a change"
         image: ../../assets/img/team/stephan.jpeg
         social:
           - url: "mailto:stephan@rieselbar.de"
             icon: far fa-envelope-open
 
+  contact:
+    title: "Newsletter Registration"
+    text: "Do you have any specific questions about the store or the cooperative?"
+    formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
+    emailaddress: "info@rieselbar.de"
+    mailaufforderung: "Then feel free to personally contact us via email at: info@rieselbar.de"
+    section: contact
+
   faq:
-    title: "Frequently asked question"
+    title: "Frequently Asked Questions"
     items:
-    - question: "Why create a cooperative?"
-      answer: "We want to open this store but all of us have a main job which we want to keep. By doing this project as a cooperative the workload stays smaller for everyone involved. Also, everyone is liable only with the money which he or she invested initially."
+    - question: "Why a cooperative?"
+      answer: "We all want to help open a store, but we have main jobs that we want to continue. By distributing the project as a cooperative among many shoulders, the workload remains manageable and everyone is only liable with as much money as they want to invest."
     - question: "Is the cooperative registered?"
-      answer: "Not yet, we are working on this. It will hopefully be done by the end of March."
-    - question: "How is the cooperative structured?"
-      answer: "All members elect the supervisory committee in a general assembly. The committee then appoints the board which runs the daily business."
+      answer: "The cooperative is registered in the Cooperative Register."
+    - question: "How is a cooperative structured?"
+      answer: "The members elect the supervisory board at the general meeting, which in turn appoints the executive board. The executive board then manages the business of the cooperative."
     - question: "How can I become a member?"
-      answer: "As soon as we are officially founded you can fill out an entry form an join us. After you have sent us the money for your shares you are officially part of the cooperative."
-    - question: "How many shares can I buy?"
-      answer: "Every person can buy between 1 and 30 shares."
-    - question: "How can I participate?"
-      answer: "We have different working groups for topics like the store, finances and technical stuff. Message us and we we will find out the best area for you to help us."
-    - question: "How is the work managed?"
-      answer: "Every working group exchanges on its topic, we usually use Microsoft Teams for the exchange or we meet in person. For important decisions the board and the supervisory committee organize a meeting with all members (so far only as video conferences)."
-    - question: "How much work does a member have to do?"
-      answer: "All work in the working groups is voluntary, there is no obligation to work for any number of hours."
-    - question: "Is there a reserve liability?"
-      answer: "No. That means it cannot happen that you have to pay anything additionally to the shares you buy."
-    - question: "What happens if I want to quit?"
-      answer: "It is possible any time to quit and get the money back for which you bought your shares."
+      answer: "You can sign up now with our [Membership Form](../../lang/de/membership.html). Send us the completed form, then we will send you your membership number and you can transfer your share."
+    - question: "What are the minimum and maximum contributions?"
+      answer: "It is possible to buy one or more shares per person, one share costs 150€. There is no maximum number of shares."
+    - question: "How can I get involved?"
+      answer: "We have various working groups that focus on topics such as the store, finances, or technology. Write us an [email](mailto:info@rieselbar.de), then we can discuss further."
+    - question: "How does the work in the cooperative proceed?"
+      answer: "Each working group exchanges information individually. On important occasions, the supervisory boards and executive boards coordinate, and a meeting with all members is organized."
+    - question: "What services must members provide?"
+      answer: "You don't have to perform any services with us, participation in the working groups is completely voluntary."
+    - question: "Is there a margin call?"
+      answer: "No, this is not provided for according to our [Statutes](../../lang/de/membership.html). This means that it cannot happen that you have to pay any more than the money for your shares."
+    - question: "What if I want to exit?"
+      answer: "Every member has the right to terminate their membership at the end of the calendar year. The termination must be made in writing at least six months prior and is possible at the earliest at the end of the third fiscal year after joining as a member."
+    - question: "What is the current status?"
+      answer: "On March 8th, 2024, we opened at Hanuschke."
+    - question: "I already go to the farmers' market. What sets the package-free store apart?"
+      answer: "The range of a package-free store is wider. There's not just fruit and vegetables, but also dry goods like flour, beans, and rice, as well as cosmetics like soap, shampoo, and toothpaste tabs."
 
 
   footer:
-    legal: "Legal"
+    legal: "Imprint"
     social:
       - url: mailto:info@rieselbar.de
         icon: "far fa-envelope-open"
@@ -684,6 +586,7 @@ en: &DEFAULT_EN
         icon: "fab fa-instagram"
       - url: https://github.com/BeneHa/unverpacktladen_website
         icon: "fab fa-github"
+
 
 
 en-GB:

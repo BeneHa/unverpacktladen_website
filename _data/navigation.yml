@@ -13,8 +13,6 @@ de: &DEFAULT_DE
   nav:
     - title: "Start"
       url: ./index.html
-    - title: "Über uns"
-      url: ./index.html#about
     - title: "Kontakt"
       url: ./index.html#contact
     - title: "Mitgliedschaft"
