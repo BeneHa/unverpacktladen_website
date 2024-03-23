@@ -1,0 +1,38 @@
+<section class="page-section" id="{{ site.data.sitetext[page.locale].sortiment.section | default: " sortiment" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[page.locale].sortiment.title | markdownify |
+          default: "Sortiment" }}</h2>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-2  row-cols-md-4 row-cols-lg-4">
+
+        {% for item in site.data.sitetext[page.locale].sortiment.content %}
+        <div class="col-12" style="padding-bottom:1%">
+        <div class="card h-100">
+          {% if item.image %}
+          <img class="card-img-top" src="../../assets/img/sortiment/{{ item.image }}">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ item.title }}</h5>
+            <p class="card-text">{{ item.text }}</p>
+            <p class="card-text"><small class="text-muted">{{ item.subtitle }}</small></p>
+          </div>
+        </div>
+        </div>
+        {% endfor %}
+        <div class="col-12">
+        <div class="card bg-primary text-white text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>{{ site.data.sitetext[page.locale].sortiment.highlight | markdownify }}</p>
+          </blockquote>
+        </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>

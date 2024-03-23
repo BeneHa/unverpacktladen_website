@@ -1,39 +1,53 @@
 <!-- Slideshow container -->
-<section class="page-section" id="{{ site.data.sitetext[page.locale].slideshow.section | default: "slideshow" }}">
+<section class="page-section" id="slideshow">
+
   <div class="container">
-    <div class="row" style="padding-bottom: 5%">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[page.locale].slideshow.title | markdownify | default: "Slideshow" }}</h2>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-lg-12">
-
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.sitetext[page.locale].slideshow.title | markdownify | default: "Impressionen" }}</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            {% for image in site.data.sitetext[page.locale].slideshow.images %}
+            {% if forloop.first == true %}
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="{{ forloop.index | minus:1 }}"
+              class="active" aria-current="true" aria-label="Slide {{ forloop.index }}"></button>
+            {% else %}
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="{{ forloop.index | minus:1 }}"
+              aria-label="Slide {{ forloop.index }}"></button>
+            {% endif %}
+            {% endfor %}
           </div>
-        </div>
+          <div class="carousel-inner">
 
-
-        <div class="slideshow-container">
-
-          {% for image in site.data.sitetext[page.locale].slideshow.images %}
-          <div class="mySlides fade" style="opacity: 100">
-            <img src="../../../assets/img/slideshow/{{ image.filename}}" style="max-width:80hw; max-height:50vh">
-            <div class="text">
-              <span class="highlight">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ image.caption }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+            {% for image in site.data.sitetext[page.locale].slideshow.images %}
+            {% if forloop.first == true %}
+          
+            <div class="carousel-item active">
+            {% else %}
+            <div class="carousel-item">
+            {% endif %}
+              <img src="../../../assets/img/slideshow/{{ image.filename }}" class="img-fluid h-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <span class="highlight" style="color:black">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ image.caption }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+              </div>
             </div>
+
+            {% endfor %}
           </div>
-          {% endfor %}
-
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          {% for image in site.data.sitetext[page.locale].slideshow.images %}
-          <span class="dot" onclick="currentSlide({{ forloop.index }})"></span>
-          {% endfor %}
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>

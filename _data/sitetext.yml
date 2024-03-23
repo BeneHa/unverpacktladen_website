@@ -11,7 +11,7 @@
 # -----------------
 de: &DEFAULT_DE
   header:
-    title: Eröffnung am 8. März!
+    title: Seit 8. März geöffnet!
     text: 
 
   about:
@@ -20,7 +20,7 @@ de: &DEFAULT_DE
     body: "Wir sind eine Gruppe von engagierten Bürgern und Bürgerinnen aus dem Münchner Norden. Wir haben eine Genossenschaft gegründet mit dem Ziel, einen unverpackt-Laden in der Gegend um Moosach zu eröffnen.   
 
 
-     Der Laden eröffnet am 8. März 2024, wir befinden uns also mitten in der Vorbereitung. Melde dich bei uns wenn du mitmachen willst!
+     Der Laden hat am 8. März 2024 geöffnet, wir freuen uns auf Deinen Besuch!
      "
      
     umfragelink: 
@@ -28,6 +28,7 @@ de: &DEFAULT_DE
     section: about
 
   slideshow:
+    section: slideshow
     title: Impressionen aus dem Laden
     images:
     - filename: gruppenbild.jpeg
@@ -46,6 +47,51 @@ de: &DEFAULT_DE
       caption: Der Quinoa aus Feldmoching wird angeliefert
     - filename: waschmittel.jpeg
       caption: Waschmittel zum selber abfüllen
+
+  map:
+    title: Komm doch mal vorbei!
+    opening_times: Öffnungszeiten
+    line_1: "Freitag: 9 - 12, 14 - 18 Uhr"
+    line_2: "Samstag: 9 - 13 Uhr"
+    line_3: "Am Karsamstag schon ab 8 Uhr geöffnet!"
+
+  sortiment:
+    title: Sortiment
+    highlight: Unser Sortiment kann sich noch ändern, also wenn du Wünsche hast gib uns gerne Bescheid und wir schauen was wir machen können.
+    content:
+      - title: Reis
+        text: Langkornreis, Couscous Vollkorn, Bulgur medium, Risottoreis weiß, Basmatireis weiß, Quinoa
+        image: reis.jpeg
+      - title: Reinigungsmittel
+        text: Natron, Geschirrspülmittel, Klarspüler, Handseife, Allesreiniger, Badreiniger, WC-Reiniger, Waschmittel
+      - title: Linsen
+        text: Berglinsen braun, Linsen rot, Kichererbsen
+        image: linsen.jpeg
+      - title: Sonstiges
+        text: Sojagranulat, Bienenwachstücher
+        subtitle:
+      - title: Müsli
+        text: Haferflocken fein / grob, Müsli Früchte / Schoko / Basis, Crunchy Schoko
+        image: muesli.jpeg
+      - title: Nudeln
+        text: Penne hell, Spiralen hell, Penne Vollkorn
+      - title: Nüsse & Samen
+        text: Chiasaat schwarz, Mandeln braun, Haselnusskerne, Nusskernmischung, Sonnenblumenkerne, Cashewkerne, Leinsaat
+        image: nuesse.jpeg
+      - title: Süssigkeiten
+        text: Cranberries, Bananenchips, Fruchtgummibärchen, Sultaninen in Zartbitterschokolade, Fruchtummibärchen gezuckert
+        image: gummibaerchen.jpeg
+      - title: Backzutaten
+        text: Rübenzucker, Rohrohrzucker, Weinsteinbackpulver, Weizenmehl, Dinkelmehl
+        image: zucker.jpeg
+      - title: Gewürze
+        text: Currypulver, Paprikapulver, Pfeffer schwarz ganz, Meersalz naturrein fein, Gemüsebrühe pflanzlich
+      - title: Honig
+        text: Blüten-, Wald-, Buchweizen-, Akazienhoig u.a., Brotaufstriche Honig mit z.B. Himbeere
+        subtitle: Honig verkaufen wir nur in normalen Imkereigläsern, nicht unverpackt
+        image: honig.jpeg
+      - title: Seife & Co.
+        text: Shampoo, Conditioner, Deo, Gesichtscreme, Körperlotion
 
   services:
     title: "Die Idee"
