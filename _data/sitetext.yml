@@ -12,7 +12,7 @@
 # -----------------
 de   :
   header:
-    title: Seit 8. März geöffnet!
+    title: Der erste Unverpacktladen im Münchner Norden - jetzt geöffnet!
     text:
 
   about:
@@ -35,8 +35,6 @@ de   :
         caption: Nebenan gibts frisches Obst und Gemüse bei Hanuschke
       - filename: einkaufen.jpeg
         caption: Wir haben geöffnet!
-      - filename: schieberegal.jpeg
-        caption: Hier gibts Süssigkeiten, Honig und sonstiges Kleinzeug
       - filename: behaelter.jpg
         caption: Behälter für Gewürze
       - filename: einfuellen.jpeg
@@ -45,13 +43,16 @@ de   :
         caption: Der Quinoa aus Feldmoching wird angeliefert
       - filename: waschmittel.jpeg
         caption: Waschmittel zum selber abfüllen
+      - filename: seifen.jpeg
+        caption: Auch verschiedene Handseifen und Gesichtscremes sind im Angebot
+      - filename: abfuellen.jpeg
+        caption: Mit den eigenen Behältern kann man beliebig große oder kleine Mengen abfüllen
 
   map:
     title: Komm doch mal vorbei!
     opening_times: Öffnungszeiten
     line_1: 'Freitag: 9 - 12, 14 - 18 Uhr'
     line_2: 'Samstag: 9 - 13 Uhr'
-    line_3: Am Karsamstag schon ab 8 Uhr geöffnet!
 
   sortiment:
     title: Sortiment
@@ -218,8 +219,8 @@ de   :
             icon: far fa-envelope-open
 
   contact:
-    title: Newsletter-Anmeldung
-    text: Hast du noch spezielle Fragen zum Laden oder der Genossenschaft?
+    title: Kontakt
+    text: Hast du noch spezielle Fragen zum Laden oder der Genossenschaft oder willst in den Newsletter aufgenommen werden?
     formurl: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__bfYqHVUQVZUR0FSVDBKTE9MSkRJRkY5RlRGRTRTQy4u
     emailaddress: info@rieselbar.de
     mailaufforderung: 'Dann kontaktiere uns gerne persönlich per E-Mail an: info@rieselbar.de'
