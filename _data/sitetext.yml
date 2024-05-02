@@ -70,18 +70,18 @@ de   :
         text: Sojagranulat, Bienenwachstücher
         subtitle:
       - title: Müsli
-        text: Haferflocken fein / grob, Müsli Früchte / Schoko / Basis, Crunchy Schoko
+        text: Haferflocken fein / grob, Müsli Früchte / Schoko / Basis, Crunchy Schoko, Kokoschips, Cornflakes
         image: muesli.jpeg
       - title: Nudeln
         text: Penne hell, Spiralen hell, Penne Vollkorn
       - title: Nüsse & Samen
-        text: Chiasaat schwarz, Mandeln braun, Haselnusskerne, Nusskernmischung, Sonnenblumenkerne, Cashewkerne, Leinsaat
+        text: Chiasaat schwarz, Mandeln braun, Haselnusskerne, Nusskernmischung, Sonnenblumenkerne, Cashewkerne, Walnüsse, Leinsaat, Sesamsaat
         image: nuesse.jpeg
       - title: Süssigkeiten
-        text: Cranberries, Bananenchips, Fruchtgummibärchen, Sultaninen in Zartbitterschokolade, Fruchtummibärchen gezuckert
+        text: Cranberries, Bananenchips, Fruchtgummibärchen, Fruchtgummibärchen gezuckert, Fruchtgummibärchen sauer, Sultaninen in Zartbitterschokolade,  Sultaninen, Mangostreifen, Pane Picco, Schoko-Haselnuss Cookies, Protein Power Snack
         image: gummibaerchen.jpeg
       - title: Backzutaten
-        text: Rübenzucker, Rohrohrzucker, Weinsteinbackpulver, Weizenmehl, Dinkelmehl
+        text: Rübenzucker, Rohrohrzucker, Weinsteinbackpulver, Weizenmehl, Dinkelmehl, Vanillezucker
         image: zucker.jpeg
       - title: Gewürze
         text: Currypulver, Paprikapulver, Pfeffer schwarz ganz, Meersalz naturrein fein, Gemüsebrühe pflanzlich
