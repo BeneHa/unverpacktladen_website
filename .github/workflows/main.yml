@@ -14,11 +14,11 @@ jobs       :
   jekyll:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: lemonarc/jekyll-action@1.0.0
 
       - name: Azure Login
-        uses: Azure/login@v1
+        uses: Azure/login@v2
         with:
           client-id: ${{ secrets.CLIENT_ID }}
           tenant-id: ${{ secrets.TENANT_ID }}
