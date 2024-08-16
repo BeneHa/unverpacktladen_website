@@ -31,22 +31,30 @@ de   :
     images:
       - filename: gruppenbild.jpeg
         caption: Ein Teil des Teams
+
+      - filename: laden_blick.jpg
+        caption: Blick in den Laden
+
+      - filename: beschriften.jpg
+        caption: Die gewogenen Gläser werden beschriftet
+
+      - filename: glaeser.jpg
+        caption: Ihr könnt auch Gläser von uns benutzen wenn ihr selber mal keine dabei habt
+
       - filename: hanuschke.jpeg
         caption: Nebenan gibts frisches Obst und Gemüse bei Hanuschke
-      - filename: einkaufen.jpeg
+
+      - filename: fahne.jpg
         caption: Wir haben geöffnet!
+
       - filename: behaelter.jpg
         caption: Behälter für Gewürze
-      - filename: einfuellen.jpeg
-        caption: Susanne und Stefan beim Befüllen
-      - filename: lieferung.jpeg
-        caption: Der Quinoa aus Feldmoching wird angeliefert
-      - filename: waschmittel.jpeg
-        caption: Waschmittel zum selber abfüllen
-      - filename: seifen.jpeg
+
+      - filename: seifen.jpg
         caption: Auch verschiedene Handseifen und Gesichtscremes sind im Angebot
-      - filename: abfuellen.jpeg
-        caption: Mit den eigenen Behältern kann man beliebig große oder kleine Mengen abfüllen
+
+      - filename: kasse.jpg
+        caption: Doug, eines unserer Mitglieder, an der Kasse
 
   map:
     title: Komm doch mal vorbei!
@@ -59,39 +67,49 @@ de   :
     title: Sortiment
     highlight: Unser Sortiment kann sich noch ändern, also wenn du Wünsche hast gib uns gerne Bescheid und wir schauen was wir machen können.
     content:
-      - title: Reis
-        text: Langkornreis, Couscous Vollkorn, Bulgur medium, Risottoreis weiß, Basmatireis weiß, Quinoa
-        image: reis.jpeg
-      - title: Reinigungsmittel
-        text: Natron, Geschirrspülmittel, Klarspüler, Handseife, Allesreiniger, Badreiniger, WC-Reiniger, Waschmittel
-      - title: Linsen
-        text: Berglinsen braun, Linsen rot, Kichererbsen
-        image: linsen.jpeg
-      - title: Sonstiges
-        text: Sojagranulat, Bienenwachstücher
-        subtitle:
-      - title: Müsli
-        text: Haferflocken fein / grob, Müsli Früchte / Schoko / Basis, Crunchy Schoko, Kokoschips, Cornflakes
-        image: muesli.jpeg
       - title: Nudeln
         text: Penne hell, Spiralen hell, Penne Vollkorn
+        image: nudeln.jpg
+
       - title: Nüsse & Samen
         text: Chiasaat schwarz, Mandeln braun, Haselnusskerne, Nusskernmischung, Sonnenblumenkerne, Cashewkerne, Walnüsse, Leinsaat, Sesamsaat
-        image: nuesse.jpeg
+        image: nuesse.jpg
+
       - title: Süssigkeiten
         text: Cranberries, Bananenchips, Fruchtgummibärchen, Fruchtgummibärchen gezuckert, Fruchtgummibärchen sauer, Sultaninen in Zartbitterschokolade,  Sultaninen, Mangostreifen, Pane Picco, Schoko-Haselnuss Cookies, Protein Power Snack
-        image: gummibaerchen.jpeg
+        image: suessigkeiten.jpg
+
       - title: Backzutaten
         text: Rübenzucker, Rohrohrzucker, Weinsteinbackpulver, Weizenmehl, Dinkelmehl, Vanillezucker
-        image: zucker.jpeg
+        image: mehl.jpg
+
       - title: Gewürze
         text: Currypulver, Paprikapulver, Pfeffer schwarz ganz, Meersalz naturrein fein, Gemüsebrühe pflanzlich
+        image: gewuerze.jpg
+
       - title: Honig
         text: Blüten-, Wald-, Buchweizen-, Akazienhoig u.a., Brotaufstriche Honig mit z.B. Himbeere
         subtitle: Honig verkaufen wir nur in normalen Imkereigläsern, nicht unverpackt
-        image: honig.jpeg
+        image: honig.jpg
+
       - title: Seife & Co.
         text: Shampoo, Conditioner, Deo, Gesichtscreme, Körperlotion
+        image: seife.jpg
+
+      - title: Reinigungsmittel
+        text: Natron, Geschirrspülmittel, Klarspüler, Handseife, Allesreiniger, Badreiniger, WC-Reiniger, Waschmittel
+        image: reinigungsmittel.jpg
+
+      - title: Sonstiges
+        text: Sojagranulat, Bienenwachstücher
+
+      - title: Müsli
+        text: Haferflocken fein / grob, Müsli Früchte / Schoko / Basis, Crunchy Schoko, Kokoschips, Cornflakes
+
+      - title: Reis & Linsen
+        text: Langkornreis, Couscous Vollkorn, Bulgur medium, Risottoreis weiß, Basmatireis weiß, Quinoa, Berglinsen braun, Linsen rot, Kichererbsen
+
+
 
   services:
     title: Die Idee
