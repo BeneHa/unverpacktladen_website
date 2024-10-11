@@ -12,7 +12,7 @@
 # -----------------
 de   :
   header:
-    title: Der erste Unverpacktladen im Münchner Norden - jetzt geöffnet!
+    title: Die Rieselbar schliesst leider am 26.10. endgültig
     text:
 
   about:
@@ -57,12 +57,12 @@ de   :
         caption: Doug, eines unserer Mitglieder, an der Kasse
 
   map:
-    title: Komm doch mal vorbei!
+    title: Komm doch ein letztes mal vorbei!
     opening_times: Öffnungszeiten
     line_1: 'Freitag: 9 - 12, 14 - 18 Uhr'
     line_2: 'Samstag: 9 - 13 Uhr'
     line_3: Auf den Schrederwiesen 44, 80995 München
-    line_4: Geschlossen am 14.09., 27. & 28.9., 4. & 5.10.
+    line_4: Letzte Öffnung am 26.10., dann schließen wir dauerhaft.
 
   sortiment:
     title: Sortiment
